@@ -1,6 +1,6 @@
 <?php
 
-namespace SpiralPackages\Xhprof\Tests;
+namespace SpiralPackages\Profiler\Tests;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {

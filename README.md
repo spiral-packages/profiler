@@ -1,4 +1,4 @@
-# This is my package xhprof-client
+# A system-wide performance monitoring system profiler.
 
 [![PHP Version Require](https://poser.pugx.org/spiral-packages/xhprof-client/require/php)](https://packagist.org/packages/spiral-packages/xhprof-client)
 [![Latest Stable Version](https://poser.pugx.org/spiral-packages/xhprof-client/v/stable)](https://packagist.org/packages/spiral-packages/xhprof-client)
@@ -8,9 +8,12 @@
 [![Total Downloads](https://poser.pugx.org/spiral-packages/xhprof-client/downloads)](https://packagist.org/spiral-packages/xhprof-client/phpunit)
 <a href="https://discord.gg/8bZsjYhVVk"><img src="https://img.shields.io/badge/discord-chat-magenta.svg"></a>
 
+Profiler is a system-wide performance monitoring system, that is built on top
+of [XHProf](http://pecl.php.net/package/xhprof) or its forks ([Uprofiler](https://github.com/FriendsOfPHP/uprofiler)
+or [Tideways](https://github.com/tideways/php-profiler-extension)).
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
+Profiler continually gathers function-level profiler data from production tier by running a sample of page requests
+under XHProf.
 
 ## Requirements
 

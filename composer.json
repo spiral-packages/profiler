@@ -1,46 +1,51 @@
 {
-  "name": "spiral-packages/xhprof-client",
-  "description": "This is my package xhprof-client",
-  "keywords": [
-    "spiral-packages",
-    "spiral",
-    "xhprof-client"
-  ],
-  "homepage": "https://github.com/spiral-packages/xhprof-client",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "butschster",
-      "email": "butschster@gmail.com",
-      "role": "Developer"
-    }
-  ],
-  "require": {
-    "php": "^8.1"
-  },
-  "require-dev": {
-    "mockery/mockery": "^1.5",
-    "phpunit/phpunit": "^9.5",
-    "vimeo/psalm": "^4.9"
-  },
-  "autoload": {
-    "psr-4": {
-      "SpiralPackages\\Xhprof\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "SpiralPackages\\Xhprof\\Tests\\App\\": "tests/app",
-      "SpiralPackages\\Xhprof\\Tests\\": "tests/src"
-    }
-  },
-  "scripts": {
-    "test": "vendor/bin/phpunit",
-    "psalm": "vendor/bin/psalm --config=psalm.xml ./src"
-  },
-  "config": {
-    "sort-packages": true
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "name": "spiral-packages/profiler",
+    "description": "A system-wide performance monitoring system profiler.",
+    "keywords": [
+        "spiral-packages",
+        "spiral",
+        "xhprof",
+        "uprofiler",
+        "tideways"
+    ],
+    "homepage": "https://github.com/spiral-packages/profiler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "butschster",
+            "email": "butschster@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "spiral/serializer": "^3.3",
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.5",
+        "phpunit/phpunit": "^9.5",
+        "vimeo/psalm": "^4.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpiralPackages\\Profiler\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SpiralPackages\\Profiler\\Tests\\": "tests/src"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "psalm": "vendor/bin/psalm --config=psalm.xml ./src"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
