@@ -1,17 +1,17 @@
 {
-  "name": ":vendor_slug/:package_slug",
-  "description": ":package_description",
+  "name": "spiral-packages/xhprof-client",
+  "description": "This is my package xhprof-client",
   "keywords": [
-    ":vendor_name",
+    "spiral-packages",
     "spiral",
-    ":package_slug"
+    "xhprof-client"
   ],
-  "homepage": "https://github.com/:vendor_slug/:package_slug",
+  "homepage": "https://github.com/spiral-packages/xhprof-client",
   "license": "MIT",
   "authors": [
     {
-      "name": ":author_name",
-      "email": "author@domain.com",
+      "name": "butschster",
+      "email": "butschster@gmail.com",
       "role": "Developer"
     }
   ],
@@ -25,13 +25,13 @@
   },
   "autoload": {
     "psr-4": {
-      "VendorName\\Skeleton\\": "src"
+      "SpiralPackages\\Xhprof\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "VendorName\\Skeleton\\Tests\\App\\": "tests/app",
-      "VendorName\\Skeleton\\Tests\\": "tests/src"
+      "SpiralPackages\\Xhprof\\Tests\\App\\": "tests/app",
+      "SpiralPackages\\Xhprof\\Tests\\": "tests/src"
     }
   },
   "scripts": {

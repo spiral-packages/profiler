@@ -1,21 +1,14 @@
-# :package_description
+# This is my package xhprof-client
 
-[![PHP Version Require](https://poser.pugx.org/:vendor_slug/:package_slug/require/php)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Latest Stable Version](https://poser.pugx.org/:vendor_slug/:package_slug/v/stable)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![phpunit](https://github.com/:vendor_slug/:package_slug/actions/workflows/phpunit.yml/badge.svg)](https://github.com/:vendor_slug/:package_slug/actions)
-[![psalm](https://github.com/:vendor_slug/:package_slug/actions/workflows/psalm.yml/badge.svg)](https://github.com/:vendor_slug/:package_slug/actions)
-[![Codecov](https://codecov.io/gh/:vendor_slug/:package_slug/branch/master/graph/badge.svg)](https://codecov.io/gh/:vendor_slug/:package_slug/)
-[![Total Downloads](https://poser.pugx.org/:vendor_slug/:package_slug/downloads)](https://packagist.org/:vendor_slug/:package_slug/phpunit)
+[![PHP Version Require](https://poser.pugx.org/spiral-packages/xhprof-client/require/php)](https://packagist.org/packages/spiral-packages/xhprof-client)
+[![Latest Stable Version](https://poser.pugx.org/spiral-packages/xhprof-client/v/stable)](https://packagist.org/packages/spiral-packages/xhprof-client)
+[![phpunit](https://github.com/spiral-packages/xhprof-client/actions/workflows/phpunit.yml/badge.svg)](https://github.com/spiral-packages/xhprof-client/actions)
+[![psalm](https://github.com/spiral-packages/xhprof-client/actions/workflows/psalm.yml/badge.svg)](https://github.com/spiral-packages/xhprof-client/actions)
+[![Codecov](https://codecov.io/gh/spiral-packages/xhprof-client/branch/master/graph/badge.svg)](https://codecov.io/gh/spiral-packages/xhprof-client/)
+[![Total Downloads](https://poser.pugx.org/spiral-packages/xhprof-client/downloads)](https://packagist.org/spiral-packages/xhprof-client/phpunit)
 <a href="https://discord.gg/8bZsjYhVVk"><img src="https://img.shields.io/badge/discord-chat-magenta.svg"></a>
 
-<!--delete-->
----
-This repo can be used to scaffold a Spiral Framework package. Follow these steps to get started:
 
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run `php ./configure.php` to run a script that will replace all placeholders throughout all the files.
----
-<!--/delete-->
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 
@@ -30,7 +23,7 @@ Make sure that your server is configured with following PHP version and extensio
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require spiral-packages/xhprof-client
 ```
 
 ## Testing
@@ -45,7 +38,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [butschster](https://github.com/spiral-packages)
 - [All Contributors](../../contributors)
 
 ## License
