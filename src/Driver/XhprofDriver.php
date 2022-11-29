@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace SpiralPackages\Profiler\Driver;
 
+use SpiralPackages\Profiler\Profiler;
+
 final class XhprofDriver implements DriverInterface
 {
     private const DEFAULT_FLAGS = XHPROF_FLAGS_MEMORY | XHPROF_FLAGS_CPU;

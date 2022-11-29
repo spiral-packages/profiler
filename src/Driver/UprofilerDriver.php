@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace SpiralPackages\Profiler\Driver;
 
+use SpiralPackages\Profiler\Profiler;
+
 final class UprofilerDriver implements DriverInterface
 {
     private const DEFAULT_FLAGS = UPROFILER_FLAGS_CPU | UPROFILER_FLAGS_MEMORY;

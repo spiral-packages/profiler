@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace SpiralPackages\Profiler\Driver;
 
+use SpiralPackages\Profiler\Profiler;
+
 final class TidyWaysDriver implements DriverInterface
 {
     private const DEFAULT_FLAGS = TIDEWAYS_XHPROF_FLAGS_MEMORY | TIDEWAYS_XHPROF_FLAGS_CPU;
