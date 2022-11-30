@@ -1,0 +1,5007 @@
+{
+    "app": "app",
+    "tags": [
+        "http://127.0.0.1:8080/"
+    ],
+    "date": "2022-11-29 17:04:58",
+    "data": {
+        "Spiral\\Router\\Router::handle==>ReflectionFunction::__construct": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 5,
+            "mu": 888,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 1080,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionParameter::isVariadic": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionParameter::hasType": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionParameter::getName": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionParameter::getType": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 776,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionNamedType::isBuiltin": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionNamedType::getName": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>array_key_last": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 872,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>array_pop": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionParameter::allowsNull": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\AbstractRoute::match==>strtoupper": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\AbstractRoute::match==>Spiral\\Router\\AbstractRoute::getVerbs": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\AbstractRoute::match==>in_array": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::match==>Spiral\\Router\\UriHandler::isCompiled": {
+            "ct": 4,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>Spiral\\Router\\UriHandler::getPrefix": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>ltrim": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 1360,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>rtrim": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>str_starts_with": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>preg_match_all": {
+            "ct": 4,
+            "wt": 30,
+            "cpu": 30,
+            "mu": 4904,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>preg_replace": {
+            "ct": 4,
+            "wt": 13,
+            "cpu": 14,
+            "mu": 688,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>array_fill_keys": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 1416,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>strtr": {
+            "ct": 4,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 1064,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>str_replace": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>stripslashes": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 720,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::match==>Spiral\\Router\\UriHandler::compile": {
+            "ct": 4,
+            "wt": 114,
+            "cpu": 115,
+            "mu": 18736,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::fetchTarget==>Nyholm\\Psr7\\Uri::getPath": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::fetchTarget==>substr": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::fetchTarget==>trim": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::match==>Spiral\\Router\\UriHandler::fetchTarget": {
+            "ct": 4,
+            "wt": 18,
+            "cpu": 18,
+            "mu": 2432,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::match==>preg_match": {
+            "ct": 4,
+            "wt": 41,
+            "cpu": 42,
+            "mu": 1224,
+            "pmu": 0
+        },
+        "Spiral\\Router\\AbstractRoute::match==>Spiral\\Router\\UriHandler::match": {
+            "ct": 4,
+            "wt": 201,
+            "cpu": 202,
+            "mu": 18408,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::matchRoute==>Spiral\\Router\\AbstractRoute::match": {
+            "ct": 4,
+            "wt": 233,
+            "cpu": 233,
+            "mu": 22768,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>array_combine": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 1304,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>Spiral\\Router\\UriHandler::prepareSegment": {
+            "ct": 3,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::compile==>sprintf": {
+            "ct": 6,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 2472,
+            "pmu": 0
+        },
+        "array_filter==>Spiral\\Router\\UriHandler::Spiral\\Router\\{closure}": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::match==>array_filter": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 1240,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::match==>array_intersect_key": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 608,
+            "pmu": 0
+        },
+        "Spiral\\Router\\UriHandler::match==>array_merge": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 928,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::Spiral\\Router\\{closure}==>Spiral\\Router\\Router::matchRoute": {
+            "ct": 1,
+            "wt": 240,
+            "cpu": 240,
+            "mu": 23416,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::Spiral\\Router\\{closure}==>Spiral\\Telemetry\\Span::setAttribute": {
+            "ct": 3,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 960,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::Spiral\\Router\\{closure}==>Spiral\\Router\\AbstractRoute::getMatches": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Router::Spiral\\Router\\{closure}==>Nyholm\\Psr7\\ServerRequest::withAttribute": {
+            "ct": 3,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 4584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>strtr": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 0,
+            "mu": 624,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>strrpos": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>substr": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 648,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>file_exists": {
+            "ct": 2,
+            "wt": 8,
+            "cpu": 8,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>load::src/CoreHandler.php": {
+            "ct": 1,
+            "wt": 146,
+            "cpu": 146,
+            "mu": 31872,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>array_key_last": {
+            "ct": 28,
+            "wt": 9,
+            "cpu": 13,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>class_exists": {
+            "ct": 57,
+            "wt": 159,
+            "cpu": 165,
+            "mu": 19312,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionClass::__construct": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionClass::implementsInterface": {
+            "ct": 14,
+            "wt": 1,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionClass::isSubclassOf": {
+            "ct": 42,
+            "wt": 13,
+            "cpu": 13,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>interface_exists": {
+            "ct": 54,
+            "wt": 10,
+            "cpu": 18,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionClass::isInstantiable": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionClass::getConstructor": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 696,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionClass::newInstance": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 624,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>array_pop": {
+            "ct": 25,
+            "wt": 2,
+            "cpu": 6,
+            "mu": 376,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionMethod::__construct": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 1832,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionParameter::isVariadic": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionParameter::hasType": {
+            "ct": 7,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionParameter::getName": {
+            "ct": 8,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionParameter::getType": {
+            "ct": 7,
+            "wt": 5,
+            "cpu": 6,
+            "mu": 6944,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionNamedType::isBuiltin": {
+            "ct": 7,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionNamedType::getName": {
+            "ct": 7,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "class_exists==>strtr": {
+            "ct": 25,
+            "wt": 9,
+            "cpu": 18,
+            "mu": 2216,
+            "pmu": 0
+        },
+        "class_exists==>strrpos": {
+            "ct": 56,
+            "wt": 18,
+            "cpu": 30,
+            "mu": 520,
+            "pmu": 0
+        },
+        "class_exists==>substr": {
+            "ct": 81,
+            "wt": 28,
+            "cpu": 36,
+            "mu": 4624,
+            "pmu": 0
+        },
+        "class_exists==>file_exists": {
+            "ct": 41,
+            "wt": 199,
+            "cpu": 214,
+            "mu": 528,
+            "pmu": 0
+        },
+        "class_exists==>load::src/Core.php": {
+            "ct": 1,
+            "wt": 16,
+            "cpu": 16,
+            "mu": 2464,
+            "pmu": 0
+        },
+        "class_exists==>load::src/AbstractCore.php": {
+            "ct": 1,
+            "wt": 59,
+            "cpu": 59,
+            "mu": 16520,
+            "pmu": 0
+        },
+        "class_exists==>load::src/CoreInterface.php": {
+            "ct": 1,
+            "wt": 14,
+            "cpu": 14,
+            "mu": 3800,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>WeakReference::get": {
+            "ct": 6,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionParameter::allowsNull": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::__construct==>array_key_last": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::__construct==>WeakReference::get": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::__construct==>array_pop": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 520,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>Spiral\\Core\\AbstractCore::__construct": {
+            "ct": 1,
+            "wt": 17,
+            "cpu": 18,
+            "mu": 2872,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>sprintf": {
+            "ct": 5,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 2168,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>str_repeat": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 648,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>implode": {
+            "ct": 5,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 1512,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>var_export": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 824,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>str_replace": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 920,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>array_push": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 944,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>Exception::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionParameter::isDefaultValueAvailable": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 368
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionParameter::getDefaultValue": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 584
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>strtr": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 608,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>strrpos": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>substr": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 640,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>file_exists": {
+            "ct": 2,
+            "wt": 10,
+            "cpu": 11,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>load::src/InterceptableCore.php": {
+            "ct": 1,
+            "wt": 50,
+            "cpu": 51,
+            "mu": 6416,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::__construct==>strtr": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 608,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::__construct==>strrpos": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::__construct==>substr": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 640,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::__construct==>file_exists": {
+            "ct": 2,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::__construct==>load::src/InterceptorPipeline.php": {
+            "ct": 1,
+            "wt": 46,
+            "cpu": 46,
+            "mu": 10240,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::__construct==>Spiral\\Core\\InterceptorPipeline::__construct": {
+            "ct": 4,
+            "wt": 3,
+            "cpu": 5,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>Spiral\\Core\\InterceptableCore::__construct": {
+            "ct": 1,
+            "wt": 67,
+            "cpu": 68,
+            "mu": 10672,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>array_key_last": {
+            "ct": 10,
+            "wt": 5,
+            "cpu": 6,
+            "mu": 568,
+            "pmu": 0
+        },
+        "class_exists==>load::Interceptor/FilterInterceptor.php": {
+            "ct": 1,
+            "wt": 88,
+            "cpu": 89,
+            "mu": 18064,
+            "pmu": 0
+        },
+        "class_exists==>load::src/CoreInterceptorInterface.php": {
+            "ct": 1,
+            "wt": 14,
+            "cpu": 14,
+            "mu": 3672,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>class_exists": {
+            "ct": 28,
+            "wt": 146,
+            "cpu": 148,
+            "mu": 15208,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionClass::__construct": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionClass::implementsInterface": {
+            "ct": 7,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionClass::isSubclassOf": {
+            "ct": 21,
+            "wt": 3,
+            "cpu": 6,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>interface_exists": {
+            "ct": 27,
+            "wt": 7,
+            "cpu": 11,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionClass::isInstantiable": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionClass::getConstructor": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 696,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 1216,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionParameter::isVariadic": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionParameter::hasType": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionParameter::getName": {
+            "ct": 3,
+            "wt": 2,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionParameter::getType": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 896,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionNamedType::isBuiltin": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionNamedType::getName": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>WeakReference::get": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>array_pop": {
+            "ct": 9,
+            "wt": 5,
+            "cpu": 7,
+            "mu": 504,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionParameter::allowsNull": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionParameter::isDefaultValueAvailable": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>ReflectionParameter::getDefaultValue": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>Spiral\\Filters\\Interceptor\\FilterInterceptor::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::addInterceptor==>Spiral\\Core\\InterceptorPipeline::addInterceptor": {
+            "ct": 4,
+            "wt": 4,
+            "cpu": 3,
+            "mu": 1728,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\DomainBootloader::domainCore==>Spiral\\Core\\InterceptableCore::addInterceptor": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 1640,
+            "pmu": 0
+        },
+        "ReflectionMethod::invokeArgs==>Spiral\\Bootloader\\DomainBootloader::domainCore": {
+            "ct": 1,
+            "wt": 455,
+            "cpu": 456,
+            "mu": 48088,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>ReflectionMethod::invokeArgs": {
+            "ct": 1,
+            "wt": 457,
+            "cpu": 457,
+            "mu": 48736,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::coreHandler==>Spiral\\Router\\CoreHandler::__construct": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 4696,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::getHandler==>Spiral\\Router\\Target\\AbstractTarget::coreHandler": {
+            "ct": 1,
+            "wt": 1836,
+            "cpu": 1836,
+            "mu": 124744,
+            "pmu": 130496
+        },
+        "Spiral\\Router\\Target\\Namespaced::resolveController==>preg_match": {
+            "ct": 1,
+            "wt": 20,
+            "cpu": 20,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Doctrine\\Inflector\\Inflector::classify==>ucwords": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Doctrine\\Inflector\\Inflector::classify==>str_replace": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\Namespaced::resolveController==>Doctrine\\Inflector\\Inflector::classify": {
+            "ct": 1,
+            "wt": 5,
+            "cpu": 6,
+            "mu": 1864,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\Namespaced::resolveController==>sprintf": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 888,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::getHandler==>Spiral\\Router\\Target\\Namespaced::resolveController": {
+            "ct": 1,
+            "wt": 33,
+            "cpu": 33,
+            "mu": 4112,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::getHandler==>Spiral\\Router\\Target\\Namespaced::resolveAction": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::getHandler==>Spiral\\Router\\CoreHandler::withContext": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 792,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Target\\AbstractTarget::getHandler==>Spiral\\Router\\CoreHandler::withVerbActions": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 792,
+            "pmu": 0
+        },
+        "Spiral\\Router\\Route::requestHandler==>Spiral\\Router\\Target\\AbstractTarget::getHandler": {
+            "ct": 1,
+            "wt": 1880,
+            "cpu": 1880,
+            "mu": 131752,
+            "pmu": 130496
+        },
+        "Spiral\\Router\\Route::handle==>Spiral\\Router\\Route::requestHandler": {
+            "ct": 1,
+            "wt": 1885,
+            "cpu": 1885,
+            "mu": 132384,
+            "pmu": 130496
+        },
+        "Spiral\\Router\\Route::handle==>Nyholm\\Psr7\\ServerRequest::withAttribute": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 1896,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::handle==>ob_get_level": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::handle==>ob_start": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 17064,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse==>strtr": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 680,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse==>strrpos": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse==>substr": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 744,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse==>file_exists": {
+            "ct": 3,
+            "wt": 10,
+            "cpu": 12,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse==>load::src/Response.php": {
+            "ct": 1,
+            "wt": 77,
+            "cpu": 78,
+            "mu": 23752,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse==>load::src/ResponseInterface.php": {
+            "ct": 1,
+            "wt": 16,
+            "cpu": 17,
+            "mu": 8944,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::__construct==>Nyholm\\Psr7\\Response::setHeaders": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse==>Nyholm\\Psr7\\Response::__construct": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 3,
+            "mu": 1216,
+            "pmu": 0
+        },
+        "Spiral\\Nyholm\\ResponseFactory::createResponse==>Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse": {
+            "ct": 1,
+            "wt": 143,
+            "cpu": 144,
+            "mu": 25200,
+            "pmu": 0
+        },
+        "Spiral\\Nyholm\\ResponseFactory::createResponse==>Spiral\\Http\\Config\\HttpConfig::getBaseHeaders": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::validateAndTrimHeader==>preg_match": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::validateAndTrimHeader==>is_numeric": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::validateAndTrimHeader==>trim": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::setHeaders==>Nyholm\\Psr7\\Response::validateAndTrimHeader": {
+            "ct": 1,
+            "wt": 7,
+            "cpu": 8,
+            "mu": 2840,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::setHeaders==>strtr": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 592,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::withAddedHeader==>Nyholm\\Psr7\\Response::setHeaders": {
+            "ct": 1,
+            "wt": 11,
+            "cpu": 12,
+            "mu": 4896,
+            "pmu": 0
+        },
+        "Spiral\\Nyholm\\ResponseFactory::createResponse==>Nyholm\\Psr7\\Response::withAddedHeader": {
+            "ct": 1,
+            "wt": 15,
+            "cpu": 15,
+            "mu": 5704,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::handle==>Spiral\\Nyholm\\ResponseFactory::createResponse": {
+            "ct": 1,
+            "wt": 167,
+            "cpu": 167,
+            "mu": 32120,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::handle==>Spiral\\Router\\CoreHandler::getAction": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}==>sprintf": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 888,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}==>array_keys": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 944,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}==>ReflectionFunction::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::callAction==>Spiral\\Core\\InterceptorPipeline::withCore": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 696,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters==>sprintf": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 904,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters==>ReflectionMethod::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 1248,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getParameterClass==>ReflectionParameter::getType": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 808,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getParameterClass==>ReflectionNamedType::isBuiltin": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getParameterClass==>ReflectionNamedType::getName": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getParameterClass==>ReflectionClass::__construct": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters==>Spiral\\Filters\\Interceptor\\FilterInterceptor::getParameterClass": {
+            "ct": 2,
+            "wt": 11,
+            "cpu": 12,
+            "mu": 3688,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters==>ReflectionClass::implementsInterface": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::process==>Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters": {
+            "ct": 1,
+            "wt": 24,
+            "cpu": 24,
+            "mu": 7680,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionMethod::__construct": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionFunctionAbstract::isStatic": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionMethod::isPublic": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 1200,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionParameter::isVariadic": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionParameter::hasType": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionParameter::getName": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionParameter::getType": {
+            "ct": 4,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 984,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionNamedType::isBuiltin": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionNamedType::getName": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>array_key_last": {
+            "ct": 8,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>class_exists": {
+            "ct": 18,
+            "wt": 9,
+            "cpu": 11,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionClass::__construct": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionClass::implementsInterface": {
+            "ct": 8,
+            "wt": 2,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionClass::isSubclassOf": {
+            "ct": 10,
+            "wt": 3,
+            "cpu": 6,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>interface_exists": {
+            "ct": 16,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionClass::getName": {
+            "ct": 4,
+            "wt": 3,
+            "cpu": 5,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>array_pop": {
+            "ct": 6,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>array_key_last": {
+            "ct": 38,
+            "wt": 11,
+            "cpu": 17,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>array_pop": {
+            "ct": 33,
+            "wt": 9,
+            "cpu": 10,
+            "mu": 424,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionMethod::__construct": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 3,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 2480,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionParameter::isVariadic": {
+            "ct": 6,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionParameter::hasType": {
+            "ct": 11,
+            "wt": 6,
+            "cpu": 5,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionParameter::getName": {
+            "ct": 12,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionParameter::getType": {
+            "ct": 11,
+            "wt": 6,
+            "cpu": 7,
+            "mu": 1744,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionNamedType::isBuiltin": {
+            "ct": 11,
+            "wt": 5,
+            "cpu": 6,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionNamedType::getName": {
+            "ct": 11,
+            "wt": 4,
+            "cpu": 6,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>WeakReference::get": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionParameter::allowsNull": {
+            "ct": 5,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>class_exists": {
+            "ct": 63,
+            "wt": 104,
+            "cpu": 110,
+            "mu": 9544,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::__construct": {
+            "ct": 8,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::implementsInterface": {
+            "ct": 15,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::hasConstant": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::getConstant": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::getName": {
+            "ct": 6,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>array_keys": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 960,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>sprintf": {
+            "ct": 7,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 2808,
+            "pmu": 1096
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>file_exists": {
+            "ct": 2,
+            "wt": 5,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>array_merge": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::newInstance": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 1056,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::isInstance": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>str_repeat": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 664,
+            "pmu": 584
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>implode": {
+            "ct": 6,
+            "wt": 2,
+            "cpu": 1,
+            "mu": 1848,
+            "pmu": 792
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>str_replace": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 1144,
+            "pmu": 184
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>var_export": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 840,
+            "pmu": 296
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>array_push": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 960,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>Exception::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionParameter::isDefaultValueAvailable": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 632,
+            "pmu": 400
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionParameter::getDefaultValue": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 600
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>strtr": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 792,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>strrpos": {
+            "ct": 7,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>substr": {
+            "ct": 10,
+            "wt": 6,
+            "cpu": 6,
+            "mu": 1088,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>file_exists": {
+            "ct": 6,
+            "wt": 18,
+            "cpu": 19,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>load::Interceptor/Core.php": {
+            "ct": 1,
+            "wt": 30,
+            "cpu": 31,
+            "mu": 4200,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>Spiral\\Core\\InterceptableCore::__construct": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 744,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>Spiral\\Filters\\Config\\FiltersConfig::getInterceptors": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>array_key_last": {
+            "ct": 12,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "class_exists==>load::Interceptor/PopulateDataFromEntityInterceptor.php": {
+            "ct": 1,
+            "wt": 30,
+            "cpu": 30,
+            "mu": 5632,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>class_exists": {
+            "ct": 60,
+            "wt": 139,
+            "cpu": 149,
+            "mu": 11424,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionClass::__construct": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionClass::implementsInterface": {
+            "ct": 14,
+            "wt": 3,
+            "cpu": 5,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionClass::isSubclassOf": {
+            "ct": 46,
+            "wt": 10,
+            "cpu": 16,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>interface_exists": {
+            "ct": 58,
+            "wt": 14,
+            "cpu": 18,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionClass::isInstantiable": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionClass::getConstructor": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 712,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionClass::newInstance": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 640,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>array_pop": {
+            "ct": 10,
+            "wt": 2,
+            "cpu": 6,
+            "mu": 520,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>Spiral\\Core\\InterceptableCore::addInterceptor": {
+            "ct": 2,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 1008,
+            "pmu": 0
+        },
+        "class_exists==>load::Interceptor/ValidateFilterInterceptor.php": {
+            "ct": 1,
+            "wt": 55,
+            "cpu": 55,
+            "mu": 11768,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 1128,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionParameter::isVariadic": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionParameter::hasType": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionParameter::getName": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionParameter::getType": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 808,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionNamedType::isBuiltin": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionNamedType::getName": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>WeakReference::get": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>ReflectionParameter::allowsNull": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 8792,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>Spiral\\Filters\\Model\\Interceptor\\ValidateFilterInterceptor::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 664,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>load::Model/FilterProvider.php": {
+            "ct": 1,
+            "wt": 115,
+            "cpu": 116,
+            "mu": 78744,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>load::Model/FilterProviderInterface.php": {
+            "ct": 1,
+            "wt": 16,
+            "cpu": 16,
+            "mu": 3392,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider==>Spiral\\Filters\\Model\\FilterProvider::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 632,
+            "pmu": 0
+        },
+        "ReflectionMethod::invokeArgs==>Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider": {
+            "ct": 1,
+            "wt": 616,
+            "cpu": 617,
+            "mu": 117904,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionMethod::invokeArgs": {
+            "ct": 1,
+            "wt": 618,
+            "cpu": 618,
+            "mu": 118568,
+            "pmu": 0
+        },
+        "class_exists==>load::Filter/InputScope.php": {
+            "ct": 1,
+            "wt": 40,
+            "cpu": 41,
+            "mu": 8504,
+            "pmu": 0
+        },
+        "class_exists==>load::src/InputInterface.php": {
+            "ct": 1,
+            "wt": 16,
+            "cpu": 17,
+            "mu": 5304,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::isSubclassOf": {
+            "ct": 46,
+            "wt": 4,
+            "cpu": 15,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>interface_exists": {
+            "ct": 58,
+            "wt": 11,
+            "cpu": 21,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::isInstantiable": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>ReflectionClass::getConstructor": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 824,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::__construct==>Spiral\\Http\\Config\\HttpConfig::getInputBags": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::__construct==>array_merge": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>Spiral\\Http\\Request\\InputManager::__construct": {
+            "ct": 1,
+            "wt": 6,
+            "cpu": 7,
+            "mu": 1928,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>Spiral\\Filter\\InputScope::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>array_key_last": {
+            "ct": 40,
+            "wt": 5,
+            "cpu": 13,
+            "mu": 568,
+            "pmu": 0
+        },
+        "class_exists==>load::Schema/AttributeMapper.php": {
+            "ct": 1,
+            "wt": 82,
+            "cpu": 82,
+            "mu": 18520,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>class_exists": {
+            "ct": 183,
+            "wt": 366,
+            "cpu": 381,
+            "mu": 39024,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionClass::__construct": {
+            "ct": 12,
+            "wt": 4,
+            "cpu": 7,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionClass::implementsInterface": {
+            "ct": 42,
+            "wt": 9,
+            "cpu": 22,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionClass::isSubclassOf": {
+            "ct": 141,
+            "wt": 31,
+            "cpu": 50,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>interface_exists": {
+            "ct": 177,
+            "wt": 49,
+            "cpu": 66,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionClass::isInstantiable": {
+            "ct": 6,
+            "wt": 2,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionClass::getConstructor": {
+            "ct": 6,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 1032,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 5,
+            "mu": 2824,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionParameter::isVariadic": {
+            "ct": 6,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionParameter::hasType": {
+            "ct": 12,
+            "wt": 2,
+            "cpu": 6,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionParameter::getName": {
+            "ct": 12,
+            "wt": 4,
+            "cpu": 7,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionParameter::getType": {
+            "ct": 12,
+            "wt": 4,
+            "cpu": 6,
+            "mu": 1832,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionNamedType::isBuiltin": {
+            "ct": 12,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionNamedType::getName": {
+            "ct": 12,
+            "wt": 4,
+            "cpu": 6,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>array_pop": {
+            "ct": 34,
+            "wt": 9,
+            "cpu": 12,
+            "mu": 440,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionParameter::allowsNull": {
+            "ct": 6,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Filters\\Model\\Schema\\AttributeMapper::__construct": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilterInstance==>ReflectionClass::__construct": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilterInstance==>ReflectionClass::getConstructor": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilterInstance==>ReflectionClass::newInstanceArgs": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 1240,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Filters\\Model\\FilterProvider::createFilterInstance": {
+            "ct": 2,
+            "wt": 14,
+            "cpu": 15,
+            "mu": 3456,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>ReflectionClass::__construct": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>ReflectionClass::getProperties": {
+            "ct": 2,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 6072,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Composite\\Composite::Spiral\\Attributes\\Composite\\{closure}==>Spiral\\Attributes\\Internal\\Decorator::getPropertyMetadata": {
+            "ct": 96,
+            "wt": 871,
+            "cpu": 898,
+            "mu": 67920,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Composite\\Composite::getPropertyMetadata==>Spiral\\Attributes\\Composite\\Composite::Spiral\\Attributes\\Composite\\{closure}": {
+            "ct": 96,
+            "wt": 1059,
+            "cpu": 1075,
+            "mu": 68648,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\NativeAttributeReader::getPropertyAttributes==>ReflectionProperty::getAttributes": {
+            "ct": 64,
+            "wt": 86,
+            "cpu": 99,
+            "mu": 24048,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>Spiral\\Attributes\\Internal\\NativeAttributeReader::getPropertyAttributes": {
+            "ct": 64,
+            "wt": 197,
+            "cpu": 213,
+            "mu": 61640,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionAttribute::getName": {
+            "ct": 128,
+            "wt": 35,
+            "cpu": 83,
+            "mu": 600,
+            "pmu": 0
+        },
+        "class_exists==>load::Input/Query.php": {
+            "ct": 1,
+            "wt": 33,
+            "cpu": 33,
+            "mu": 6656,
+            "pmu": 0
+        },
+        "class_exists==>load::Input/AbstractInput.php": {
+            "ct": 1,
+            "wt": 16,
+            "cpu": 16,
+            "mu": 3864,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>class_exists": {
+            "ct": 128,
+            "wt": 609,
+            "cpu": 626,
+            "mu": 24400,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::__construct": {
+            "ct": 64,
+            "wt": 14,
+            "cpu": 20,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionAttribute::getArguments": {
+            "ct": 64,
+            "wt": 18,
+            "cpu": 26,
+            "mu": 14424,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::getName": {
+            "ct": 64,
+            "wt": 13,
+            "cpu": 21,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>is_subclass_of": {
+            "ct": 64,
+            "wt": 28,
+            "cpu": 35,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::getAttributes": {
+            "ct": 64,
+            "wt": 41,
+            "cpu": 53,
+            "mu": 18264,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::getTraits": {
+            "ct": 96,
+            "wt": 24,
+            "cpu": 37,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::hasMethod": {
+            "ct": 64,
+            "wt": 20,
+            "cpu": 33,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::getParentClass": {
+            "ct": 64,
+            "wt": 17,
+            "cpu": 30,
+            "mu": 3672,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::newInstanceWithoutConstructor": {
+            "ct": 32,
+            "wt": 8,
+            "cpu": 17,
+            "mu": 1912,
+            "pmu": 0
+        },
+        "ReflectionClass::newInstanceArgs==>Spiral\\Filters\\Attribute\\Input\\Query::__construct": {
+            "ct": 28,
+            "wt": 18,
+            "cpu": 24,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata==>ReflectionClass::newInstanceArgs": {
+            "ct": 32,
+            "wt": 67,
+            "cpu": 71,
+            "mu": 5648,
+            "pmu": 0
+        },
+        "iterator_to_array==>Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata": {
+            "ct": 96,
+            "wt": 2297,
+            "cpu": 2321,
+            "mu": 80176,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Composite\\Composite::getPropertyMetadata==>iterator_to_array": {
+            "ct": 96,
+            "wt": 2438,
+            "cpu": 2453,
+            "mu": 33208,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Attributes\\Composite\\Composite::getPropertyMetadata": {
+            "ct": 32,
+            "wt": 2384,
+            "cpu": 2395,
+            "mu": 53672,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Query::getValue==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 28,
+            "wt": 11,
+            "cpu": 19,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::hasBag==>Spiral\\Http\\Request\\InputManager::findBagDefinition": {
+            "ct": 4,
+            "wt": 9,
+            "cpu": 11,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filter\\InputScope::getValue==>Spiral\\Http\\Request\\InputManager::hasBag": {
+            "ct": 64,
+            "wt": 49,
+            "cpu": 65,
+            "mu": 1248,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::request==>array_key_last": {
+            "ct": 136,
+            "wt": 43,
+            "cpu": 67,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::request==>array_pop": {
+            "ct": 136,
+            "wt": 34,
+            "cpu": 56,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>Spiral\\Http\\Request\\InputManager::request": {
+            "ct": 68,
+            "wt": 732,
+            "cpu": 747,
+            "mu": 1832,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>Spiral\\Http\\Request\\InputManager::findBagDefinition": {
+            "ct": 4,
+            "wt": 5,
+            "cpu": 5,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>Nyholm\\Psr7\\ServerRequest::getQueryParams": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>strtr": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 664,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>strrpos": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>substr": {
+            "ct": 6,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 824,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>file_exists": {
+            "ct": 2,
+            "wt": 9,
+            "cpu": 10,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>load::Request/InputBag.php": {
+            "ct": 1,
+            "wt": 81,
+            "cpu": 82,
+            "mu": 19816,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>Spiral\\Http\\Request\\InputBag::__construct": {
+            "ct": 4,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::__call==>Spiral\\Http\\Request\\InputManager::bag": {
+            "ct": 64,
+            "wt": 1051,
+            "cpu": 1073,
+            "mu": 30616,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>rtrim": {
+            "ct": 64,
+            "wt": 22,
+            "cpu": 36,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>explode": {
+            "ct": 64,
+            "wt": 23,
+            "cpu": 38,
+            "mu": 24680,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>strtr": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>strrpos": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>substr": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 704,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>file_exists": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>load::Exception/DotNotFoundException.php": {
+            "ct": 1,
+            "wt": 15,
+            "cpu": 16,
+            "mu": 3200,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>sprintf": {
+            "ct": 64,
+            "wt": 40,
+            "cpu": 43,
+            "mu": 21032,
+            "pmu": 688
+        },
+        "Spiral\\Http\\Request\\InputBag::dotGet==>Exception::__construct": {
+            "ct": 64,
+            "wt": 29,
+            "cpu": 39,
+            "mu": 568,
+            "pmu": 568
+        },
+        "Spiral\\Http\\Request\\InputBag::get==>Spiral\\Http\\Request\\InputBag::dotGet": {
+            "ct": 64,
+            "wt": 39269,
+            "cpu": 39327,
+            "mu": 16480600,
+            "pmu": 337240
+        },
+        "Spiral\\Http\\Request\\InputManager::__call==>Spiral\\Http\\Request\\InputBag::get": {
+            "ct": 62,
+            "wt": 38363,
+            "cpu": 38382,
+            "mu": 24056,
+            "pmu": 318808
+        },
+        "Spiral\\Filter\\InputScope::getValue==>Spiral\\Http\\Request\\InputManager::__call": {
+            "ct": 64,
+            "wt": 40945,
+            "cpu": 40964,
+            "mu": 58952,
+            "pmu": 337304
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Query::getValue==>Spiral\\Filter\\InputScope::getValue": {
+            "ct": 28,
+            "wt": 17359,
+            "cpu": 17364,
+            "mu": 45136,
+            "pmu": 250432
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Query::getValue": {
+            "ct": 28,
+            "wt": 17439,
+            "cpu": 17446,
+            "mu": 46464,
+            "pmu": 250432
+        },
+        "ReflectionProperty::getAttributes==>strtr": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 608,
+            "pmu": 0
+        },
+        "ReflectionProperty::getAttributes==>strrpos": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "ReflectionProperty::getAttributes==>substr": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 696,
+            "pmu": 0
+        },
+        "ReflectionProperty::getAttributes==>file_exists": {
+            "ct": 2,
+            "wt": 5,
+            "cpu": 5,
+            "mu": 552,
+            "pmu": 0
+        },
+        "ReflectionProperty::getAttributes==>load::Attribute/Setter.php": {
+            "ct": 1,
+            "wt": 25,
+            "cpu": 25,
+            "mu": 5152,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations==>ReflectionProperty::getDeclaringClass": {
+            "ct": 32,
+            "wt": 5,
+            "cpu": 18,
+            "mu": 3704,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations==>ReflectionClass::getName": {
+            "ct": 64,
+            "wt": 12,
+            "cpu": 24,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations==>ReflectionProperty::getName": {
+            "ct": 32,
+            "wt": 4,
+            "cpu": 12,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyImports==>ReflectionProperty::getDeclaringClass": {
+            "ct": 32,
+            "wt": 6,
+            "cpu": 15,
+            "mu": 3704,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyImports==>ReflectionClass::getName": {
+            "ct": 32,
+            "wt": 7,
+            "cpu": 13,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyImports==>ReflectionClass::getTraits": {
+            "ct": 32,
+            "wt": 6,
+            "cpu": 16,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyImports==>array_merge": {
+            "ct": 32,
+            "wt": 9,
+            "cpu": 20,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations==>Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyImports": {
+            "ct": 32,
+            "wt": 189,
+            "cpu": 195,
+            "mu": 6376,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations==>ReflectionProperty::getDocComment": {
+            "ct": 32,
+            "wt": 9,
+            "cpu": 18,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations==>strpos": {
+            "ct": 32,
+            "wt": 5,
+            "cpu": 11,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::Spiral\\Attributes\\Internal\\{closure}==>Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations": {
+            "ct": 32,
+            "wt": 599,
+            "cpu": 604,
+            "mu": 12520,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::getPropertyMetadata==>Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::Spiral\\Attributes\\Internal\\{closure}": {
+            "ct": 32,
+            "wt": 662,
+            "cpu": 673,
+            "mu": 8128,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Internal\\Decorator::getPropertyMetadata==>Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::getPropertyMetadata": {
+            "ct": 32,
+            "wt": 750,
+            "cpu": 752,
+            "mu": 26232,
+            "pmu": 0
+        },
+        "Spiral\\Attributes\\Reader::firstPropertyMetadata==>Spiral\\Attributes\\Composite\\Composite::getPropertyMetadata": {
+            "ct": 32,
+            "wt": 1429,
+            "cpu": 1439,
+            "mu": 15272,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::setValue==>Spiral\\Attributes\\Reader::firstPropertyMetadata": {
+            "ct": 32,
+            "wt": 1482,
+            "cpu": 1487,
+            "mu": 15936,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Model\\Schema\\AttributeMapper::setValue": {
+            "ct": 32,
+            "wt": 1543,
+            "cpu": 1552,
+            "mu": 16632,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>ReflectionProperty::getName": {
+            "ct": 32,
+            "wt": 7,
+            "cpu": 12,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Query::getSchema==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 28,
+            "wt": 12,
+            "cpu": 18,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Query::getSchema": {
+            "ct": 28,
+            "wt": 51,
+            "cpu": 57,
+            "mu": 2160,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Filters\\Model\\Schema\\AttributeMapper::map": {
+            "ct": 2,
+            "wt": 24965,
+            "cpu": 24966,
+            "mu": 128544,
+            "pmu": 308640
+        },
+        "class_exists==>load::Schema/InputMapper.php": {
+            "ct": 1,
+            "wt": 83,
+            "cpu": 84,
+            "mu": 16200,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Filters\\Model\\Schema\\InputMapper::__construct": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 632,
+            "pmu": 0
+        },
+        "class_exists==>load::Schema/Builder.php": {
+            "ct": 1,
+            "wt": 77,
+            "cpu": 78,
+            "mu": 22032,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>ReflectionClass::newInstance": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 664,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\Builder::makeSchema==>class_exists": {
+            "ct": 32,
+            "wt": 12,
+            "cpu": 16,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\Builder::parseDefinition==>str_contains": {
+            "ct": 32,
+            "wt": 6,
+            "cpu": 12,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\Builder::parseDefinition==>explode": {
+            "ct": 32,
+            "wt": 11,
+            "cpu": 14,
+            "mu": 13680,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\Builder::makeSchema==>Spiral\\Filters\\Model\\Schema\\Builder::parseDefinition": {
+            "ct": 32,
+            "wt": 63,
+            "cpu": 67,
+            "mu": 14976,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Filters\\Model\\Schema\\Builder::makeSchema": {
+            "ct": 2,
+            "wt": 125,
+            "cpu": 127,
+            "mu": 17664,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\InputMapper::map==>Spiral\\Filter\\InputScope::getValue": {
+            "ct": 32,
+            "wt": 20565,
+            "cpu": 20573,
+            "mu": 584,
+            "pmu": 28664
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Filters\\Model\\Schema\\InputMapper::map": {
+            "ct": 2,
+            "wt": 20637,
+            "cpu": 20638,
+            "mu": 2000,
+            "pmu": 28664
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>array_merge": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Models\\SchematicEntity::__construct==>Spiral\\Models\\AbstractEntity::__construct": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Models\\SchematicEntity::__construct": {
+            "ct": 2,
+            "wt": 11,
+            "cpu": 12,
+            "mu": 1248,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>strtr": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 624,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>strrpos": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>substr": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 704,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>file_exists": {
+            "ct": 2,
+            "wt": 39,
+            "cpu": 40,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>load::Model/FilterBag.php": {
+            "ct": 1,
+            "wt": 88,
+            "cpu": 89,
+            "mu": 3808,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Filters\\Model\\FilterBag::__construct": {
+            "ct": 2,
+            "wt": 5,
+            "cpu": 5,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::callAction@1==>Spiral\\Core\\InterceptorPipeline::withCore": {
+            "ct": 2,
+            "wt": 5,
+            "cpu": 5,
+            "mu": 808,
+            "pmu": 0
+        },
+        "Spiral\\Models\\AbstractEntity::toArray==>Spiral\\Models\\AbstractEntity::getValue": {
+            "ct": 2,
+            "wt": 3,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Interceptor\\PopulateDataFromEntityInterceptor::process==>Spiral\\Models\\AbstractEntity::toArray": {
+            "ct": 2,
+            "wt": 9,
+            "cpu": 11,
+            "mu": 1280,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Interceptor\\PopulateDataFromEntityInterceptor::process==>Spiral\\Filters\\Model\\Filter::setData": {
+            "ct": 2,
+            "wt": 3,
+            "cpu": 5,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptorPipeline::callAction@4==>Spiral\\Filters\\Model\\Interceptor\\Core::callAction": {
+            "ct": 2,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Interceptor\\ValidateFilterInterceptor::process==>Spiral\\Core\\InterceptorPipeline::callAction@4": {
+            "ct": 2,
+            "wt": 9,
+            "cpu": 10,
+            "mu": 1296,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptorPipeline::callAction@3==>Spiral\\Filters\\Model\\Interceptor\\ValidateFilterInterceptor::process": {
+            "ct": 2,
+            "wt": 15,
+            "cpu": 16,
+            "mu": 1992,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Interceptor\\PopulateDataFromEntityInterceptor::process==>Spiral\\Core\\InterceptorPipeline::callAction@3": {
+            "ct": 2,
+            "wt": 22,
+            "cpu": 22,
+            "mu": 2688,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptorPipeline::callAction@2==>Spiral\\Filters\\Model\\Interceptor\\PopulateDataFromEntityInterceptor::process": {
+            "ct": 2,
+            "wt": 50,
+            "cpu": 51,
+            "mu": 5424,
+            "pmu": 0
+        },
+        "Spiral\\Core\\InterceptableCore::callAction@1==>Spiral\\Core\\InterceptorPipeline::callAction@2": {
+            "ct": 2,
+            "wt": 58,
+            "cpu": 60,
+            "mu": 6088,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\FilterProvider::createFilter==>Spiral\\Core\\InterceptableCore::callAction@1": {
+            "ct": 2,
+            "wt": 72,
+            "cpu": 75,
+            "mu": 7400,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>Spiral\\Filters\\Model\\FilterProvider::createFilter": {
+            "ct": 2,
+            "wt": 47283,
+            "cpu": 47284,
+            "mu": 216496,
+            "pmu": 337304
+        },
+        "Spiral\\Models\\AbstractEntity::__destruct==>Spiral\\Models\\AbstractEntity::flushFields": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection==>Spiral\\Models\\AbstractEntity::__destruct": {
+            "ct": 2,
+            "wt": 8,
+            "cpu": 8,
+            "mu": 1280,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection": {
+            "ct": 2,
+            "wt": 49257,
+            "cpu": 49259,
+            "mu": 359440,
+            "pmu": 558304
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionClass::isInstance": {
+            "ct": 2,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>ReflectionParameter::allowsNull": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "class_exists==>load::Input/Post.php": {
+            "ct": 1,
+            "wt": 64,
+            "cpu": 64,
+            "mu": 6224,
+            "pmu": 0
+        },
+        "ReflectionClass::newInstanceArgs==>Spiral\\Filters\\Attribute\\Input\\Post::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Post::getValue==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>Nyholm\\Psr7\\ServerRequest::getParsedBody": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Post::getValue==>Spiral\\Filter\\InputScope::getValue": {
+            "ct": 1,
+            "wt": 803,
+            "cpu": 804,
+            "mu": 3832,
+            "pmu": 23928
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Post::getValue": {
+            "ct": 1,
+            "wt": 808,
+            "cpu": 809,
+            "mu": 5160,
+            "pmu": 23928
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Post::getSchema==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Post::getSchema": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 1296,
+            "pmu": 0
+        },
+        "class_exists==>load::Input/Attribute.php": {
+            "ct": 1,
+            "wt": 76,
+            "cpu": 77,
+            "mu": 6296,
+            "pmu": 0
+        },
+        "ReflectionClass::newInstanceArgs==>Spiral\\Filters\\Attribute\\Input\\Attribute::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Attribute::getValue==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>Nyholm\\Psr7\\ServerRequest::getAttributes": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Attribute::getValue==>Spiral\\Filter\\InputScope::getValue": {
+            "ct": 1,
+            "wt": 805,
+            "cpu": 807,
+            "mu": 1688,
+            "pmu": 6704
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Attribute::getValue": {
+            "ct": 1,
+            "wt": 810,
+            "cpu": 810,
+            "mu": 3048,
+            "pmu": 6704
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Attribute::getSchema==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Attribute::getSchema": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 1336,
+            "pmu": 0
+        },
+        "class_exists==>load::Input/Route.php": {
+            "ct": 1,
+            "wt": 61,
+            "cpu": 62,
+            "mu": 7176,
+            "pmu": 0
+        },
+        "ReflectionClass::newInstanceArgs==>Spiral\\Filters\\Attribute\\Input\\Route::__construct": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Route::getValue==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Route::getValue==>Spiral\\Filter\\InputScope::getValue": {
+            "ct": 1,
+            "wt": 831,
+            "cpu": 831,
+            "mu": 960,
+            "pmu": 9080
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Route::getValue": {
+            "ct": 1,
+            "wt": 834,
+            "cpu": 835,
+            "mu": 2288,
+            "pmu": 9080
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Route::getSchema==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Route::getSchema": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 1312,
+            "pmu": 0
+        },
+        "class_exists==>load::Input/Server.php": {
+            "ct": 1,
+            "wt": 55,
+            "cpu": 56,
+            "mu": 6256,
+            "pmu": 0
+        },
+        "ReflectionClass::newInstanceArgs==>Spiral\\Filters\\Attribute\\Input\\Server::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Server::getValue==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>Nyholm\\Psr7\\ServerRequest::getServerParams": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\InputManager::bag==>load::Request/ServerBag.php": {
+            "ct": 1,
+            "wt": 51,
+            "cpu": 52,
+            "mu": 8760,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\ServerBag::normalize==>strtoupper": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 616,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\ServerBag::normalize==>preg_replace": {
+            "ct": 2,
+            "wt": 32,
+            "cpu": 32,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\ServerBag::get==>Spiral\\Http\\Request\\ServerBag::normalize": {
+            "ct": 2,
+            "wt": 41,
+            "cpu": 41,
+            "mu": 1912,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Request\\ServerBag::get==>Spiral\\Http\\Request\\InputBag::get": {
+            "ct": 2,
+            "wt": 1320,
+            "cpu": 1322,
+            "mu": 944,
+            "pmu": 18496
+        },
+        "Spiral\\Http\\Request\\InputManager::__call==>Spiral\\Http\\Request\\ServerBag::get": {
+            "ct": 2,
+            "wt": 1369,
+            "cpu": 1369,
+            "mu": 3504,
+            "pmu": 18496
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Server::getValue==>Spiral\\Filter\\InputScope::getValue": {
+            "ct": 1,
+            "wt": 878,
+            "cpu": 879,
+            "mu": 11632,
+            "pmu": 18496
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Server::getValue": {
+            "ct": 1,
+            "wt": 882,
+            "cpu": 882,
+            "mu": 12960,
+            "pmu": 18496
+        },
+        "Spiral\\Filters\\Attribute\\Input\\Server::getSchema==>Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map==>Spiral\\Filters\\Attribute\\Input\\Server::getSchema": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 1304,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>array_key_last": {
+            "ct": 32,
+            "wt": 12,
+            "cpu": 16,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>class_exists": {
+            "ct": 93,
+            "wt": 27,
+            "cpu": 39,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionClass::__construct": {
+            "ct": 6,
+            "wt": 0,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionClass::implementsInterface": {
+            "ct": 21,
+            "wt": 5,
+            "cpu": 8,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionClass::isSubclassOf": {
+            "ct": 72,
+            "wt": 19,
+            "cpu": 29,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>interface_exists": {
+            "ct": 90,
+            "wt": 21,
+            "cpu": 30,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionClass::isInstantiable": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionClass::getConstructor": {
+            "ct": 3,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 920,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 5,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 3080,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionParameter::isVariadic": {
+            "ct": 5,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionParameter::hasType": {
+            "ct": 10,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionParameter::getName": {
+            "ct": 10,
+            "wt": 3,
+            "cpu": 8,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionParameter::getType": {
+            "ct": 10,
+            "wt": 3,
+            "cpu": 5,
+            "mu": 1624,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionNamedType::isBuiltin": {
+            "ct": 10,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionNamedType::getName": {
+            "ct": 10,
+            "wt": 1,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>array_pop": {
+            "ct": 29,
+            "wt": 7,
+            "cpu": 9,
+            "mu": 344,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionParameter::allowsNull": {
+            "ct": 5,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionMethod::__construct": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>WeakReference::get": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>array_key_last": {
+            "ct": 20,
+            "wt": 6,
+            "cpu": 9,
+            "mu": 584,
+            "pmu": 0
+        },
+        "class_exists==>load::src/QueueManager.php": {
+            "ct": 1,
+            "wt": 139,
+            "cpu": 141,
+            "mu": 15040,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>class_exists": {
+            "ct": 33,
+            "wt": 204,
+            "cpu": 207,
+            "mu": 11016,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::__construct": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::implementsInterface": {
+            "ct": 7,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::isSubclassOf": {
+            "ct": 24,
+            "wt": 4,
+            "cpu": 6,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>interface_exists": {
+            "ct": 30,
+            "wt": 6,
+            "cpu": 9,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::isInstantiable": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::getConstructor": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 712,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 2808,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::isVariadic": {
+            "ct": 9,
+            "wt": 5,
+            "cpu": 7,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::hasType": {
+            "ct": 7,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::getName": {
+            "ct": 13,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::getType": {
+            "ct": 12,
+            "wt": 3,
+            "cpu": 7,
+            "mu": 1848,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionNamedType::isBuiltin": {
+            "ct": 7,
+            "wt": 0,
+            "cpu": 3,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionNamedType::getName": {
+            "ct": 7,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::getName": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>array_pop": {
+            "ct": 17,
+            "wt": 3,
+            "cpu": 2,
+            "mu": 472,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::getConstant": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionClass::isInstance": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::allowsNull": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>WeakReference::get": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>sprintf": {
+            "ct": 16,
+            "wt": 6,
+            "cpu": 8,
+            "mu": 5688,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>str_repeat": {
+            "ct": 11,
+            "wt": 4,
+            "cpu": 6,
+            "mu": 856,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>implode": {
+            "ct": 16,
+            "wt": 8,
+            "cpu": 7,
+            "mu": 4344,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>str_replace": {
+            "ct": 8,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 2248,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionType::__toString": {
+            "ct": 5,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 664,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::isPassedByReference": {
+            "ct": 5,
+            "wt": 0,
+            "cpu": 3,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::isDefaultValueAvailable": {
+            "ct": 6,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ltrim": {
+            "ct": 5,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionFunctionAbstract::isStatic": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>array_push": {
+            "ct": 6,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 944,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>var_export": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 1592,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::getDefaultValue": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>ReflectionParameter::isDefaultValueConstant": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>Exception::__construct": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager==>Spiral\\Queue\\QueueManager::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "ReflectionMethod::invokeArgs==>Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager": {
+            "ct": 1,
+            "wt": 1268,
+            "cpu": 1268,
+            "mu": 37832,
+            "pmu": 75304
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>ReflectionMethod::invokeArgs": {
+            "ct": 3,
+            "wt": 5715,
+            "cpu": 5715,
+            "mu": 211768,
+            "pmu": 145808
+        },
+        "Spiral\\Queue\\QueueManager::getDefaultDriver==>Spiral\\Queue\\Config\\QueueConfig::getDefaultDriver": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::getConnection==>Spiral\\Queue\\QueueManager::getDefaultDriver": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 1248,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::getConnection==>Spiral\\Queue\\Config\\QueueConfig::getAliases": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Config\\QueueConfig::getConnection==>Spiral\\Queue\\Config\\QueueConfig::getConnections": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Spiral\\Queue\\Config\\QueueConfig::getConnection": {
+            "ct": 1,
+            "wt": 7,
+            "cpu": 7,
+            "mu": 1640,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>array_key_last": {
+            "ct": 44,
+            "wt": 11,
+            "cpu": 19,
+            "mu": 568,
+            "pmu": 0
+        },
+        "class_exists==>load::Driver/SyncDriver.php": {
+            "ct": 1,
+            "wt": 59,
+            "cpu": 62,
+            "mu": 26880,
+            "pmu": 0
+        },
+        "class_exists==>load::src/QueueTrait.php": {
+            "ct": 1,
+            "wt": 20,
+            "cpu": 20,
+            "mu": 3376,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>class_exists": {
+            "ct": 66,
+            "wt": 245,
+            "cpu": 255,
+            "mu": 33912,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::__construct": {
+            "ct": 7,
+            "wt": 1,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::isInstantiable": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::getConstructor": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 920,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 9,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 5904,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::isVariadic": {
+            "ct": 16,
+            "wt": 6,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::hasType": {
+            "ct": 18,
+            "wt": 7,
+            "cpu": 8,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::getName": {
+            "ct": 26,
+            "wt": 7,
+            "cpu": 11,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::getType": {
+            "ct": 24,
+            "wt": 5,
+            "cpu": 8,
+            "mu": 3080,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionNamedType::isBuiltin": {
+            "ct": 18,
+            "wt": 5,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionNamedType::getName": {
+            "ct": 18,
+            "wt": 3,
+            "cpu": 7,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::implementsInterface": {
+            "ct": 14,
+            "wt": 1,
+            "cpu": 4,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::isSubclassOf": {
+            "ct": 48,
+            "wt": 10,
+            "cpu": 17,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>interface_exists": {
+            "ct": 60,
+            "wt": 21,
+            "cpu": 19,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>array_pop": {
+            "ct": 38,
+            "wt": 14,
+            "cpu": 21,
+            "mu": 344,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::allowsNull": {
+            "ct": 8,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionMethod::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "class_exists==>load::Consume/Core.php": {
+            "ct": 1,
+            "wt": 59,
+            "cpu": 59,
+            "mu": 10136,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>sprintf": {
+            "ct": 24,
+            "wt": 7,
+            "cpu": 11,
+            "mu": 8232,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>str_repeat": {
+            "ct": 19,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 1096,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>implode": {
+            "ct": 31,
+            "wt": 6,
+            "cpu": 14,
+            "mu": 7000,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>str_replace": {
+            "ct": 16,
+            "wt": 4,
+            "cpu": 8,
+            "mu": 3480,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionType::__toString": {
+            "ct": 6,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 664,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::isPassedByReference": {
+            "ct": 6,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::isDefaultValueAvailable": {
+            "ct": 8,
+            "wt": 6,
+            "cpu": 6,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ltrim": {
+            "ct": 6,
+            "wt": 1,
+            "cpu": 0,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionFunctionAbstract::isStatic": {
+            "ct": 5,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>array_push": {
+            "ct": 11,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 1640,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>var_export": {
+            "ct": 5,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 1848,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::getDefaultValue": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionParameter::isDefaultValueConstant": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Exception::__construct": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Spiral\\Queue\\Interceptor\\Consume\\Core::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::getName": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::getConstant": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionClass::isInstance": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>WeakReference::get": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>Spiral\\Core\\InterceptableCore::__construct": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 712,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>Spiral\\Queue\\Config\\QueueConfig::getConsumeInterceptors": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>array_key_last": {
+            "ct": 16,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "class_exists==>load::Consume/ErrorHandlerInterceptor.php": {
+            "ct": 1,
+            "wt": 51,
+            "cpu": 52,
+            "mu": 6744,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>class_exists": {
+            "ct": 62,
+            "wt": 173,
+            "cpu": 182,
+            "mu": 9312,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionClass::__construct": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionClass::implementsInterface": {
+            "ct": 14,
+            "wt": 2,
+            "cpu": 6,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionClass::isSubclassOf": {
+            "ct": 48,
+            "wt": 10,
+            "cpu": 15,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>interface_exists": {
+            "ct": 60,
+            "wt": 14,
+            "cpu": 21,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionClass::isInstantiable": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionClass::getConstructor": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 808,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionFunctionAbstract::getParameters": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 1592,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionParameter::isVariadic": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionParameter::hasType": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionParameter::getName": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionParameter::getType": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 1000,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionNamedType::isBuiltin": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionNamedType::getName": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "class_exists==>load::Failed/LogFailedJobHandler.php": {
+            "ct": 1,
+            "wt": 26,
+            "cpu": 26,
+            "mu": 4616,
+            "pmu": 0
+        },
+        "class_exists==>load::Failed/FailedJobHandlerInterface.php": {
+            "ct": 1,
+            "wt": 11,
+            "cpu": 12,
+            "mu": 2976,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>array_pop": {
+            "ct": 14,
+            "wt": 1,
+            "cpu": 7,
+            "mu": 472,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>ReflectionParameter::allowsNull": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>Spiral\\Queue\\Failed\\LogFailedJobHandler::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>Spiral\\Queue\\Interceptor\\Consume\\ErrorHandlerInterceptor::__construct": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>Spiral\\Core\\InterceptableCore::addInterceptor": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 976,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>strtr": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 648,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>strrpos": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>substr": {
+            "ct": 4,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 784,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>file_exists": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>load::Consume/Handler.php": {
+            "ct": 1,
+            "wt": 50,
+            "cpu": 50,
+            "mu": 9160,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler==>Spiral\\Queue\\Interceptor\\Consume\\Handler::__construct": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 632,
+            "pmu": 0
+        },
+        "ReflectionMethod::invokeArgs@1==>Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler": {
+            "ct": 1,
+            "wt": 524,
+            "cpu": 524,
+            "mu": 33768,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>ReflectionMethod::invokeArgs@1": {
+            "ct": 1,
+            "wt": 527,
+            "cpu": 527,
+            "mu": 34416,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Spiral\\Queue\\Driver\\SyncDriver::__construct": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>strtr": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 664,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>strrpos": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>substr": {
+            "ct": 6,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 840,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>file_exists": {
+            "ct": 2,
+            "wt": 7,
+            "cpu": 7,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>load::Push/Core.php": {
+            "ct": 1,
+            "wt": 59,
+            "cpu": 61,
+            "mu": 11704,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Spiral\\Queue\\Interceptor\\Push\\Core::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Spiral\\Core\\InterceptableCore::__construct": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 712,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Spiral\\Queue\\Config\\QueueConfig::getPushInterceptors": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>load::src/Queue.php": {
+            "ct": 1,
+            "wt": 21,
+            "cpu": 23,
+            "mu": 4984,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::resolveConnection==>Spiral\\Queue\\Queue::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Spiral\\Queue\\QueueManager::getConnection==>Spiral\\Queue\\QueueManager::resolveConnection": {
+            "ct": 1,
+            "wt": 3646,
+            "cpu": 3647,
+            "mu": 112272,
+            "pmu": 70504
+        },
+        "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueue==>Spiral\\Queue\\QueueManager::getConnection": {
+            "ct": 1,
+            "wt": 3656,
+            "cpu": 3656,
+            "mu": 114896,
+            "pmu": 70504
+        },
+        "ReflectionMethod::invokeArgs==>Spiral\\Queue\\Bootloader\\QueueBootloader::initQueue": {
+            "ct": 1,
+            "wt": 3658,
+            "cpu": 3658,
+            "mu": 115544,
+            "pmu": 70504
+        },
+        "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}==>App\\Controller\\HomeController::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 600,
+            "pmu": 0
+        },
+        "App\\Controller\\HomeController::__get==>array_key_last": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "App\\Controller\\HomeController::__get==>array_pop": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Spiral\\Prototype\\PrototypeRegistry::resolveProperty==>Spiral\\Prototype\\ClassNode\\Type::name": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Spiral\\Prototype\\PrototypeRegistry::resolveProperty==>array_key_last": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Spiral\\Prototype\\PrototypeRegistry::resolveProperty==>array_pop": {
+            "ct": 2,
+            "wt": 1,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "App\\Controller\\HomeController::__get==>Spiral\\Prototype\\PrototypeRegistry::resolveProperty": {
+            "ct": 1,
+            "wt": 15,
+            "cpu": 15,
+            "mu": 2528,
+            "pmu": 0
+        },
+        "App\\Controller\\HomeController::__get==>Spiral\\Prototype\\ClassNode\\Type::name": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 584,
+            "pmu": 0
+        },
+        "App\\Controller\\HomeController::index==>App\\Controller\\HomeController::__get": {
+            "ct": 1,
+            "wt": 40,
+            "cpu": 40,
+            "mu": 5056,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>Monolog\\Handler\\AbstractHandler::isHandling": {
+            "ct": 2,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>Monolog\\Logger::getLevelName": {
+            "ct": 2,
+            "wt": 5,
+            "cpu": 5,
+            "mu": 584,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>strtr": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 592,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>strrpos": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 536,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>substr": {
+            "ct": 2,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 616,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>file_exists": {
+            "ct": 1,
+            "wt": 6,
+            "cpu": 7,
+            "mu": 536,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>load::Monolog/DateTimeImmutable.php": {
+            "ct": 1,
+            "wt": 30,
+            "cpu": 31,
+            "mu": 6512,
+            "pmu": 0
+        },
+        "Monolog\\DateTimeImmutable::__construct==>DateTimeImmutable::__construct": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 832,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>Monolog\\DateTimeImmutable::__construct": {
+            "ct": 2,
+            "wt": 10,
+            "cpu": 11,
+            "mu": 1728,
+            "pmu": 0
+        },
+        "Monolog\\Processor\\PsrLogMessageProcessor::__invoke==>strpos": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>Monolog\\Processor\\PsrLogMessageProcessor::__invoke": {
+            "ct": 2,
+            "wt": 6,
+            "cpu": 7,
+            "mu": 1216,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\AbstractProcessingHandler::handle==>Monolog\\Handler\\AbstractHandler::isHandling": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 600,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\AbstractProcessingHandler::handle==>Monolog\\Handler\\AbstractProcessingHandler::getFormatter": {
+            "ct": 2,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 632,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize==>is_scalar": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize==>is_array": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@1==>is_scalar": {
+            "ct": 7,
+            "wt": 1,
+            "cpu": 5,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@1==>is_float": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize==>Monolog\\Formatter\\NormalizerFormatter::normalize@1": {
+            "ct": 8,
+            "wt": 56,
+            "cpu": 58,
+            "mu": 14304,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@1==>is_array": {
+            "ct": 3,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>is_scalar": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>is_array": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>is_object": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>method_exists": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Utils::jsonEncode==>json_encode": {
+            "ct": 2,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 1048,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::toJson==>Monolog\\Utils::jsonEncode": {
+            "ct": 2,
+            "wt": 8,
+            "cpu": 9,
+            "mu": 1696,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>Monolog\\Formatter\\NormalizerFormatter::toJson": {
+            "ct": 1,
+            "wt": 9,
+            "cpu": 9,
+            "mu": 2104,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>json_decode": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 1776,
+            "pmu": 0
+        },
+        "Monolog\\Utils::getClass==>strpos": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 536,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>Monolog\\Utils::getClass": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 3,
+            "mu": 1184,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@1==>Monolog\\Formatter\\NormalizerFormatter::normalize@2": {
+            "ct": 4,
+            "wt": 35,
+            "cpu": 35,
+            "mu": 9544,
+            "pmu": 0
+        },
+        "Monolog\\DateTimeImmutable::jsonSerialize==>DateTimeImmutable::format": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 824,
+            "pmu": 0
+        },
+        "Monolog\\DateTimeImmutable::__toString==>Monolog\\DateTimeImmutable::jsonSerialize": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 1472,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::formatDate==>Monolog\\DateTimeImmutable::__toString": {
+            "ct": 1,
+            "wt": 5,
+            "cpu": 6,
+            "mu": 2136,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@1==>Monolog\\Formatter\\NormalizerFormatter::formatDate": {
+            "ct": 1,
+            "wt": 8,
+            "cpu": 8,
+            "mu": 2800,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::format==>Monolog\\Formatter\\NormalizerFormatter::normalize": {
+            "ct": 1,
+            "wt": 66,
+            "cpu": 68,
+            "mu": 16608,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::format==>Monolog\\Formatter\\NormalizerFormatter::format": {
+            "ct": 1,
+            "wt": 69,
+            "cpu": 69,
+            "mu": 17256,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::format==>strpos": {
+            "ct": 9,
+            "wt": 1,
+            "cpu": 2,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::convertToString==>is_bool": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 3,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::convertToString==>is_scalar": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 0,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::stringify==>Monolog\\Formatter\\LineFormatter::convertToString": {
+            "ct": 4,
+            "wt": 14,
+            "cpu": 15,
+            "mu": 2784,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::replaceNewlines==>str_replace": {
+            "ct": 4,
+            "wt": 0,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::stringify==>Monolog\\Formatter\\LineFormatter::replaceNewlines": {
+            "ct": 4,
+            "wt": 7,
+            "cpu": 8,
+            "mu": 1232,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::format==>Monolog\\Formatter\\LineFormatter::stringify": {
+            "ct": 4,
+            "wt": 28,
+            "cpu": 29,
+            "mu": 4728,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::format==>str_replace": {
+            "ct": 4,
+            "wt": 1,
+            "cpu": 3,
+            "mu": 1464,
+            "pmu": 0
+        },
+        "Monolog\\Formatter\\LineFormatter::convertToString==>Monolog\\Formatter\\NormalizerFormatter::toJson": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 3,
+            "mu": 856,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\AbstractProcessingHandler::handle==>Monolog\\Formatter\\LineFormatter::format": {
+            "ct": 1,
+            "wt": 120,
+            "cpu": 122,
+            "mu": 24008,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\RotatingFileHandler::write==>file_exists": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>is_resource": {
+            "ct": 3,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::getDirFromStream==>strpos": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::getDirFromStream==>dirname": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 664,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::createDir==>Monolog\\Handler\\StreamHandler::getDirFromStream": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 5,
+            "mu": 1960,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::createDir==>is_dir": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>Monolog\\Handler\\StreamHandler::createDir": {
+            "ct": 1,
+            "wt": 10,
+            "cpu": 10,
+            "mu": 3224,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>set_error_handler": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>fopen": {
+            "ct": 1,
+            "wt": 9,
+            "cpu": 9,
+            "mu": 1080,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>restore_error_handler": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 192,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>stream_set_chunk_size": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>flock": {
+            "ct": 2,
+            "wt": 390,
+            "cpu": 394,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::streamWrite==>fwrite": {
+            "ct": 1,
+            "wt": 45,
+            "cpu": 47,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\StreamHandler::write==>Monolog\\Handler\\StreamHandler::streamWrite": {
+            "ct": 1,
+            "wt": 53,
+            "cpu": 54,
+            "mu": 1200,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\RotatingFileHandler::write==>Monolog\\Handler\\StreamHandler::write": {
+            "ct": 1,
+            "wt": 495,
+            "cpu": 495,
+            "mu": 9408,
+            "pmu": 0
+        },
+        "Monolog\\Handler\\AbstractProcessingHandler::handle==>Monolog\\Handler\\RotatingFileHandler::write": {
+            "ct": 1,
+            "wt": 506,
+            "cpu": 506,
+            "mu": 14800,
+            "pmu": 0
+        },
+        "Monolog\\Logger::addRecord==>Monolog\\Handler\\AbstractProcessingHandler::handle": {
+            "ct": 1,
+            "wt": 639,
+            "cpu": 639,
+            "mu": 38664,
+            "pmu": 0
+        },
+        "Monolog\\Logger::info==>Monolog\\Logger::addRecord": {
+            "ct": 1,
+            "wt": 725,
+            "cpu": 726,
+            "mu": 51000,
+            "pmu": 0
+        },
+        "App\\Controller\\HomeController::index==>Monolog\\Logger::info": {
+            "ct": 1,
+            "wt": 730,
+            "cpu": 730,
+            "mu": 50928,
+            "pmu": 0
+        },
+        "App\\Controller\\HomeController::index==>json_encode": {
+            "ct": 2,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 1064,
+            "pmu": 0
+        },
+        "ReflectionMethod::invokeArgs==>App\\Controller\\HomeController::index": {
+            "ct": 1,
+            "wt": 781,
+            "cpu": 782,
+            "mu": 57616,
+            "pmu": 0
+        },
+        "Spiral\\Core\\AbstractCore::callAction==>Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}": {
+            "ct": 1,
+            "wt": 6230,
+            "cpu": 6230,
+            "mu": 221080,
+            "pmu": 145808
+        },
+        "Spiral\\Core\\InterceptorPipeline::callAction@1==>Spiral\\Core\\AbstractCore::callAction": {
+            "ct": 1,
+            "wt": 55757,
+            "cpu": 55758,
+            "mu": 592416,
+            "pmu": 704112
+        },
+        "Spiral\\Filters\\Interceptor\\FilterInterceptor::process==>Spiral\\Core\\InterceptorPipeline::callAction@1": {
+            "ct": 1,
+            "wt": 55761,
+            "cpu": 55761,
+            "mu": 588840,
+            "pmu": 704112
+        },
+        "Spiral\\Core\\InterceptorPipeline::callAction==>Spiral\\Filters\\Interceptor\\FilterInterceptor::process": {
+            "ct": 1,
+            "wt": 55788,
+            "cpu": 55788,
+            "mu": 596920,
+            "pmu": 704112
+        },
+        "Spiral\\Core\\InterceptableCore::callAction==>Spiral\\Core\\InterceptorPipeline::callAction": {
+            "ct": 1,
+            "wt": 55791,
+            "cpu": 55792,
+            "mu": 597568,
+            "pmu": 704112
+        },
+        "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}@1==>Spiral\\Core\\InterceptableCore::callAction": {
+            "ct": 1,
+            "wt": 55796,
+            "cpu": 55796,
+            "mu": 598504,
+            "pmu": 704112
+        },
+        "ReflectionFunction::invokeArgs@1==>Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}@1": {
+            "ct": 1,
+            "wt": 55799,
+            "cpu": 55800,
+            "mu": 599152,
+            "pmu": 704112
+        },
+        "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}==>ReflectionFunction::invokeArgs@1": {
+            "ct": 1,
+            "wt": 55803,
+            "cpu": 55803,
+            "mu": 599800,
+            "pmu": 704112
+        },
+        "Spiral\\Router\\CoreHandler::handle==>Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}": {
+            "ct": 1,
+            "wt": 55831,
+            "cpu": 55831,
+            "mu": 602648,
+            "pmu": 704112
+        },
+        "Spiral\\Router\\CoreHandler::handle==>ob_get_clean": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": -15928,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::getBody==>strtr": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 648,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::getBody==>strrpos": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 536,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::getBody==>substr": {
+            "ct": 4,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 712,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::getBody==>file_exists": {
+            "ct": 3,
+            "wt": 18,
+            "cpu": 19,
+            "mu": 552,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::getBody==>load::src/Stream.php": {
+            "ct": 1,
+            "wt": 269,
+            "cpu": 270,
+            "mu": 43088,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::getBody==>load::src/StreamInterface.php": {
+            "ct": 1,
+            "wt": 41,
+            "cpu": 42,
+            "mu": 18136,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Stream::create==>fopen": {
+            "ct": 1,
+            "wt": 4,
+            "cpu": 4,
+            "mu": 1136,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Stream::create==>fwrite": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 536,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Stream::create==>Nyholm\\Psr7\\Stream::__construct": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Stream::create==>stream_get_meta_data": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 1288,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Stream::create==>fseek": {
+            "ct": 1,
+            "wt": 1,
+            "cpu": 1,
+            "mu": 536,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Response::getBody==>Nyholm\\Psr7\\Stream::create": {
+            "ct": 1,
+            "wt": 20,
+            "cpu": 20,
+            "mu": 5112,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::wrapResponse==>Nyholm\\Psr7\\Response::getBody": {
+            "ct": 2,
+            "wt": 403,
+            "cpu": 404,
+            "mu": 49656,
+            "pmu": 0
+        },
+        "Nyholm\\Psr7\\Stream::write==>fwrite": {
+            "ct": 2,
+            "wt": 2,
+            "cpu": 2,
+            "mu": 856,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::wrapResponse==>Nyholm\\Psr7\\Stream::write": {
+            "ct": 2,
+            "wt": 7,
+            "cpu": 8,
+            "mu": 1488,
+            "pmu": 0
+        },
+        "Spiral\\Router\\CoreHandler::handle==>Spiral\\Router\\CoreHandler::wrapResponse": {
+            "ct": 1,
+            "wt": 420,
+            "cpu": 420,
+            "mu": 51856,
+            "pmu": 0
+        },
+        "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}@1==>Spiral\\Router\\CoreHandler::handle": {
+            "ct": 1,
+            "wt": 56445,
+            "cpu": 56445,
+            "mu": 689896,
+            "pmu": 704112
+        },
+        "Spiral\\Http\\Pipeline::process==>Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}@1": {
+            "ct": 1,
+            "wt": 56449,
+            "cpu": 56449,
+            "mu": 690224,
+            "pmu": 704112
+        },
+        "Spiral\\Router\\Route::handle==>Spiral\\Http\\Pipeline::process": {
+            "ct": 1,
+            "wt": 56464,
+            "cpu": 56465,
+            "mu": 690856,
+            "pmu": 704112
+        },
+        "Spiral\\Router\\Router::Spiral\\Router\\{closure}==>Spiral\\Router\\Route::handle": {
+            "ct": 1,
+            "wt": 58358,
+            "cpu": 58358,
+            "mu": 825912,
+            "pmu": 834608
+        },
+        "ReflectionFunction::invokeArgs==>Spiral\\Router\\Router::Spiral\\Router\\{closure}": {
+            "ct": 1,
+            "wt": 58623,
+            "cpu": 58624,
+            "mu": 853784,
+            "pmu": 834608
+        },
+        "Spiral\\Router\\Router::handle==>ReflectionFunction::invokeArgs": {
+            "ct": 1,
+            "wt": 58627,
+            "cpu": 58626,
+            "mu": 853056,
+            "pmu": 834608
+        },
+        "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}==>Spiral\\Router\\Router::handle": {
+            "ct": 1,
+            "wt": 58679,
+            "cpu": 58679,
+            "mu": 860480,
+            "pmu": 834608
+        },
+        "main()==>Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}": {
+            "ct": 1,
+            "wt": 58683,
+            "cpu": 58683,
+            "mu": 861096,
+            "pmu": 834608
+        },
+        "SpiralPackages\\Profiler\\Driver\\XhprofDriver::end==>xhprof_disable": {
+            "ct": 1,
+            "wt": 0,
+            "cpu": 1,
+            "mu": 568,
+            "pmu": 0
+        },
+        "SpiralPackages\\Profiler\\Profiler::end==>SpiralPackages\\Profiler\\Driver\\XhprofDriver::end": {
+            "ct": 1,
+            "wt": 2,
+            "cpu": 4,
+            "mu": 1232,
+            "pmu": 0
+        },
+        "main()==>SpiralPackages\\Profiler\\Profiler::end": {
+            "ct": 1,
+            "wt": 5,
+            "cpu": 6,
+            "mu": 1848,
+            "pmu": 0
+        },
+        "main()": {
+            "ct": 1,
+            "wt": 58705,
+            "cpu": 58703,
+            "mu": 862760,
+            "pmu": 834608
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@2==>Monolog\\Formatter\\NormalizerFormatter::normalize@3": {
+            "ct": 713,
+            "wt": 6870,
+            "cpu": 6983,
+            "mu": 268976,
+            "pmu": 101968
+        },
+        "Monolog\\Formatter\\NormalizerFormatter::normalize@3==>Monolog\\Formatter\\NormalizerFormatter::normalize@4": {
+            "ct": 3565,
+            "wt": 2884,
+            "cpu": 3597,
+            "mu": 600,
+            "pmu": 8768
+        }
+    }
+}

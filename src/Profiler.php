@@ -18,17 +18,28 @@ final class Profiler
     }
 
     /**
+     * Start application profiling.
+     *
      * @param non-empty-string[] $ignoredFunctions
      */
     public function start(array $ignoredFunctions = []): void
     {
-        \register_shutdown_function([$this, 'end']);
-
         $this->driver->start([
             self::IGNORED_FUNCTIONS_KEY => $ignoredFunctions,
         ]);
     }
 
+    /**
+     * Finish application profiling and send trace to the storage.
+     *
+     * @return array<non-empty-string, array{
+     *     ct: int,
+     *     wt: int,
+     *     cpu: int,
+     *     mu: int,
+     *     pmu: int
+     * }>
+     */
     public function end(): array
     {
         $result = $this->driver->end();

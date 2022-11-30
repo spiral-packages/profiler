@@ -9,11 +9,10 @@ final class NullDriver implements DriverInterface
 
     public function start(array $context = []): void
     {
-
     }
 
     public function end(): array
     {
-
+        return [];
     }
 }
