@@ -95,7 +95,7 @@ use SpiralPackages\Profiler\DriverFactory;
 
 $driver = new XHProfDriver();
 // or
-$driver = DriverFactory::createTidyWaysDriver();
+$driver = DriverFactory::createXhrofDriver();
 ```
 
 #### Tideways driver
