@@ -32,6 +32,131 @@ composer require spiral-packages/profiler
 
 ## Usage
 
+### Storage
+
+#### Log storage
+
+```php
+use Monolog\Logger;
+use SpiralPackages\Profiler\Storage\LogStorage;
+
+$logStorage = new LogStorage(new Logger('profiler'));
+```
+
+#### Null storage
+
+```php
+use SpiralPackages\Profiler\Storage\NullStorage;
+$logStorage = new NullStorage();
+```
+
+#### Custom driver
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace App;
+
+use GuzzleHttp\Client;
+use SpiralPackages\Profiler\Converter\ConverterInterface;
+use SpiralPackages\Profiler\Converter\NullConverter;
+
+final class MyStorage implements StorageInterface
+{
+    public function __construct(
+        private readonly Client $client,
+        private readonly ConverterInterface $converter = new NullConverter(),
+    ) {
+    }
+
+    public function store(string $appName, array $tags, \DateTimeInterface $date, array $data): void
+    {
+        $this->client->post('http://example.com/trace', [
+            'json' => [
+                'appName' => $appName,
+                'tags' => $tags,
+                'date' => $date->format('Y-m-d H:i:s'),
+                'data' => $this->converter->convert($data),
+            ],
+        ]);
+    }
+}
+```
+
+### Driver
+
+#### XHProf driver
+
+```php
+use SpiralPackages\Profiler\Driver\XHProfDriver;
+use SpiralPackages\Profiler\DriverFactory;
+
+$driver = new XHProfDriver();
+// or
+$driver = DriverFactory::createTidyWaysDriver();
+```
+
+#### Tideways driver
+
+```php
+use SpiralPackages\Profiler\Driver\TidyWaysDriver;
+use SpiralPackages\Profiler\DriverFactory;
+
+$driver = new TidyWaysDriver();
+// or
+$driver = DriverFactory::createTidyWaysDriver();
+```
+
+#### UProfiler driver
+
+```php
+use SpiralPackages\Profiler\Driver\UProfilerDriver;
+use SpiralPackages\Profiler\DriverFactory;
+
+$driver = new UProfilerDriver();
+// or
+$driver = DriverFactory::createUprofilerDriver();
+```
+
+#### Auto detect driver
+
+```php
+use SpiralPackages\Profiler\DriverFactory;
+
+$driver = DriverFactory::detect();
+```
+
+#### Custom driver
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace App;
+
+final class MyDriver implements DriverInterface
+{
+
+    public function start(array $context = []): void
+    {
+        // start profiling
+    }
+
+    public function end(): array
+    {
+        // end profiling
+        $data = ...;
+
+        return $data;
+    }
+}
+```
+
+### Example of usage
+
 ```php
 use SpiralPackages\Profiler\DriverFactory;
 use SpiralPackages\Profiler\Profiler;
@@ -54,7 +179,7 @@ class ProfilerMiddleware implements MiddlewareInterface
             storage: new LogStorage($this->logger),
             driver: DriverFactory::detect(),
             appName: 'my-app',
-            tags: ['request']
+            tags: ['http.request', (string) $request->getUri()]
         );
 
         $profiler->start();

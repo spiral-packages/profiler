@@ -5,6 +5,15 @@ namespace SpiralPackages\Profiler;
 use SpiralPackages\Profiler\Driver\DriverInterface;
 use SpiralPackages\Profiler\Storage\StorageInterface;
 
+/**
+ * @psalm-type TTrace = array<non-empty-string, array{
+ *     ct: int,
+ *     wt: int,
+ *     cpu: int,
+ *     mu: int,
+ *     pmu: int
+ * }>
+ */
 final class Profiler
 {
     public const IGNORED_FUNCTIONS_KEY = 'ignored_functions';
@@ -32,13 +41,7 @@ final class Profiler
     /**
      * Finish application profiling and send trace to the storage.
      *
-     * @return array<non-empty-string, array{
-     *     ct: int,
-     *     wt: int,
-     *     cpu: int,
-     *     mu: int,
-     *     pmu: int
-     * }>
+     * @return TTrace
      */
     public function end(): array
     {

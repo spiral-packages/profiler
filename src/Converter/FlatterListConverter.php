@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace SpiralPackages\Profiler\Converter;
 
-final class FlatterListConverter
+final class FlatterListConverter implements ConverterInterface
 {
     /** @const Key used for methods with no parent */
     private const NO_PARENT = '__top__';
