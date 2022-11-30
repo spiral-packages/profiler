@@ -18,6 +18,10 @@ final class Profiler
 {
     public const IGNORED_FUNCTIONS_KEY = 'ignored_functions';
 
+    /**\
+     * @param non-empty-string $appName
+     * @param non-empty-string[] $tags
+     */
     public function __construct(
         private readonly StorageInterface $storage,
         private readonly DriverInterface $driver,

@@ -8,6 +8,7 @@ use SpiralPackages\Profiler\Profiler;
 
 final class UprofilerDriver implements DriverInterface
 {
+    /** @psalm-suppress UndefinedConstant */
     private const DEFAULT_FLAGS = UPROFILER_FLAGS_CPU | UPROFILER_FLAGS_MEMORY;
 
     public function start(array $context = [], int $flags = self::DEFAULT_FLAGS): void
@@ -17,11 +18,13 @@ final class UprofilerDriver implements DriverInterface
             $options['ignored_functions'] = $context[Profiler::IGNORED_FUNCTIONS_KEY];
         }
 
+        /** @psalm-suppress UndefinedFunction */
         \uprofiler_enable($flags, $options);
     }
 
     public function end(): array
     {
+        /** @psalm-suppress UndefinedFunction */
         return \uprofiler_disable();
     }
 }

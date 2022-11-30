@@ -4,9 +4,12 @@ declare(strict_types=1);
 
 namespace SpiralPackages\Profiler\Driver;
 
+/**
+ * @psalm-import-type TTrace from \SpiralPackages\Profiler\Profiler
+ */
 final class XhprofSampleDriver implements DriverInterface
 {
-    private int $startTime = 0;
+    private float $startTime = 0.0;
 
     public function __construct()
     {
@@ -22,14 +25,20 @@ final class XhprofSampleDriver implements DriverInterface
     public function start(array $context = []): void
     {
         $this->startTime = \microtime(true);
+        /** @psalm-suppress UndefinedFunction */
         \xhprof_sample_enable();
     }
 
     public function end(): array
     {
+        /** @psalm-suppress UndefinedFunction */
         return $this->convertData(\xhprof_sample_disable());
     }
 
+    /**
+     * @param array<int, non-empty-string> $data
+     * @return TTrace
+     */
     private function convertData(array $data): array
     {
         $resultData = [];
@@ -43,6 +52,9 @@ final class XhprofSampleDriver implements DriverInterface
                 $resultData[$mainKey] = [
                     'ct' => 0,
                     'wt' => 0,
+                    'cpu' => 0,
+                    'mu' => 0,
+                    'pmu' => 0,
                 ];
             }
             $resultData[$mainKey]['ct']++;
@@ -56,6 +68,9 @@ final class XhprofSampleDriver implements DriverInterface
                     $resultData[$key] = [
                         'ct' => 0,
                         'wt' => 0,
+                        'cpu' => 0,
+                        'mu' => 0,
+                        'pmu' => 0,
                     ];
                 }
 
