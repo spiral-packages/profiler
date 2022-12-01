@@ -14,9 +14,9 @@ class TestCase extends \PHPUnit\Framework\TestCase
         return \json_decode(\file_get_contents(__DIR__ . '/fixture/trace.json'), true)['data'];
     }
 
-    public function getFlatterList(): FlatterList
+    public function getFlatterList(string $version = 'v1'): FlatterList
     {
-        $data = \json_decode(\file_get_contents(__DIR__ . '/fixture/flater_list.json'), true);
+        $data = \json_decode(\file_get_contents(__DIR__ . "/fixture/flater_list.{$version}.json"), true);
 
         return new FlatterList(
             ['ct', 'wt', 'cpu', 'mu', 'pmu'],

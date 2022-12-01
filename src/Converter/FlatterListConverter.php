@@ -33,7 +33,7 @@ final class FlatterListConverter implements ConverterInterface
                 $result[$func]['parents'][] = $parent;
             } else {
                 $result[$func] = $values;
-                $result[$func]['parents'] = [$parent];
+                $result[$func]['c'] = [$parent];
             }
 
             // Build the indexed data.

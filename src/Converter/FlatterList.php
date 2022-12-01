@@ -18,32 +18,53 @@ final class FlatterList implements \JsonSerializable
 {
     /** @const Key used for methods with no parent */
     private const NO_PARENT = '__top__';
+    private readonly array $indexed;
+    private bool $withExclusive;
 
     public function __construct(
         private readonly array $keys,
-        private array $data,
-        private readonly array $indexed
+        private array $data
     ) {
+        $this->withExclusive = false;
+        $this->indexData();
+    }
+
+    public function diff(self $head): Diff
+    {
+        return new Diff($this, $head);
+    }
+
+    public function getKeys(): array
+    {
+        $keys = $this->keys;
+
+        if ($this->withExclusive) {
+            $keys = \array_merge($keys, ['ewt', 'ecpu', 'emu', 'epmu', 'ect']);
+        }
+
+        return $keys;
     }
 
     public function callGraph(string $metric = 'wt', float $threshold = 0.01): CallGraph
     {
-        $valid = $this->keys;
+        $valid = $this->getKeys();
         if (!\in_array($metric, $valid)) {
             throw new \InvalidArgumentException("Unknown metric '$metric'. Cannot generate callgraph.");
         }
 
         return new CallGraph(
-            $this->calculateSelf()->data,
+            $this->getData(),
             $this->indexed,
             $metric,
             $threshold
         );
     }
 
-    private function calculateSelf(): self
+    public function withExclusiveValues(): self
     {
         $self = clone $this;
+        $self->withExclusive = true;
+
         // Init exclusive values
         foreach ($self->data as &$data) {
             $data['ewt'] = $data['wt'];
@@ -112,5 +133,20 @@ final class FlatterList implements \JsonSerializable
     public function getData(): array
     {
         return $this->data;
+    }
+
+    private function indexData(): void
+    {
+        $indexed = [];
+
+        foreach ($this->data as $key => $data) {
+            $parents = $data['parents'] ?? [];
+            unset($data['parents']);
+            foreach ($parents as $parent) {
+                $indexed[$parent][$key] = $data;
+            }
+        }
+
+        $this->indexed = $indexed;
     }
 }
