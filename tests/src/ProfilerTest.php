@@ -30,7 +30,7 @@ class ProfilerTest extends TestCase
     public function testStart(): void
     {
         $this->driver->shouldReceive('start')->once()->with([
-            Profiler::IGNORED_FUNCTIONS_KEY => [],
+            Profiler::IGNORED_FUNCTIONS_KEY => ['SpiralPackages\Profiler\Profiler::end'],
         ]);
 
         $this->profiler->start();
@@ -39,7 +39,7 @@ class ProfilerTest extends TestCase
     public function testStartWithIgnoredFunctions(): void
     {
         $this->driver->shouldReceive('start')->once()->with([
-            Profiler::IGNORED_FUNCTIONS_KEY => ['array_map', 'array_keys'],
+            Profiler::IGNORED_FUNCTIONS_KEY => ['array_map', 'array_keys', 'SpiralPackages\Profiler\Profiler::end',],
         ]);
 
         $this->profiler->start(['array_map', 'array_keys']);

@@ -37,7 +37,7 @@ final class CallGraph implements \JsonSerializable
         return $this->data;
     }
 
-    private function callgraphData(string $parentName, $main, $metric, $threshold, $parentIndex = null): void
+    private function callgraphData(string $parentName, int $main, string $metric, float $threshold, ?int $parentIndex = null): void
     {
         // Leaves don't have children, and don't have links/nodes to add.
         if (!isset($this->indexed[$parentName])) {

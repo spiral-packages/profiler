@@ -20,8 +20,8 @@ class TestCase extends \PHPUnit\Framework\TestCase
 
         return new FlatterList(
             ['ct', 'wt', 'cpu', 'mu', 'pmu'],
-            $data['data'],
-            $data['indexed']
+            $data[0],
+            $data[1]
         );
     }
 }

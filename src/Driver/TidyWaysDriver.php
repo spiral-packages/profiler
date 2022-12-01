@@ -13,9 +13,15 @@ final class TidyWaysDriver implements DriverInterface
 
     public function start(array $context = [], int $flags = self::DEFAULT_FLAGS): void
     {
-        $options = [];
+        $options = [
+            'ignored_functions' => ['tideways_xhprof_disable', 'SpiralPackages\Profiler\Driver\TidyWaysDriver::end'],
+        ];
+
         if (isset($context[Profiler::IGNORED_FUNCTIONS_KEY])) {
-            $options['ignored_functions'] = $context[Profiler::IGNORED_FUNCTIONS_KEY];
+            $options['ignored_functions'] = \array_merge(
+                $options['ignored_functions'],
+                $context[Profiler::IGNORED_FUNCTIONS_KEY]
+            );
         }
 
         /** @psalm-suppress UndefinedFunction */

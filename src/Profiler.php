@@ -37,6 +37,11 @@ final class Profiler
      */
     public function start(array $ignoredFunctions = []): void
     {
+        $ignoredFunctions = \array_merge(
+            $ignoredFunctions,
+            ['SpiralPackages\Profiler\Profiler::end']
+        );
+
         $this->driver->start([
             self::IGNORED_FUNCTIONS_KEY => $ignoredFunctions,
         ]);

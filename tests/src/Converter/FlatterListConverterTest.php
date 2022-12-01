@@ -16,10 +16,10 @@ final class FlatterListConverterTest extends TestCase
         $trace = $converter->convert($this->getTrace())->getData();
         $this->assertSame([
             'ct' => 1,
-            'wt' => 58705,
-            'cpu' => 58703,
-            'mu' => 862760,
-            'pmu' => 834608,
+            'wt' => 121942,
+            'cpu' => 121982,
+            'mu' => 925088,
+            'pmu' => 836240,
             'parents' => [
                 null
             ]
@@ -27,10 +27,10 @@ final class FlatterListConverterTest extends TestCase
 
         $this->assertSame([
             'ct' => 1,
-            'wt' => 58679,
-            'cpu' => 58679,
-            'mu' => 860480,
-            'pmu' => 834608,
+            'wt' => 121899,
+            'cpu' => 121943,
+            'mu' => 924720,
+            'pmu' => 836240,
             'parents' => [
                 'Spiral\Http\Pipeline::Spiral\Http\{closure}'
             ]

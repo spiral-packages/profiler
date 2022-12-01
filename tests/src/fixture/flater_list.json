@@ -1,9 +1,9 @@
-{
-    "data": {
+[
+    {
         "ReflectionFunction::__construct": {
             "ct": 2,
-            "wt": 1,
-            "cpu": 6,
+            "wt": 2,
+            "cpu": 10,
             "mu": 1472,
             "pmu": 0,
             "parents": [
@@ -13,10 +13,10 @@
         },
         "ReflectionFunctionAbstract::getParameters": {
             "ct": 34,
-            "wt": 17,
-            "cpu": 26,
+            "wt": 40,
+            "cpu": 61,
             "mu": 26992,
-            "pmu": 0,
+            "pmu": 1176,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -35,10 +35,10 @@
         },
         "ReflectionParameter::isVariadic": {
             "ct": 54,
-            "wt": 18,
-            "cpu": 23,
+            "wt": 36,
+            "cpu": 52,
             "mu": 6440,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -55,10 +55,10 @@
         },
         "ReflectionParameter::hasType": {
             "ct": 80,
-            "wt": 26,
-            "cpu": 34,
+            "wt": 41,
+            "cpu": 74,
             "mu": 6440,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -75,10 +75,10 @@
         },
         "ReflectionParameter::getName": {
             "ct": 96,
-            "wt": 24,
-            "cpu": 40,
+            "wt": 60,
+            "cpu": 92,
             "mu": 6440,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -95,10 +95,10 @@
         },
         "ReflectionParameter::getType": {
             "ct": 93,
-            "wt": 33,
-            "cpu": 51,
-            "mu": 22344,
-            "pmu": 0,
+            "wt": 63,
+            "cpu": 98,
+            "mu": 16712,
+            "pmu": 808,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -116,10 +116,10 @@
         },
         "ReflectionNamedType::isBuiltin": {
             "ct": 82,
-            "wt": 16,
-            "cpu": 26,
-            "mu": 7040,
-            "pmu": 0,
+            "wt": 74,
+            "cpu": 98,
+            "mu": 12672,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -137,10 +137,10 @@
         },
         "ReflectionNamedType::getName": {
             "ct": 81,
-            "wt": 21,
-            "cpu": 37,
+            "wt": 48,
+            "cpu": 83,
             "mu": 7040,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -158,8 +158,8 @@
         },
         "array_key_last": {
             "ct": 396,
-            "wt": 116,
-            "cpu": 179,
+            "wt": 255,
+            "cpu": 362,
             "mu": 8824,
             "pmu": 0,
             "parents": [
@@ -182,8 +182,8 @@
         },
         "array_pop": {
             "ct": 363,
-            "wt": 92,
-            "cpu": 143,
+            "wt": 224,
+            "cpu": 362,
             "mu": 7192,
             "pmu": 0,
             "parents": [
@@ -206,10 +206,10 @@
         },
         "ReflectionParameter::allowsNull": {
             "ct": 37,
-            "wt": 9,
-            "cpu": 15,
-            "mu": 14632,
-            "pmu": 0,
+            "wt": 29,
+            "cpu": 42,
+            "mu": 6440,
+            "pmu": 176,
             "parents": [
                 "Spiral\\Router\\Router::handle",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -226,8 +226,8 @@
         },
         "strtoupper": {
             "ct": 6,
-            "wt": 2,
-            "cpu": 4,
+            "wt": 3,
+            "cpu": 8,
             "mu": 1168,
             "pmu": 0,
             "parents": [
@@ -237,8 +237,8 @@
         },
         "Spiral\\Router\\AbstractRoute::getVerbs": {
             "ct": 4,
-            "wt": 1,
-            "cpu": 4,
+            "wt": 5,
+            "cpu": 6,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -247,7 +247,7 @@
         },
         "in_array": {
             "ct": 4,
-            "wt": 2,
+            "wt": 4,
             "cpu": 4,
             "mu": 552,
             "pmu": 0,
@@ -257,8 +257,8 @@
         },
         "Spiral\\Router\\UriHandler::isCompiled": {
             "ct": 4,
-            "wt": 3,
-            "cpu": 4,
+            "wt": 5,
+            "cpu": 8,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -267,8 +267,8 @@
         },
         "Spiral\\Router\\UriHandler::getPrefix": {
             "ct": 4,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 5,
+            "cpu": 8,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -277,8 +277,8 @@
         },
         "ltrim": {
             "ct": 15,
-            "wt": 2,
-            "cpu": 3,
+            "wt": 11,
+            "cpu": 15,
             "mu": 2480,
             "pmu": 0,
             "parents": [
@@ -289,8 +289,8 @@
         },
         "rtrim": {
             "ct": 68,
-            "wt": 23,
-            "cpu": 37,
+            "wt": 45,
+            "cpu": 64,
             "mu": 1104,
             "pmu": 0,
             "parents": [
@@ -300,8 +300,8 @@
         },
         "str_starts_with": {
             "ct": 4,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 4,
+            "cpu": 4,
             "mu": 552,
             "pmu": 0,
             "parents": [
@@ -310,8 +310,8 @@
         },
         "preg_match_all": {
             "ct": 4,
-            "wt": 30,
-            "cpu": 30,
+            "wt": 65,
+            "cpu": 66,
             "mu": 4904,
             "pmu": 0,
             "parents": [
@@ -320,8 +320,8 @@
         },
         "preg_replace": {
             "ct": 6,
-            "wt": 45,
-            "cpu": 46,
+            "wt": 77,
+            "cpu": 79,
             "mu": 1272,
             "pmu": 0,
             "parents": [
@@ -331,8 +331,8 @@
         },
         "array_fill_keys": {
             "ct": 4,
-            "wt": 2,
-            "cpu": 2,
+            "wt": 4,
+            "cpu": 4,
             "mu": 1416,
             "pmu": 0,
             "parents": [
@@ -341,8 +341,8 @@
         },
         "strtr": {
             "ct": 49,
-            "wt": 23,
-            "cpu": 37,
+            "wt": 43,
+            "cpu": 66,
             "mu": 12264,
             "pmu": 0,
             "parents": [
@@ -366,8 +366,8 @@
         },
         "str_replace": {
             "ct": 42,
-            "wt": 14,
-            "cpu": 24,
+            "wt": 47,
+            "cpu": 58,
             "mu": 10928,
             "pmu": 184,
             "parents": [
@@ -383,8 +383,8 @@
         },
         "stripslashes": {
             "ct": 4,
-            "wt": 2,
-            "cpu": 2,
+            "wt": 4,
+            "cpu": 5,
             "mu": 720,
             "pmu": 0,
             "parents": [
@@ -393,8 +393,8 @@
         },
         "Spiral\\Router\\UriHandler::compile": {
             "ct": 4,
-            "wt": 114,
-            "cpu": 115,
+            "wt": 258,
+            "cpu": 258,
             "mu": 18736,
             "pmu": 0,
             "parents": [
@@ -403,8 +403,8 @@
         },
         "Nyholm\\Psr7\\Uri::getPath": {
             "ct": 4,
-            "wt": 1,
-            "cpu": 3,
+            "wt": 5,
+            "cpu": 6,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -413,8 +413,8 @@
         },
         "substr": {
             "ct": 136,
-            "wt": 46,
-            "cpu": 65,
+            "wt": 78,
+            "cpu": 116,
             "mu": 14816,
             "pmu": 0,
             "parents": [
@@ -437,8 +437,8 @@
         },
         "trim": {
             "ct": 5,
-            "wt": 1,
-            "cpu": 3,
+            "wt": 3,
+            "cpu": 6,
             "mu": 1104,
             "pmu": 0,
             "parents": [
@@ -448,8 +448,8 @@
         },
         "Spiral\\Router\\UriHandler::fetchTarget": {
             "ct": 4,
-            "wt": 18,
-            "cpu": 18,
+            "wt": 42,
+            "cpu": 46,
             "mu": 2432,
             "pmu": 0,
             "parents": [
@@ -458,8 +458,8 @@
         },
         "preg_match": {
             "ct": 7,
-            "wt": 62,
-            "cpu": 63,
+            "wt": 126,
+            "cpu": 130,
             "mu": 2392,
             "pmu": 0,
             "parents": [
@@ -470,8 +470,8 @@
         },
         "Spiral\\Router\\UriHandler::match": {
             "ct": 4,
-            "wt": 201,
-            "cpu": 202,
+            "wt": 465,
+            "cpu": 468,
             "mu": 18408,
             "pmu": 0,
             "parents": [
@@ -480,8 +480,8 @@
         },
         "Spiral\\Router\\AbstractRoute::match": {
             "ct": 4,
-            "wt": 233,
-            "cpu": 233,
+            "wt": 529,
+            "cpu": 532,
             "mu": 22768,
             "pmu": 0,
             "parents": [
@@ -490,8 +490,8 @@
         },
         "array_combine": {
             "ct": 2,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 2,
+            "cpu": 3,
             "mu": 1304,
             "pmu": 0,
             "parents": [
@@ -500,8 +500,8 @@
         },
         "Spiral\\Router\\UriHandler::prepareSegment": {
             "ct": 3,
-            "wt": 3,
-            "cpu": 4,
+            "wt": 6,
+            "cpu": 9,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -510,10 +510,10 @@
         },
         "sprintf": {
             "ct": 125,
-            "wt": 61,
-            "cpu": 73,
+            "wt": 152,
+            "cpu": 206,
             "mu": 45080,
-            "pmu": 1784,
+            "pmu": 2304,
             "parents": [
                 "Spiral\\Router\\UriHandler::compile",
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
@@ -528,8 +528,8 @@
         },
         "Spiral\\Router\\UriHandler::Spiral\\Router\\{closure}": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 4,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -538,8 +538,8 @@
         },
         "array_filter": {
             "ct": 1,
-            "wt": 3,
-            "cpu": 4,
+            "wt": 8,
+            "cpu": 8,
             "mu": 1240,
             "pmu": 0,
             "parents": [
@@ -548,8 +548,8 @@
         },
         "array_intersect_key": {
             "ct": 1,
-            "wt": 0,
-            "cpu": 1,
+            "wt": 1,
+            "cpu": 2,
             "mu": 608,
             "pmu": 0,
             "parents": [
@@ -558,8 +558,8 @@
         },
         "array_merge": {
             "ct": 37,
-            "wt": 12,
-            "cpu": 25,
+            "wt": 24,
+            "cpu": 44,
             "mu": 3232,
             "pmu": 0,
             "parents": [
@@ -572,8 +572,8 @@
         },
         "Spiral\\Router\\Router::matchRoute": {
             "ct": 1,
-            "wt": 240,
-            "cpu": 240,
+            "wt": 544,
+            "cpu": 545,
             "mu": 23416,
             "pmu": 0,
             "parents": [
@@ -582,8 +582,8 @@
         },
         "Spiral\\Telemetry\\Span::setAttribute": {
             "ct": 3,
-            "wt": 2,
-            "cpu": 2,
+            "wt": 6,
+            "cpu": 7,
             "mu": 960,
             "pmu": 0,
             "parents": [
@@ -592,29 +592,18 @@
         },
         "Spiral\\Router\\AbstractRoute::getMatches": {
             "ct": 2,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 3,
             "mu": 584,
             "pmu": 0,
             "parents": [
                 "Spiral\\Router\\Router::Spiral\\Router\\{closure}"
             ]
         },
-        "Nyholm\\Psr7\\ServerRequest::withAttribute": {
-            "ct": 4,
-            "wt": 5,
-            "cpu": 5,
-            "mu": 6480,
-            "pmu": 0,
-            "parents": [
-                "Spiral\\Router\\Router::Spiral\\Router\\{closure}",
-                "Spiral\\Router\\Route::handle"
-            ]
-        },
         "strrpos": {
             "ct": 88,
-            "wt": 29,
-            "cpu": 50,
+            "wt": 56,
+            "cpu": 75,
             "mu": 7776,
             "pmu": 0,
             "parents": [
@@ -636,10 +625,10 @@
         },
         "file_exists": {
             "ct": 73,
-            "wt": 348,
-            "cpu": 373,
+            "wt": 504,
+            "cpu": 529,
             "mu": 8984,
-            "pmu": 0,
+            "pmu": 560,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "class_exists",
@@ -661,8 +650,8 @@
         },
         "load::src\/CoreHandler.php": {
             "ct": 1,
-            "wt": 146,
-            "cpu": 146,
+            "wt": 288,
+            "cpu": 289,
             "mu": 31872,
             "pmu": 0,
             "parents": [
@@ -671,10 +660,10 @@
         },
         "class_exists": {
             "ct": 823,
-            "wt": 2193,
-            "cpu": 2289,
+            "wt": 4119,
+            "cpu": 4385,
             "mu": 174840,
-            "pmu": 0,
+            "pmu": 208,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "Spiral\\Bootloader\\DomainBootloader::domainCore",
@@ -692,10 +681,10 @@
         },
         "ReflectionClass::__construct": {
             "ct": 125,
-            "wt": 28,
-            "cpu": 51,
+            "wt": 70,
+            "cpu": 113,
             "mu": 8256,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "Spiral\\Bootloader\\DomainBootloader::domainCore",
@@ -715,10 +704,10 @@
         },
         "ReflectionClass::implementsInterface": {
             "ct": 158,
-            "wt": 32,
-            "cpu": 66,
+            "wt": 100,
+            "cpu": 174,
             "mu": 6520,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "Spiral\\Bootloader\\DomainBootloader::domainCore",
@@ -735,8 +724,8 @@
         },
         "ReflectionClass::isSubclassOf": {
             "ct": 498,
-            "wt": 107,
-            "cpu": 173,
+            "wt": 242,
+            "cpu": 383,
             "mu": 5872,
             "pmu": 0,
             "parents": [
@@ -754,8 +743,8 @@
         },
         "interface_exists": {
             "ct": 630,
-            "wt": 157,
-            "cpu": 218,
+            "wt": 308,
+            "cpu": 448,
             "mu": 5712,
             "pmu": 0,
             "parents": [
@@ -773,8 +762,8 @@
         },
         "ReflectionClass::isInstantiable": {
             "ct": 22,
-            "wt": 7,
-            "cpu": 12,
+            "wt": 14,
+            "cpu": 26,
             "mu": 5304,
             "pmu": 0,
             "parents": [
@@ -791,8 +780,8 @@
         },
         "ReflectionClass::getConstructor": {
             "ct": 24,
-            "wt": 10,
-            "cpu": 18,
+            "wt": 14,
+            "cpu": 28,
             "mu": 7920,
             "pmu": 0,
             "parents": [
@@ -810,10 +799,10 @@
         },
         "ReflectionClass::newInstance": {
             "ct": 5,
-            "wt": 4,
-            "cpu": 6,
+            "wt": 8,
+            "cpu": 11,
             "mu": 2984,
-            "pmu": 0,
+            "pmu": 912,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection",
@@ -823,8 +812,8 @@
         },
         "ReflectionMethod::__construct": {
             "ct": 7,
-            "wt": 3,
-            "cpu": 7,
+            "wt": 10,
+            "cpu": 14,
             "mu": 3520,
             "pmu": 0,
             "parents": [
@@ -838,8 +827,8 @@
         },
         "load::src\/Core.php": {
             "ct": 1,
-            "wt": 16,
-            "cpu": 16,
+            "wt": 31,
+            "cpu": 32,
             "mu": 2464,
             "pmu": 0,
             "parents": [
@@ -848,8 +837,8 @@
         },
         "load::src\/AbstractCore.php": {
             "ct": 1,
-            "wt": 59,
-            "cpu": 59,
+            "wt": 122,
+            "cpu": 123,
             "mu": 16520,
             "pmu": 0,
             "parents": [
@@ -858,8 +847,8 @@
         },
         "load::src\/CoreInterface.php": {
             "ct": 1,
-            "wt": 14,
-            "cpu": 14,
+            "wt": 29,
+            "cpu": 30,
             "mu": 3800,
             "pmu": 0,
             "parents": [
@@ -868,10 +857,10 @@
         },
         "WeakReference::get": {
             "ct": 26,
-            "wt": 5,
-            "cpu": 7,
+            "wt": 16,
+            "cpu": 25,
             "mu": 4592,
-            "pmu": 0,
+            "pmu": 432,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "Spiral\\Core\\AbstractCore::__construct",
@@ -885,8 +874,8 @@
         },
         "Spiral\\Core\\AbstractCore::__construct": {
             "ct": 1,
-            "wt": 17,
-            "cpu": 18,
+            "wt": 43,
+            "cpu": 44,
             "mu": 2872,
             "pmu": 0,
             "parents": [
@@ -895,8 +884,8 @@
         },
         "str_repeat": {
             "ct": 38,
-            "wt": 9,
-            "cpu": 14,
+            "wt": 24,
+            "cpu": 38,
             "mu": 3264,
             "pmu": 584,
             "parents": [
@@ -908,8 +897,8 @@
         },
         "implode": {
             "ct": 58,
-            "wt": 19,
-            "cpu": 25,
+            "wt": 44,
+            "cpu": 58,
             "mu": 14704,
             "pmu": 792,
             "parents": [
@@ -921,8 +910,8 @@
         },
         "var_export": {
             "ct": 11,
-            "wt": 3,
-            "cpu": 6,
+            "wt": 10,
+            "cpu": 15,
             "mu": 5104,
             "pmu": 296,
             "parents": [
@@ -934,8 +923,8 @@
         },
         "array_push": {
             "ct": 21,
-            "wt": 7,
-            "cpu": 9,
+            "wt": 16,
+            "cpu": 24,
             "mu": 4488,
             "pmu": 0,
             "parents": [
@@ -947,10 +936,10 @@
         },
         "Exception::__construct": {
             "ct": 69,
-            "wt": 32,
-            "cpu": 42,
+            "wt": 57,
+            "cpu": 80,
             "mu": 2888,
-            "pmu": 568,
+            "pmu": 0,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection",
@@ -961,8 +950,8 @@
         },
         "ReflectionParameter::isDefaultValueAvailable": {
             "ct": 17,
-            "wt": 9,
-            "cpu": 11,
+            "wt": 16,
+            "cpu": 20,
             "mu": 3064,
             "pmu": 768,
             "parents": [
@@ -975,8 +964,8 @@
         },
         "ReflectionParameter::getDefaultValue": {
             "ct": 8,
-            "wt": 1,
-            "cpu": 3,
+            "wt": 6,
+            "cpu": 13,
             "mu": 2952,
             "pmu": 1184,
             "parents": [
@@ -989,8 +978,8 @@
         },
         "load::src\/InterceptableCore.php": {
             "ct": 1,
-            "wt": 50,
-            "cpu": 51,
+            "wt": 75,
+            "cpu": 77,
             "mu": 6416,
             "pmu": 0,
             "parents": [
@@ -999,8 +988,8 @@
         },
         "load::src\/InterceptorPipeline.php": {
             "ct": 1,
-            "wt": 46,
-            "cpu": 46,
+            "wt": 116,
+            "cpu": 117,
             "mu": 10240,
             "pmu": 0,
             "parents": [
@@ -1009,8 +998,8 @@
         },
         "Spiral\\Core\\InterceptorPipeline::__construct": {
             "ct": 4,
-            "wt": 3,
-            "cpu": 5,
+            "wt": 8,
+            "cpu": 10,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -1019,8 +1008,8 @@
         },
         "Spiral\\Core\\InterceptableCore::__construct": {
             "ct": 4,
-            "wt": 76,
-            "cpu": 78,
+            "wt": 186,
+            "cpu": 188,
             "mu": 12840,
             "pmu": 0,
             "parents": [
@@ -1032,8 +1021,8 @@
         },
         "load::Interceptor\/FilterInterceptor.php": {
             "ct": 1,
-            "wt": 88,
-            "cpu": 89,
+            "wt": 167,
+            "cpu": 169,
             "mu": 18064,
             "pmu": 0,
             "parents": [
@@ -1042,8 +1031,8 @@
         },
         "load::src\/CoreInterceptorInterface.php": {
             "ct": 1,
-            "wt": 14,
-            "cpu": 14,
+            "wt": 29,
+            "cpu": 31,
             "mu": 3672,
             "pmu": 0,
             "parents": [
@@ -1052,8 +1041,8 @@
         },
         "Spiral\\Filters\\Interceptor\\FilterInterceptor::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -1062,8 +1051,8 @@
         },
         "Spiral\\Core\\InterceptorPipeline::addInterceptor": {
             "ct": 4,
-            "wt": 4,
-            "cpu": 3,
+            "wt": 7,
+            "cpu": 8,
             "mu": 1728,
             "pmu": 0,
             "parents": [
@@ -1072,8 +1061,8 @@
         },
         "Spiral\\Core\\InterceptableCore::addInterceptor": {
             "ct": 4,
-            "wt": 9,
-            "cpu": 10,
+            "wt": 19,
+            "cpu": 23,
             "mu": 3624,
             "pmu": 0,
             "parents": [
@@ -1084,8 +1073,8 @@
         },
         "Spiral\\Bootloader\\DomainBootloader::domainCore": {
             "ct": 1,
-            "wt": 455,
-            "cpu": 456,
+            "wt": 1029,
+            "cpu": 1030,
             "mu": 48088,
             "pmu": 0,
             "parents": [
@@ -1094,10 +1083,10 @@
         },
         "ReflectionMethod::invokeArgs": {
             "ct": 5,
-            "wt": 6790,
-            "cpu": 6790,
-            "mu": 379072,
-            "pmu": 145808,
+            "wt": 15274,
+            "cpu": 15321,
+            "mu": 313536,
+            "pmu": 141712,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler",
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection",
@@ -1106,9 +1095,9 @@
         },
         "Spiral\\Router\\CoreHandler::__construct": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 3,
-            "mu": 4696,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 600,
             "pmu": 0,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::coreHandler"
@@ -1116,10 +1105,10 @@
         },
         "Spiral\\Router\\Target\\AbstractTarget::coreHandler": {
             "ct": 1,
-            "wt": 1836,
-            "cpu": 1836,
+            "wt": 4175,
+            "cpu": 4176,
             "mu": 124744,
-            "pmu": 130496,
+            "pmu": 132760,
             "parents": [
                 "Spiral\\Router\\Target\\AbstractTarget::getHandler"
             ]
@@ -1136,8 +1125,8 @@
         },
         "Doctrine\\Inflector\\Inflector::classify": {
             "ct": 1,
-            "wt": 5,
-            "cpu": 6,
+            "wt": 10,
+            "cpu": 11,
             "mu": 1864,
             "pmu": 0,
             "parents": [
@@ -1146,8 +1135,8 @@
         },
         "Spiral\\Router\\Target\\Namespaced::resolveController": {
             "ct": 1,
-            "wt": 33,
-            "cpu": 33,
+            "wt": 56,
+            "cpu": 57,
             "mu": 4112,
             "pmu": 0,
             "parents": [
@@ -1157,7 +1146,7 @@
         "Spiral\\Router\\Target\\Namespaced::resolveAction": {
             "ct": 1,
             "wt": 1,
-            "cpu": 1,
+            "cpu": 2,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -1165,6 +1154,16 @@
             ]
         },
         "Spiral\\Router\\CoreHandler::withContext": {
+            "ct": 1,
+            "wt": 3,
+            "cpu": 4,
+            "mu": 792,
+            "pmu": 0,
+            "parents": [
+                "Spiral\\Router\\Target\\AbstractTarget::getHandler"
+            ]
+        },
+        "Spiral\\Router\\CoreHandler::withVerbActions": {
             "ct": 1,
             "wt": 2,
             "cpu": 2,
@@ -1174,40 +1173,30 @@
                 "Spiral\\Router\\Target\\AbstractTarget::getHandler"
             ]
         },
-        "Spiral\\Router\\CoreHandler::withVerbActions": {
-            "ct": 1,
-            "wt": 0,
-            "cpu": 1,
-            "mu": 792,
-            "pmu": 0,
-            "parents": [
-                "Spiral\\Router\\Target\\AbstractTarget::getHandler"
-            ]
-        },
         "Spiral\\Router\\Target\\AbstractTarget::getHandler": {
             "ct": 1,
-            "wt": 1880,
-            "cpu": 1880,
+            "wt": 4256,
+            "cpu": 4257,
             "mu": 131752,
-            "pmu": 130496,
+            "pmu": 132760,
             "parents": [
                 "Spiral\\Router\\Route::requestHandler"
             ]
         },
         "Spiral\\Router\\Route::requestHandler": {
             "ct": 1,
-            "wt": 1885,
-            "cpu": 1885,
+            "wt": 4265,
+            "cpu": 4265,
             "mu": 132384,
-            "pmu": 130496,
+            "pmu": 132760,
             "parents": [
                 "Spiral\\Router\\Route::handle"
             ]
         },
         "ob_get_level": {
             "ct": 2,
-            "wt": 1,
-            "cpu": 3,
+            "wt": 4,
+            "cpu": 5,
             "mu": 552,
             "pmu": 0,
             "parents": [
@@ -1216,8 +1205,8 @@
         },
         "ob_start": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 2,
+            "cpu": 3,
             "mu": 17064,
             "pmu": 0,
             "parents": [
@@ -1226,8 +1215,8 @@
         },
         "load::src\/Response.php": {
             "ct": 1,
-            "wt": 77,
-            "cpu": 78,
+            "wt": 164,
+            "cpu": 165,
             "mu": 23752,
             "pmu": 0,
             "parents": [
@@ -1236,8 +1225,8 @@
         },
         "load::src\/ResponseInterface.php": {
             "ct": 1,
-            "wt": 16,
-            "cpu": 17,
+            "wt": 37,
+            "cpu": 38,
             "mu": 8944,
             "pmu": 0,
             "parents": [
@@ -1246,8 +1235,8 @@
         },
         "Nyholm\\Psr7\\Response::setHeaders": {
             "ct": 2,
-            "wt": 12,
-            "cpu": 13,
+            "wt": 29,
+            "cpu": 30,
             "mu": 5464,
             "pmu": 0,
             "parents": [
@@ -1257,8 +1246,8 @@
         },
         "Nyholm\\Psr7\\Response::__construct": {
             "ct": 1,
-            "wt": 4,
-            "cpu": 3,
+            "wt": 8,
+            "cpu": 8,
             "mu": 1216,
             "pmu": 0,
             "parents": [
@@ -1267,8 +1256,8 @@
         },
         "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse": {
             "ct": 1,
-            "wt": 143,
-            "cpu": 144,
+            "wt": 309,
+            "cpu": 310,
             "mu": 25200,
             "pmu": 0,
             "parents": [
@@ -1277,8 +1266,8 @@
         },
         "Spiral\\Http\\Config\\HttpConfig::getBaseHeaders": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 3,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -1287,8 +1276,8 @@
         },
         "is_numeric": {
             "ct": 1,
-            "wt": 0,
-            "cpu": 1,
+            "wt": 1,
+            "cpu": 2,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -1297,8 +1286,8 @@
         },
         "Nyholm\\Psr7\\Response::validateAndTrimHeader": {
             "ct": 1,
-            "wt": 7,
-            "cpu": 8,
+            "wt": 17,
+            "cpu": 18,
             "mu": 2840,
             "pmu": 0,
             "parents": [
@@ -1307,8 +1296,8 @@
         },
         "Nyholm\\Psr7\\Response::withAddedHeader": {
             "ct": 1,
-            "wt": 15,
-            "cpu": 15,
+            "wt": 33,
+            "cpu": 33,
             "mu": 5704,
             "pmu": 0,
             "parents": [
@@ -1317,8 +1306,8 @@
         },
         "Spiral\\Nyholm\\ResponseFactory::createResponse": {
             "ct": 1,
-            "wt": 167,
-            "cpu": 167,
+            "wt": 357,
+            "cpu": 358,
             "mu": 32120,
             "pmu": 0,
             "parents": [
@@ -1327,8 +1316,8 @@
         },
         "Spiral\\Router\\CoreHandler::getAction": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -1337,10 +1326,10 @@
         },
         "array_keys": {
             "ct": 2,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 2,
+            "cpu": 3,
             "mu": 1904,
-            "pmu": 0,
+            "pmu": 128,
             "parents": [
                 "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}",
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection"
@@ -1348,8 +1337,8 @@
         },
         "Spiral\\Core\\InterceptorPipeline::withCore": {
             "ct": 3,
-            "wt": 6,
-            "cpu": 7,
+            "wt": 8,
+            "cpu": 11,
             "mu": 1504,
             "pmu": 0,
             "parents": [
@@ -1359,8 +1348,8 @@
         },
         "Spiral\\Filters\\Interceptor\\FilterInterceptor::getParameterClass": {
             "ct": 2,
-            "wt": 11,
-            "cpu": 12,
+            "wt": 24,
+            "cpu": 27,
             "mu": 3688,
             "pmu": 0,
             "parents": [
@@ -1369,8 +1358,8 @@
         },
         "Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters": {
             "ct": 1,
-            "wt": 24,
-            "cpu": 24,
+            "wt": 53,
+            "cpu": 54,
             "mu": 7680,
             "pmu": 0,
             "parents": [
@@ -1379,8 +1368,8 @@
         },
         "ReflectionFunctionAbstract::isStatic": {
             "ct": 8,
-            "wt": 0,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 80,
             "mu": 1768,
             "pmu": 0,
             "parents": [
@@ -1391,8 +1380,8 @@
         },
         "ReflectionMethod::isPublic": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 0,
+            "cpu": 2,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -1401,10 +1390,10 @@
         },
         "ReflectionClass::getName": {
             "ct": 174,
-            "wt": 37,
-            "cpu": 67,
+            "wt": 98,
+            "cpu": 152,
             "mu": 4120,
-            "pmu": 0,
+            "pmu": 472,
             "parents": [
                 "Spiral\\Core\\AbstractCore::callAction",
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection",
@@ -1417,20 +1406,20 @@
         },
         "ReflectionClass::hasConstant": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 2,
             "mu": 600,
-            "pmu": 0,
+            "pmu": 592,
             "parents": [
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection"
             ]
         },
         "ReflectionClass::getConstant": {
             "ct": 5,
-            "wt": 1,
-            "cpu": 5,
+            "wt": 6,
+            "cpu": 8,
             "mu": 1784,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection",
                 "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager",
@@ -1439,10 +1428,10 @@
         },
         "ReflectionClass::isInstance": {
             "ct": 6,
-            "wt": 4,
-            "cpu": 5,
+            "wt": 7,
+            "cpu": 10,
             "mu": 2336,
-            "pmu": 0,
+            "pmu": 600,
             "parents": [
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection",
                 "Spiral\\Core\\AbstractCore::callAction",
@@ -1452,8 +1441,8 @@
         },
         "load::Interceptor\/Core.php": {
             "ct": 1,
-            "wt": 30,
-            "cpu": 31,
+            "wt": 59,
+            "cpu": 60,
             "mu": 4200,
             "pmu": 0,
             "parents": [
@@ -1462,8 +1451,8 @@
         },
         "Spiral\\Filters\\Config\\FiltersConfig::getInterceptors": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 4,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -1472,8 +1461,8 @@
         },
         "load::Interceptor\/PopulateDataFromEntityInterceptor.php": {
             "ct": 1,
-            "wt": 30,
-            "cpu": 30,
+            "wt": 67,
+            "cpu": 68,
             "mu": 5632,
             "pmu": 0,
             "parents": [
@@ -1482,8 +1471,8 @@
         },
         "load::Interceptor\/ValidateFilterInterceptor.php": {
             "ct": 1,
-            "wt": 55,
-            "cpu": 55,
+            "wt": 149,
+            "cpu": 151,
             "mu": 11768,
             "pmu": 0,
             "parents": [
@@ -1493,7 +1482,7 @@
         "Spiral\\Filters\\Model\\Interceptor\\ValidateFilterInterceptor::__construct": {
             "ct": 1,
             "wt": 1,
-            "cpu": 1,
+            "cpu": 2,
             "mu": 664,
             "pmu": 0,
             "parents": [
@@ -1502,9 +1491,9 @@
         },
         "load::Model\/FilterProvider.php": {
             "ct": 1,
-            "wt": 115,
-            "cpu": 116,
-            "mu": 78744,
+            "wt": 128,
+            "cpu": 131,
+            "mu": 21400,
             "pmu": 0,
             "parents": [
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider"
@@ -1512,8 +1501,8 @@
         },
         "load::Model\/FilterProviderInterface.php": {
             "ct": 1,
-            "wt": 16,
-            "cpu": 16,
+            "wt": 27,
+            "cpu": 27,
             "mu": 3392,
             "pmu": 0,
             "parents": [
@@ -1522,8 +1511,8 @@
         },
         "Spiral\\Filters\\Model\\FilterProvider::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 2,
+            "cpu": 3,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -1532,9 +1521,9 @@
         },
         "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider": {
             "ct": 1,
-            "wt": 616,
-            "cpu": 617,
-            "mu": 117904,
+            "wt": 1351,
+            "cpu": 1353,
+            "mu": 52368,
             "pmu": 0,
             "parents": [
                 "ReflectionMethod::invokeArgs"
@@ -1542,8 +1531,8 @@
         },
         "load::Filter\/InputScope.php": {
             "ct": 1,
-            "wt": 40,
-            "cpu": 41,
+            "wt": 81,
+            "cpu": 82,
             "mu": 8504,
             "pmu": 0,
             "parents": [
@@ -1552,8 +1541,8 @@
         },
         "load::src\/InputInterface.php": {
             "ct": 1,
-            "wt": 16,
-            "cpu": 17,
+            "wt": 32,
+            "cpu": 32,
             "mu": 5304,
             "pmu": 0,
             "parents": [
@@ -1562,8 +1551,8 @@
         },
         "Spiral\\Http\\Config\\HttpConfig::getInputBags": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 2,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -1572,8 +1561,8 @@
         },
         "Spiral\\Http\\Request\\InputManager::__construct": {
             "ct": 1,
-            "wt": 6,
-            "cpu": 7,
+            "wt": 8,
+            "cpu": 9,
             "mu": 1928,
             "pmu": 0,
             "parents": [
@@ -1592,8 +1581,8 @@
         },
         "load::Schema\/AttributeMapper.php": {
             "ct": 1,
-            "wt": 82,
-            "cpu": 82,
+            "wt": 133,
+            "cpu": 134,
             "mu": 18520,
             "pmu": 0,
             "parents": [
@@ -1603,7 +1592,7 @@
         "Spiral\\Filters\\Model\\Schema\\AttributeMapper::__construct": {
             "ct": 2,
             "wt": 2,
-            "cpu": 3,
+            "cpu": 4,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -1612,8 +1601,8 @@
         },
         "ReflectionClass::newInstanceArgs": {
             "ct": 34,
-            "wt": 68,
-            "cpu": 73,
+            "wt": 130,
+            "cpu": 162,
             "mu": 6888,
             "pmu": 0,
             "parents": [
@@ -1623,8 +1612,8 @@
         },
         "Spiral\\Filters\\Model\\FilterProvider::createFilterInstance": {
             "ct": 2,
-            "wt": 14,
-            "cpu": 15,
+            "wt": 17,
+            "cpu": 17,
             "mu": 3456,
             "pmu": 0,
             "parents": [
@@ -1633,7 +1622,7 @@
         },
         "ReflectionClass::getProperties": {
             "ct": 2,
-            "wt": 4,
+            "wt": 5,
             "cpu": 5,
             "mu": 6072,
             "pmu": 0,
@@ -1643,8 +1632,8 @@
         },
         "Spiral\\Attributes\\Internal\\Decorator::getPropertyMetadata": {
             "ct": 96,
-            "wt": 871,
-            "cpu": 898,
+            "wt": 2410,
+            "cpu": 2455,
             "mu": 67920,
             "pmu": 0,
             "parents": [
@@ -1653,8 +1642,8 @@
         },
         "Spiral\\Attributes\\Composite\\Composite::Spiral\\Attributes\\Composite\\{closure}": {
             "ct": 96,
-            "wt": 1059,
-            "cpu": 1075,
+            "wt": 2761,
+            "cpu": 2810,
             "mu": 68648,
             "pmu": 0,
             "parents": [
@@ -1663,8 +1652,8 @@
         },
         "ReflectionProperty::getAttributes": {
             "ct": 64,
-            "wt": 86,
-            "cpu": 99,
+            "wt": 181,
+            "cpu": 204,
             "mu": 24048,
             "pmu": 0,
             "parents": [
@@ -1673,8 +1662,8 @@
         },
         "Spiral\\Attributes\\Internal\\NativeAttributeReader::getPropertyAttributes": {
             "ct": 64,
-            "wt": 197,
-            "cpu": 213,
+            "wt": 404,
+            "cpu": 427,
             "mu": 61640,
             "pmu": 0,
             "parents": [
@@ -1683,8 +1672,8 @@
         },
         "ReflectionAttribute::getName": {
             "ct": 128,
-            "wt": 35,
-            "cpu": 83,
+            "wt": 802,
+            "cpu": 853,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -1693,8 +1682,8 @@
         },
         "load::Input\/Query.php": {
             "ct": 1,
-            "wt": 33,
-            "cpu": 33,
+            "wt": 105,
+            "cpu": 107,
             "mu": 6656,
             "pmu": 0,
             "parents": [
@@ -1703,8 +1692,8 @@
         },
         "load::Input\/AbstractInput.php": {
             "ct": 1,
-            "wt": 16,
-            "cpu": 16,
+            "wt": 31,
+            "cpu": 32,
             "mu": 3864,
             "pmu": 0,
             "parents": [
@@ -1713,8 +1702,8 @@
         },
         "ReflectionAttribute::getArguments": {
             "ct": 64,
-            "wt": 18,
-            "cpu": 26,
+            "wt": 35,
+            "cpu": 62,
             "mu": 14424,
             "pmu": 0,
             "parents": [
@@ -1723,8 +1712,8 @@
         },
         "is_subclass_of": {
             "ct": 64,
-            "wt": 28,
-            "cpu": 35,
+            "wt": 37,
+            "cpu": 56,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -1733,8 +1722,8 @@
         },
         "ReflectionClass::getAttributes": {
             "ct": 64,
-            "wt": 41,
-            "cpu": 53,
+            "wt": 74,
+            "cpu": 95,
             "mu": 18264,
             "pmu": 0,
             "parents": [
@@ -1743,8 +1732,8 @@
         },
         "ReflectionClass::getTraits": {
             "ct": 128,
-            "wt": 30,
-            "cpu": 53,
+            "wt": 63,
+            "cpu": 314,
             "mu": 1200,
             "pmu": 0,
             "parents": [
@@ -1754,8 +1743,8 @@
         },
         "ReflectionClass::hasMethod": {
             "ct": 64,
-            "wt": 20,
-            "cpu": 33,
+            "wt": 49,
+            "cpu": 64,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -1764,8 +1753,8 @@
         },
         "ReflectionClass::getParentClass": {
             "ct": 64,
-            "wt": 17,
-            "cpu": 30,
+            "wt": 33,
+            "cpu": 52,
             "mu": 3672,
             "pmu": 0,
             "parents": [
@@ -1774,8 +1763,8 @@
         },
         "ReflectionClass::newInstanceWithoutConstructor": {
             "ct": 32,
-            "wt": 8,
-            "cpu": 17,
+            "wt": 15,
+            "cpu": 28,
             "mu": 1912,
             "pmu": 0,
             "parents": [
@@ -1784,8 +1773,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Query::__construct": {
             "ct": 28,
-            "wt": 18,
-            "cpu": 24,
+            "wt": 36,
+            "cpu": 48,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -1794,8 +1783,8 @@
         },
         "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata": {
             "ct": 96,
-            "wt": 2297,
-            "cpu": 2321,
+            "wt": 4960,
+            "cpu": 4995,
             "mu": 80176,
             "pmu": 0,
             "parents": [
@@ -1804,8 +1793,8 @@
         },
         "iterator_to_array": {
             "ct": 96,
-            "wt": 2438,
-            "cpu": 2453,
+            "wt": 5286,
+            "cpu": 5341,
             "mu": 33208,
             "pmu": 0,
             "parents": [
@@ -1814,8 +1803,8 @@
         },
         "Spiral\\Attributes\\Composite\\Composite::getPropertyMetadata": {
             "ct": 64,
-            "wt": 3813,
-            "cpu": 3834,
+            "wt": 8779,
+            "cpu": 8817,
             "mu": 68944,
             "pmu": 0,
             "parents": [
@@ -1825,8 +1814,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
             "ct": 64,
-            "wt": 28,
-            "cpu": 47,
+            "wt": 58,
+            "cpu": 88,
             "mu": 6064,
             "pmu": 0,
             "parents": [
@@ -1844,8 +1833,8 @@
         },
         "Spiral\\Http\\Request\\InputManager::findBagDefinition": {
             "ct": 8,
-            "wt": 14,
-            "cpu": 16,
+            "wt": 18,
+            "cpu": 26,
             "mu": 1200,
             "pmu": 0,
             "parents": [
@@ -1855,8 +1844,8 @@
         },
         "Spiral\\Http\\Request\\InputManager::hasBag": {
             "ct": 64,
-            "wt": 49,
-            "cpu": 65,
+            "wt": 107,
+            "cpu": 140,
             "mu": 1248,
             "pmu": 0,
             "parents": [
@@ -1865,8 +1854,8 @@
         },
         "Spiral\\Http\\Request\\InputManager::request": {
             "ct": 68,
-            "wt": 732,
-            "cpu": 747,
+            "wt": 1500,
+            "cpu": 1527,
             "mu": 1832,
             "pmu": 0,
             "parents": [
@@ -1885,8 +1874,8 @@
         },
         "load::Request\/InputBag.php": {
             "ct": 1,
-            "wt": 81,
-            "cpu": 82,
+            "wt": 128,
+            "cpu": 128,
             "mu": 19816,
             "pmu": 0,
             "parents": [
@@ -1895,8 +1884,8 @@
         },
         "Spiral\\Http\\Request\\InputBag::__construct": {
             "ct": 4,
-            "wt": 4,
-            "cpu": 5,
+            "wt": 8,
+            "cpu": 9,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -1905,8 +1894,8 @@
         },
         "Spiral\\Http\\Request\\InputManager::bag": {
             "ct": 64,
-            "wt": 1051,
-            "cpu": 1073,
+            "wt": 2041,
+            "cpu": 2160,
             "mu": 30616,
             "pmu": 0,
             "parents": [
@@ -1915,8 +1904,8 @@
         },
         "explode": {
             "ct": 96,
-            "wt": 34,
-            "cpu": 52,
+            "wt": 55,
+            "cpu": 87,
             "mu": 38360,
             "pmu": 0,
             "parents": [
@@ -1926,8 +1915,8 @@
         },
         "load::Exception\/DotNotFoundException.php": {
             "ct": 1,
-            "wt": 15,
-            "cpu": 16,
+            "wt": 22,
+            "cpu": 22,
             "mu": 3200,
             "pmu": 0,
             "parents": [
@@ -1936,20 +1925,20 @@
         },
         "Spiral\\Http\\Request\\InputBag::dotGet": {
             "ct": 64,
-            "wt": 39269,
-            "cpu": 39327,
-            "mu": 16480600,
-            "pmu": 337240,
+            "wt": 80462,
+            "cpu": 80577,
+            "mu": 16349528,
+            "pmu": 275800,
             "parents": [
                 "Spiral\\Http\\Request\\InputBag::get"
             ]
         },
         "Spiral\\Http\\Request\\InputBag::get": {
             "ct": 64,
-            "wt": 39683,
-            "cpu": 39704,
+            "wt": 81140,
+            "cpu": 81179,
             "mu": 25000,
-            "pmu": 337304,
+            "pmu": 275864,
             "parents": [
                 "Spiral\\Http\\Request\\InputManager::__call",
                 "Spiral\\Http\\Request\\ServerBag::get"
@@ -1957,20 +1946,20 @@
         },
         "Spiral\\Http\\Request\\InputManager::__call": {
             "ct": 64,
-            "wt": 40945,
-            "cpu": 40964,
+            "wt": 83668,
+            "cpu": 83697,
             "mu": 58952,
-            "pmu": 337304,
+            "pmu": 275864,
             "parents": [
                 "Spiral\\Filter\\InputScope::getValue"
             ]
         },
         "Spiral\\Filter\\InputScope::getValue": {
             "ct": 64,
-            "wt": 41241,
-            "cpu": 41258,
+            "wt": 84362,
+            "cpu": 84383,
             "mu": 63832,
-            "pmu": 337304,
+            "pmu": 275864,
             "parents": [
                 "Spiral\\Filters\\Attribute\\Input\\Query::getValue",
                 "Spiral\\Filters\\Model\\Schema\\InputMapper::map",
@@ -1982,18 +1971,18 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Query::getValue": {
             "ct": 28,
-            "wt": 17439,
-            "cpu": 17446,
+            "wt": 35231,
+            "cpu": 35240,
             "mu": 46464,
-            "pmu": 250432,
+            "pmu": 188992,
             "parents": [
                 "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map"
             ]
         },
         "load::Attribute\/Setter.php": {
             "ct": 1,
-            "wt": 25,
-            "cpu": 25,
+            "wt": 47,
+            "cpu": 48,
             "mu": 5152,
             "pmu": 0,
             "parents": [
@@ -2002,8 +1991,8 @@
         },
         "ReflectionProperty::getDeclaringClass": {
             "ct": 64,
-            "wt": 11,
-            "cpu": 33,
+            "wt": 39,
+            "cpu": 73,
             "mu": 7408,
             "pmu": 0,
             "parents": [
@@ -2013,8 +2002,8 @@
         },
         "ReflectionProperty::getName": {
             "ct": 64,
-            "wt": 11,
-            "cpu": 24,
+            "wt": 37,
+            "cpu": 57,
             "mu": 1184,
             "pmu": 0,
             "parents": [
@@ -2024,8 +2013,8 @@
         },
         "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyImports": {
             "ct": 32,
-            "wt": 189,
-            "cpu": 195,
+            "wt": 781,
+            "cpu": 794,
             "mu": 6376,
             "pmu": 0,
             "parents": [
@@ -2034,8 +2023,8 @@
         },
         "ReflectionProperty::getDocComment": {
             "ct": 32,
-            "wt": 9,
-            "cpu": 18,
+            "wt": 15,
+            "cpu": 30,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -2044,8 +2033,8 @@
         },
         "strpos": {
             "ct": 44,
-            "wt": 7,
-            "cpu": 15,
+            "wt": 41,
+            "cpu": 49,
             "mu": 2808,
             "pmu": 0,
             "parents": [
@@ -2058,8 +2047,8 @@
         },
         "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations": {
             "ct": 32,
-            "wt": 599,
-            "cpu": 604,
+            "wt": 1844,
+            "cpu": 1864,
             "mu": 12520,
             "pmu": 0,
             "parents": [
@@ -2068,8 +2057,8 @@
         },
         "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::Spiral\\Attributes\\Internal\\{closure}": {
             "ct": 32,
-            "wt": 662,
-            "cpu": 673,
+            "wt": 2010,
+            "cpu": 2025,
             "mu": 8128,
             "pmu": 0,
             "parents": [
@@ -2078,8 +2067,8 @@
         },
         "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::getPropertyMetadata": {
             "ct": 32,
-            "wt": 750,
-            "cpu": 752,
+            "wt": 2179,
+            "cpu": 2196,
             "mu": 26232,
             "pmu": 0,
             "parents": [
@@ -2088,8 +2077,8 @@
         },
         "Spiral\\Attributes\\Reader::firstPropertyMetadata": {
             "ct": 32,
-            "wt": 1482,
-            "cpu": 1487,
+            "wt": 3813,
+            "cpu": 3827,
             "mu": 15936,
             "pmu": 0,
             "parents": [
@@ -2098,8 +2087,8 @@
         },
         "Spiral\\Filters\\Model\\Schema\\AttributeMapper::setValue": {
             "ct": 32,
-            "wt": 1543,
-            "cpu": 1552,
+            "wt": 3941,
+            "cpu": 3951,
             "mu": 16632,
             "pmu": 0,
             "parents": [
@@ -2108,8 +2097,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Query::getSchema": {
             "ct": 28,
-            "wt": 51,
-            "cpu": 57,
+            "wt": 90,
+            "cpu": 103,
             "mu": 2160,
             "pmu": 0,
             "parents": [
@@ -2118,18 +2107,18 @@
         },
         "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map": {
             "ct": 2,
-            "wt": 24965,
-            "cpu": 24966,
+            "wt": 50293,
+            "cpu": 50296,
             "mu": 128544,
-            "pmu": 308640,
+            "pmu": 251296,
             "parents": [
                 "Spiral\\Filters\\Model\\FilterProvider::createFilter"
             ]
         },
         "load::Schema\/InputMapper.php": {
             "ct": 1,
-            "wt": 83,
-            "cpu": 84,
+            "wt": 156,
+            "cpu": 158,
             "mu": 16200,
             "pmu": 0,
             "parents": [
@@ -2139,7 +2128,7 @@
         "Spiral\\Filters\\Model\\Schema\\InputMapper::__construct": {
             "ct": 2,
             "wt": 2,
-            "cpu": 2,
+            "cpu": 4,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -2148,8 +2137,8 @@
         },
         "load::Schema\/Builder.php": {
             "ct": 1,
-            "wt": 77,
-            "cpu": 78,
+            "wt": 130,
+            "cpu": 131,
             "mu": 22032,
             "pmu": 0,
             "parents": [
@@ -2158,8 +2147,8 @@
         },
         "str_contains": {
             "ct": 32,
-            "wt": 6,
-            "cpu": 12,
+            "wt": 14,
+            "cpu": 22,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -2168,8 +2157,8 @@
         },
         "Spiral\\Filters\\Model\\Schema\\Builder::parseDefinition": {
             "ct": 32,
-            "wt": 63,
-            "cpu": 67,
+            "wt": 127,
+            "cpu": 138,
             "mu": 14976,
             "pmu": 0,
             "parents": [
@@ -2178,8 +2167,8 @@
         },
         "Spiral\\Filters\\Model\\Schema\\Builder::makeSchema": {
             "ct": 2,
-            "wt": 125,
-            "cpu": 127,
+            "wt": 246,
+            "cpu": 247,
             "mu": 17664,
             "pmu": 0,
             "parents": [
@@ -2188,18 +2177,18 @@
         },
         "Spiral\\Filters\\Model\\Schema\\InputMapper::map": {
             "ct": 2,
-            "wt": 20637,
-            "cpu": 20638,
+            "wt": 43896,
+            "cpu": 43900,
             "mu": 2000,
-            "pmu": 28664,
+            "pmu": 24568,
             "parents": [
                 "Spiral\\Filters\\Model\\FilterProvider::createFilter"
             ]
         },
         "Spiral\\Models\\AbstractEntity::__construct": {
             "ct": 2,
-            "wt": 2,
-            "cpu": 3,
+            "wt": 3,
+            "cpu": 4,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -2208,8 +2197,8 @@
         },
         "Spiral\\Models\\SchematicEntity::__construct": {
             "ct": 2,
-            "wt": 11,
-            "cpu": 12,
+            "wt": 12,
+            "cpu": 13,
             "mu": 1248,
             "pmu": 0,
             "parents": [
@@ -2218,8 +2207,8 @@
         },
         "load::Model\/FilterBag.php": {
             "ct": 1,
-            "wt": 88,
-            "cpu": 89,
+            "wt": 70,
+            "cpu": 71,
             "mu": 3808,
             "pmu": 0,
             "parents": [
@@ -2228,8 +2217,8 @@
         },
         "Spiral\\Filters\\Model\\FilterBag::__construct": {
             "ct": 2,
-            "wt": 5,
-            "cpu": 5,
+            "wt": 7,
+            "cpu": 7,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2238,7 +2227,7 @@
         },
         "Spiral\\Models\\AbstractEntity::getValue": {
             "ct": 2,
-            "wt": 3,
+            "wt": 4,
             "cpu": 5,
             "mu": 584,
             "pmu": 0,
@@ -2248,8 +2237,8 @@
         },
         "Spiral\\Models\\AbstractEntity::toArray": {
             "ct": 2,
-            "wt": 9,
-            "cpu": 11,
+            "wt": 11,
+            "cpu": 13,
             "mu": 1280,
             "pmu": 0,
             "parents": [
@@ -2258,8 +2247,8 @@
         },
         "Spiral\\Filters\\Model\\Filter::setData": {
             "ct": 2,
-            "wt": 3,
-            "cpu": 5,
+            "wt": 4,
+            "cpu": 4,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -2269,7 +2258,7 @@
         "Spiral\\Filters\\Model\\Interceptor\\Core::callAction": {
             "ct": 2,
             "wt": 3,
-            "cpu": 4,
+            "cpu": 5,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2278,8 +2267,8 @@
         },
         "Spiral\\Core\\InterceptorPipeline::callAction@4": {
             "ct": 2,
-            "wt": 9,
-            "cpu": 10,
+            "wt": 11,
+            "cpu": 11,
             "mu": 1296,
             "pmu": 0,
             "parents": [
@@ -2288,8 +2277,8 @@
         },
         "Spiral\\Filters\\Model\\Interceptor\\ValidateFilterInterceptor::process": {
             "ct": 2,
-            "wt": 15,
-            "cpu": 16,
+            "wt": 20,
+            "cpu": 23,
             "mu": 1992,
             "pmu": 0,
             "parents": [
@@ -2298,8 +2287,8 @@
         },
         "Spiral\\Core\\InterceptorPipeline::callAction@3": {
             "ct": 2,
-            "wt": 22,
-            "cpu": 22,
+            "wt": 30,
+            "cpu": 31,
             "mu": 2688,
             "pmu": 0,
             "parents": [
@@ -2308,8 +2297,8 @@
         },
         "Spiral\\Filters\\Model\\Interceptor\\PopulateDataFromEntityInterceptor::process": {
             "ct": 2,
-            "wt": 50,
-            "cpu": 51,
+            "wt": 65,
+            "cpu": 66,
             "mu": 5424,
             "pmu": 0,
             "parents": [
@@ -2318,8 +2307,8 @@
         },
         "Spiral\\Core\\InterceptorPipeline::callAction@2": {
             "ct": 2,
-            "wt": 58,
-            "cpu": 60,
+            "wt": 77,
+            "cpu": 78,
             "mu": 6088,
             "pmu": 0,
             "parents": [
@@ -2328,8 +2317,8 @@
         },
         "Spiral\\Core\\InterceptableCore::callAction@1": {
             "ct": 2,
-            "wt": 72,
-            "cpu": 75,
+            "wt": 95,
+            "cpu": 97,
             "mu": 7400,
             "pmu": 0,
             "parents": [
@@ -2338,17 +2327,17 @@
         },
         "Spiral\\Filters\\Model\\FilterProvider::createFilter": {
             "ct": 2,
-            "wt": 47283,
-            "cpu": 47284,
+            "wt": 96772,
+            "cpu": 96774,
             "mu": 216496,
-            "pmu": 337304,
+            "pmu": 275864,
             "parents": [
                 "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection"
             ]
         },
         "Spiral\\Models\\AbstractEntity::flushFields": {
             "ct": 2,
-            "wt": 2,
+            "wt": 4,
             "cpu": 4,
             "mu": 584,
             "pmu": 0,
@@ -2358,8 +2347,8 @@
         },
         "Spiral\\Models\\AbstractEntity::__destruct": {
             "ct": 2,
-            "wt": 8,
-            "cpu": 8,
+            "wt": 10,
+            "cpu": 10,
             "mu": 1280,
             "pmu": 0,
             "parents": [
@@ -2368,18 +2357,18 @@
         },
         "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection": {
             "ct": 2,
-            "wt": 49257,
-            "cpu": 49259,
-            "mu": 359440,
-            "pmu": 558304,
+            "wt": 101092,
+            "cpu": 101093,
+            "mu": 293904,
+            "pmu": 561768,
             "parents": [
                 "Spiral\\Core\\AbstractCore::callAction"
             ]
         },
         "load::Input\/Post.php": {
             "ct": 1,
-            "wt": 64,
-            "cpu": 64,
+            "wt": 62,
+            "cpu": 63,
             "mu": 6224,
             "pmu": 0,
             "parents": [
@@ -2408,18 +2397,18 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Post::getValue": {
             "ct": 1,
-            "wt": 808,
-            "cpu": 809,
+            "wt": 1080,
+            "cpu": 1080,
             "mu": 5160,
-            "pmu": 23928,
+            "pmu": 28024,
             "parents": [
                 "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map"
             ]
         },
         "Spiral\\Filters\\Attribute\\Input\\Post::getSchema": {
             "ct": 1,
-            "wt": 3,
-            "cpu": 3,
+            "wt": 6,
+            "cpu": 7,
             "mu": 1296,
             "pmu": 0,
             "parents": [
@@ -2428,8 +2417,8 @@
         },
         "load::Input\/Attribute.php": {
             "ct": 1,
-            "wt": 76,
-            "cpu": 77,
+            "wt": 98,
+            "cpu": 99,
             "mu": 6296,
             "pmu": 0,
             "parents": [
@@ -2438,8 +2427,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Attribute::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2449,7 +2438,7 @@
         "Nyholm\\Psr7\\ServerRequest::getAttributes": {
             "ct": 1,
             "wt": 2,
-            "cpu": 2,
+            "cpu": 3,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -2458,8 +2447,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Attribute::getValue": {
             "ct": 1,
-            "wt": 810,
-            "cpu": 810,
+            "wt": 1492,
+            "cpu": 1492,
             "mu": 3048,
             "pmu": 6704,
             "parents": [
@@ -2468,8 +2457,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Attribute::getSchema": {
             "ct": 1,
-            "wt": 3,
-            "cpu": 3,
+            "wt": 7,
+            "cpu": 8,
             "mu": 1336,
             "pmu": 0,
             "parents": [
@@ -2478,8 +2467,8 @@
         },
         "load::Input\/Route.php": {
             "ct": 1,
-            "wt": 61,
-            "cpu": 62,
+            "wt": 88,
+            "cpu": 89,
             "mu": 7176,
             "pmu": 0,
             "parents": [
@@ -2488,8 +2477,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Route::__construct": {
             "ct": 1,
-            "wt": 0,
-            "cpu": 1,
+            "wt": 1,
+            "cpu": 2,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -2498,8 +2487,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Route::getValue": {
             "ct": 1,
-            "wt": 834,
-            "cpu": 835,
+            "wt": 1454,
+            "cpu": 1455,
             "mu": 2288,
             "pmu": 9080,
             "parents": [
@@ -2508,8 +2497,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Route::getSchema": {
             "ct": 1,
-            "wt": 3,
-            "cpu": 3,
+            "wt": 6,
+            "cpu": 6,
             "mu": 1312,
             "pmu": 0,
             "parents": [
@@ -2518,8 +2507,8 @@
         },
         "load::Input\/Server.php": {
             "ct": 1,
-            "wt": 55,
-            "cpu": 56,
+            "wt": 80,
+            "cpu": 82,
             "mu": 6256,
             "pmu": 0,
             "parents": [
@@ -2528,8 +2517,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Server::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -2538,8 +2527,8 @@
         },
         "Nyholm\\Psr7\\ServerRequest::getServerParams": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -2548,8 +2537,8 @@
         },
         "load::Request\/ServerBag.php": {
             "ct": 1,
-            "wt": 51,
-            "cpu": 52,
+            "wt": 95,
+            "cpu": 96,
             "mu": 8760,
             "pmu": 0,
             "parents": [
@@ -2558,8 +2547,8 @@
         },
         "Spiral\\Http\\Request\\ServerBag::normalize": {
             "ct": 2,
-            "wt": 41,
-            "cpu": 41,
+            "wt": 66,
+            "cpu": 67,
             "mu": 1912,
             "pmu": 0,
             "parents": [
@@ -2568,8 +2557,8 @@
         },
         "Spiral\\Http\\Request\\ServerBag::get": {
             "ct": 2,
-            "wt": 1369,
-            "cpu": 1369,
+            "wt": 2553,
+            "cpu": 2554,
             "mu": 3504,
             "pmu": 18496,
             "parents": [
@@ -2578,8 +2567,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Server::getValue": {
             "ct": 1,
-            "wt": 882,
-            "cpu": 882,
+            "wt": 1545,
+            "cpu": 1545,
             "mu": 12960,
             "pmu": 18496,
             "parents": [
@@ -2588,8 +2577,8 @@
         },
         "Spiral\\Filters\\Attribute\\Input\\Server::getSchema": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 3,
+            "wt": 5,
+            "cpu": 5,
             "mu": 1304,
             "pmu": 0,
             "parents": [
@@ -2598,8 +2587,8 @@
         },
         "load::src\/QueueManager.php": {
             "ct": 1,
-            "wt": 139,
-            "cpu": 141,
+            "wt": 230,
+            "cpu": 231,
             "mu": 15040,
             "pmu": 0,
             "parents": [
@@ -2608,8 +2597,8 @@
         },
         "ReflectionType::__toString": {
             "ct": 11,
-            "wt": 0,
-            "cpu": 2,
+            "wt": 9,
+            "cpu": 12,
             "mu": 1328,
             "pmu": 0,
             "parents": [
@@ -2619,8 +2608,8 @@
         },
         "ReflectionParameter::isPassedByReference": {
             "ct": 11,
-            "wt": 0,
-            "cpu": 4,
+            "wt": 7,
+            "cpu": 13,
             "mu": 1184,
             "pmu": 0,
             "parents": [
@@ -2631,7 +2620,7 @@
         "ReflectionParameter::isDefaultValueConstant": {
             "ct": 2,
             "wt": 1,
-            "cpu": 2,
+            "cpu": 3,
             "mu": 1200,
             "pmu": 0,
             "parents": [
@@ -2641,8 +2630,8 @@
         },
         "Spiral\\Queue\\QueueManager::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 3,
+            "cpu": 4,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2651,10 +2640,10 @@
         },
         "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager": {
             "ct": 1,
-            "wt": 1268,
-            "cpu": 1268,
+            "wt": 2985,
+            "cpu": 2986,
             "mu": 37832,
-            "pmu": 75304,
+            "pmu": 71208,
             "parents": [
                 "ReflectionMethod::invokeArgs"
             ]
@@ -2662,7 +2651,7 @@
         "Spiral\\Queue\\Config\\QueueConfig::getDefaultDriver": {
             "ct": 1,
             "wt": 2,
-            "cpu": 2,
+            "cpu": 3,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2671,8 +2660,8 @@
         },
         "Spiral\\Queue\\QueueManager::getDefaultDriver": {
             "ct": 1,
-            "wt": 4,
-            "cpu": 4,
+            "wt": 6,
+            "cpu": 6,
             "mu": 1248,
             "pmu": 0,
             "parents": [
@@ -2682,7 +2671,7 @@
         "Spiral\\Queue\\Config\\QueueConfig::getAliases": {
             "ct": 1,
             "wt": 1,
-            "cpu": 1,
+            "cpu": 2,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -2691,7 +2680,7 @@
         },
         "Spiral\\Queue\\Config\\QueueConfig::getConnections": {
             "ct": 1,
-            "wt": 2,
+            "wt": 1,
             "cpu": 2,
             "mu": 600,
             "pmu": 0,
@@ -2701,8 +2690,8 @@
         },
         "Spiral\\Queue\\Config\\QueueConfig::getConnection": {
             "ct": 1,
-            "wt": 7,
-            "cpu": 7,
+            "wt": 9,
+            "cpu": 9,
             "mu": 1640,
             "pmu": 0,
             "parents": [
@@ -2711,9 +2700,9 @@
         },
         "load::Driver\/SyncDriver.php": {
             "ct": 1,
-            "wt": 59,
-            "cpu": 62,
-            "mu": 26880,
+            "wt": 106,
+            "cpu": 107,
+            "mu": 6400,
             "pmu": 0,
             "parents": [
                 "class_exists"
@@ -2721,8 +2710,8 @@
         },
         "load::src\/QueueTrait.php": {
             "ct": 1,
-            "wt": 20,
-            "cpu": 20,
+            "wt": 37,
+            "cpu": 38,
             "mu": 3376,
             "pmu": 0,
             "parents": [
@@ -2731,8 +2720,8 @@
         },
         "load::Consume\/Core.php": {
             "ct": 1,
-            "wt": 59,
-            "cpu": 59,
+            "wt": 239,
+            "cpu": 242,
             "mu": 10136,
             "pmu": 0,
             "parents": [
@@ -2741,8 +2730,8 @@
         },
         "Spiral\\Queue\\Interceptor\\Consume\\Core::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 4,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2751,8 +2740,8 @@
         },
         "Spiral\\Queue\\Config\\QueueConfig::getConsumeInterceptors": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 2,
+            "wt": 4,
+            "cpu": 4,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -2761,8 +2750,8 @@
         },
         "load::Consume\/ErrorHandlerInterceptor.php": {
             "ct": 1,
-            "wt": 51,
-            "cpu": 52,
+            "wt": 116,
+            "cpu": 119,
             "mu": 6744,
             "pmu": 0,
             "parents": [
@@ -2771,8 +2760,8 @@
         },
         "load::Failed\/LogFailedJobHandler.php": {
             "ct": 1,
-            "wt": 26,
-            "cpu": 26,
+            "wt": 62,
+            "cpu": 63,
             "mu": 4616,
             "pmu": 0,
             "parents": [
@@ -2781,8 +2770,8 @@
         },
         "load::Failed\/FailedJobHandlerInterface.php": {
             "ct": 1,
-            "wt": 11,
-            "cpu": 12,
+            "wt": 32,
+            "cpu": 33,
             "mu": 2976,
             "pmu": 0,
             "parents": [
@@ -2791,8 +2780,8 @@
         },
         "Spiral\\Queue\\Failed\\LogFailedJobHandler::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -2801,8 +2790,8 @@
         },
         "Spiral\\Queue\\Interceptor\\Consume\\ErrorHandlerInterceptor::__construct": {
             "ct": 1,
-            "wt": 0,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -2811,8 +2800,8 @@
         },
         "load::Consume\/Handler.php": {
             "ct": 1,
-            "wt": 50,
-            "cpu": 50,
+            "wt": 105,
+            "cpu": 107,
             "mu": 9160,
             "pmu": 0,
             "parents": [
@@ -2821,8 +2810,8 @@
         },
         "Spiral\\Queue\\Interceptor\\Consume\\Handler::__construct": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 4,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -2831,8 +2820,8 @@
         },
         "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler": {
             "ct": 1,
-            "wt": 524,
-            "cpu": 524,
+            "wt": 1221,
+            "cpu": 1265,
             "mu": 33768,
             "pmu": 0,
             "parents": [
@@ -2841,8 +2830,8 @@
         },
         "ReflectionMethod::invokeArgs@1": {
             "ct": 1,
-            "wt": 527,
-            "cpu": 527,
+            "wt": 1228,
+            "cpu": 1270,
             "mu": 34416,
             "pmu": 0,
             "parents": [
@@ -2851,8 +2840,8 @@
         },
         "Spiral\\Queue\\Driver\\SyncDriver::__construct": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 3,
+            "wt": 1,
+            "cpu": 2,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2861,8 +2850,8 @@
         },
         "load::Push\/Core.php": {
             "ct": 1,
-            "wt": 59,
-            "cpu": 61,
+            "wt": 115,
+            "cpu": 117,
             "mu": 11704,
             "pmu": 0,
             "parents": [
@@ -2871,8 +2860,8 @@
         },
         "Spiral\\Queue\\Interceptor\\Push\\Core::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 3,
+            "cpu": 3,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2881,8 +2870,8 @@
         },
         "Spiral\\Queue\\Config\\QueueConfig::getPushInterceptors": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 3,
+            "cpu": 4,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2891,8 +2880,8 @@
         },
         "load::src\/Queue.php": {
             "ct": 1,
-            "wt": 21,
-            "cpu": 23,
+            "wt": 52,
+            "cpu": 54,
             "mu": 4984,
             "pmu": 0,
             "parents": [
@@ -2901,8 +2890,8 @@
         },
         "Spiral\\Queue\\Queue::__construct": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -2911,8 +2900,8 @@
         },
         "Spiral\\Queue\\QueueManager::resolveConnection": {
             "ct": 1,
-            "wt": 3646,
-            "cpu": 3647,
+            "wt": 9141,
+            "cpu": 9184,
             "mu": 112272,
             "pmu": 70504,
             "parents": [
@@ -2921,8 +2910,8 @@
         },
         "Spiral\\Queue\\QueueManager::getConnection": {
             "ct": 1,
-            "wt": 3656,
-            "cpu": 3656,
+            "wt": 9160,
+            "cpu": 9203,
             "mu": 114896,
             "pmu": 70504,
             "parents": [
@@ -2931,8 +2920,8 @@
         },
         "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueue": {
             "ct": 1,
-            "wt": 3658,
-            "cpu": 3658,
+            "wt": 9163,
+            "cpu": 9208,
             "mu": 115544,
             "pmu": 70504,
             "parents": [
@@ -2942,7 +2931,7 @@
         "App\\Controller\\HomeController::__construct": {
             "ct": 1,
             "wt": 1,
-            "cpu": 1,
+            "cpu": 2,
             "mu": 600,
             "pmu": 0,
             "parents": [
@@ -2951,8 +2940,8 @@
         },
         "Spiral\\Prototype\\ClassNode\\Type::name": {
             "ct": 2,
-            "wt": 2,
-            "cpu": 3,
+            "wt": 1,
+            "cpu": 5,
             "mu": 1184,
             "pmu": 0,
             "parents": [
@@ -2962,8 +2951,8 @@
         },
         "Spiral\\Prototype\\PrototypeRegistry::resolveProperty": {
             "ct": 1,
-            "wt": 15,
-            "cpu": 15,
+            "wt": 23,
+            "cpu": 23,
             "mu": 2528,
             "pmu": 0,
             "parents": [
@@ -2972,8 +2961,8 @@
         },
         "App\\Controller\\HomeController::__get": {
             "ct": 1,
-            "wt": 40,
-            "cpu": 40,
+            "wt": 62,
+            "cpu": 63,
             "mu": 5056,
             "pmu": 0,
             "parents": [
@@ -2982,8 +2971,8 @@
         },
         "Monolog\\Handler\\AbstractHandler::isHandling": {
             "ct": 4,
-            "wt": 5,
-            "cpu": 6,
+            "wt": 6,
+            "cpu": 8,
             "mu": 1168,
             "pmu": 0,
             "parents": [
@@ -2994,7 +2983,7 @@
         "Monolog\\Logger::getLevelName": {
             "ct": 2,
             "wt": 5,
-            "cpu": 5,
+            "cpu": 7,
             "mu": 584,
             "pmu": 0,
             "parents": [
@@ -3003,8 +2992,8 @@
         },
         "load::Monolog\/DateTimeImmutable.php": {
             "ct": 1,
-            "wt": 30,
-            "cpu": 31,
+            "wt": 63,
+            "cpu": 64,
             "mu": 6512,
             "pmu": 0,
             "parents": [
@@ -3013,8 +3002,8 @@
         },
         "DateTimeImmutable::__construct": {
             "ct": 1,
-            "wt": 4,
-            "cpu": 5,
+            "wt": 6,
+            "cpu": 6,
             "mu": 832,
             "pmu": 0,
             "parents": [
@@ -3023,8 +3012,8 @@
         },
         "Monolog\\DateTimeImmutable::__construct": {
             "ct": 2,
-            "wt": 10,
-            "cpu": 11,
+            "wt": 16,
+            "cpu": 17,
             "mu": 1728,
             "pmu": 0,
             "parents": [
@@ -3033,8 +3022,8 @@
         },
         "Monolog\\Processor\\PsrLogMessageProcessor::__invoke": {
             "ct": 2,
-            "wt": 6,
-            "cpu": 7,
+            "wt": 9,
+            "cpu": 11,
             "mu": 1216,
             "pmu": 0,
             "parents": [
@@ -3043,8 +3032,8 @@
         },
         "Monolog\\Handler\\AbstractProcessingHandler::getFormatter": {
             "ct": 2,
-            "wt": 3,
-            "cpu": 4,
+            "wt": 4,
+            "cpu": 5,
             "mu": 632,
             "pmu": 0,
             "parents": [
@@ -3053,8 +3042,8 @@
         },
         "is_scalar": {
             "ct": 13,
-            "wt": 3,
-            "cpu": 7,
+            "wt": 8,
+            "cpu": 12,
             "mu": 2272,
             "pmu": 0,
             "parents": [
@@ -3066,8 +3055,8 @@
         },
         "is_array": {
             "ct": 5,
-            "wt": 1,
-            "cpu": 2,
+            "wt": 2,
+            "cpu": 3,
             "mu": 1704,
             "pmu": 0,
             "parents": [
@@ -3079,7 +3068,7 @@
         "is_float": {
             "ct": 4,
             "wt": 1,
-            "cpu": 3,
+            "cpu": 4,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -3088,8 +3077,8 @@
         },
         "Monolog\\Formatter\\NormalizerFormatter::normalize@1": {
             "ct": 8,
-            "wt": 56,
-            "cpu": 58,
+            "wt": 109,
+            "cpu": 114,
             "mu": 14304,
             "pmu": 0,
             "parents": [
@@ -3098,8 +3087,8 @@
         },
         "is_object": {
             "ct": 1,
-            "wt": 0,
-            "cpu": 0,
+            "wt": 1,
+            "cpu": 1,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -3109,7 +3098,7 @@
         "method_exists": {
             "ct": 1,
             "wt": 1,
-            "cpu": 1,
+            "cpu": 2,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -3118,8 +3107,8 @@
         },
         "json_encode": {
             "ct": 4,
-            "wt": 7,
-            "cpu": 8,
+            "wt": 8,
+            "cpu": 10,
             "mu": 2112,
             "pmu": 0,
             "parents": [
@@ -3129,8 +3118,8 @@
         },
         "Monolog\\Utils::jsonEncode": {
             "ct": 2,
-            "wt": 8,
-            "cpu": 9,
+            "wt": 15,
+            "cpu": 17,
             "mu": 1696,
             "pmu": 0,
             "parents": [
@@ -3139,8 +3128,8 @@
         },
         "Monolog\\Formatter\\NormalizerFormatter::toJson": {
             "ct": 2,
-            "wt": 12,
-            "cpu": 12,
+            "wt": 24,
+            "cpu": 25,
             "mu": 2960,
             "pmu": 0,
             "parents": [
@@ -3150,8 +3139,8 @@
         },
         "json_decode": {
             "ct": 1,
-            "wt": 4,
-            "cpu": 4,
+            "wt": 8,
+            "cpu": 9,
             "mu": 1776,
             "pmu": 0,
             "parents": [
@@ -3160,8 +3149,8 @@
         },
         "Monolog\\Utils::getClass": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 3,
+            "wt": 5,
+            "cpu": 6,
             "mu": 1184,
             "pmu": 0,
             "parents": [
@@ -3170,8 +3159,8 @@
         },
         "Monolog\\Formatter\\NormalizerFormatter::normalize@2": {
             "ct": 4,
-            "wt": 35,
-            "cpu": 35,
+            "wt": 67,
+            "cpu": 72,
             "mu": 9544,
             "pmu": 0,
             "parents": [
@@ -3181,7 +3170,7 @@
         "DateTimeImmutable::format": {
             "ct": 1,
             "wt": 3,
-            "cpu": 3,
+            "cpu": 5,
             "mu": 824,
             "pmu": 0,
             "parents": [
@@ -3190,8 +3179,8 @@
         },
         "Monolog\\DateTimeImmutable::jsonSerialize": {
             "ct": 1,
-            "wt": 4,
-            "cpu": 5,
+            "wt": 8,
+            "cpu": 8,
             "mu": 1472,
             "pmu": 0,
             "parents": [
@@ -3200,8 +3189,8 @@
         },
         "Monolog\\DateTimeImmutable::__toString": {
             "ct": 1,
-            "wt": 5,
-            "cpu": 6,
+            "wt": 10,
+            "cpu": 10,
             "mu": 2136,
             "pmu": 0,
             "parents": [
@@ -3210,8 +3199,8 @@
         },
         "Monolog\\Formatter\\NormalizerFormatter::formatDate": {
             "ct": 1,
-            "wt": 8,
-            "cpu": 8,
+            "wt": 14,
+            "cpu": 15,
             "mu": 2800,
             "pmu": 0,
             "parents": [
@@ -3220,8 +3209,8 @@
         },
         "Monolog\\Formatter\\NormalizerFormatter::normalize": {
             "ct": 1,
-            "wt": 66,
-            "cpu": 68,
+            "wt": 132,
+            "cpu": 133,
             "mu": 16608,
             "pmu": 0,
             "parents": [
@@ -3230,8 +3219,8 @@
         },
         "Monolog\\Formatter\\NormalizerFormatter::format": {
             "ct": 1,
-            "wt": 69,
-            "cpu": 69,
+            "wt": 136,
+            "cpu": 136,
             "mu": 17256,
             "pmu": 0,
             "parents": [
@@ -3240,8 +3229,8 @@
         },
         "is_bool": {
             "ct": 4,
-            "wt": 0,
-            "cpu": 3,
+            "wt": 1,
+            "cpu": 1,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -3250,8 +3239,8 @@
         },
         "Monolog\\Formatter\\LineFormatter::convertToString": {
             "ct": 4,
-            "wt": 14,
-            "cpu": 15,
+            "wt": 25,
+            "cpu": 25,
             "mu": 2784,
             "pmu": 0,
             "parents": [
@@ -3260,8 +3249,8 @@
         },
         "Monolog\\Formatter\\LineFormatter::replaceNewlines": {
             "ct": 4,
-            "wt": 7,
-            "cpu": 8,
+            "wt": 11,
+            "cpu": 11,
             "mu": 1232,
             "pmu": 0,
             "parents": [
@@ -3270,8 +3259,8 @@
         },
         "Monolog\\Formatter\\LineFormatter::stringify": {
             "ct": 4,
-            "wt": 28,
-            "cpu": 29,
+            "wt": 47,
+            "cpu": 47,
             "mu": 4728,
             "pmu": 0,
             "parents": [
@@ -3280,8 +3269,8 @@
         },
         "Monolog\\Formatter\\LineFormatter::format": {
             "ct": 1,
-            "wt": 120,
-            "cpu": 122,
+            "wt": 219,
+            "cpu": 219,
             "mu": 24008,
             "pmu": 0,
             "parents": [
@@ -3291,7 +3280,7 @@
         "is_resource": {
             "ct": 3,
             "wt": 1,
-            "cpu": 1,
+            "cpu": 3,
             "mu": 552,
             "pmu": 0,
             "parents": [
@@ -3300,8 +3289,8 @@
         },
         "dirname": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 0,
+            "cpu": 2,
             "mu": 664,
             "pmu": 0,
             "parents": [
@@ -3310,8 +3299,8 @@
         },
         "Monolog\\Handler\\StreamHandler::getDirFromStream": {
             "ct": 1,
-            "wt": 4,
-            "cpu": 5,
+            "wt": 8,
+            "cpu": 8,
             "mu": 1960,
             "pmu": 0,
             "parents": [
@@ -3320,8 +3309,8 @@
         },
         "is_dir": {
             "ct": 1,
-            "wt": 2,
-            "cpu": 2,
+            "wt": 3,
+            "cpu": 4,
             "mu": 552,
             "pmu": 0,
             "parents": [
@@ -3330,8 +3319,8 @@
         },
         "Monolog\\Handler\\StreamHandler::createDir": {
             "ct": 1,
-            "wt": 10,
-            "cpu": 10,
+            "wt": 16,
+            "cpu": 17,
             "mu": 3224,
             "pmu": 0,
             "parents": [
@@ -3350,8 +3339,8 @@
         },
         "fopen": {
             "ct": 2,
-            "wt": 13,
-            "cpu": 13,
+            "wt": 17,
+            "cpu": 19,
             "mu": 2216,
             "pmu": 0,
             "parents": [
@@ -3371,8 +3360,8 @@
         },
         "stream_set_chunk_size": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 0,
+            "cpu": 2,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -3381,8 +3370,8 @@
         },
         "flock": {
             "ct": 2,
-            "wt": 390,
-            "cpu": 394,
+            "wt": 76,
+            "cpu": 79,
             "mu": 552,
             "pmu": 0,
             "parents": [
@@ -3391,8 +3380,8 @@
         },
         "fwrite": {
             "ct": 4,
-            "wt": 47,
-            "cpu": 50,
+            "wt": 65,
+            "cpu": 67,
             "mu": 1944,
             "pmu": 0,
             "parents": [
@@ -3403,8 +3392,8 @@
         },
         "Monolog\\Handler\\StreamHandler::streamWrite": {
             "ct": 1,
-            "wt": 53,
-            "cpu": 54,
+            "wt": 71,
+            "cpu": 71,
             "mu": 1200,
             "pmu": 0,
             "parents": [
@@ -3413,9 +3402,9 @@
         },
         "Monolog\\Handler\\StreamHandler::write": {
             "ct": 1,
-            "wt": 495,
-            "cpu": 495,
-            "mu": 9408,
+            "wt": 213,
+            "cpu": 214,
+            "mu": 13504,
             "pmu": 0,
             "parents": [
                 "Monolog\\Handler\\RotatingFileHandler::write"
@@ -3423,8 +3412,8 @@
         },
         "Monolog\\Handler\\RotatingFileHandler::write": {
             "ct": 1,
-            "wt": 506,
-            "cpu": 506,
+            "wt": 228,
+            "cpu": 229,
             "mu": 14800,
             "pmu": 0,
             "parents": [
@@ -3433,8 +3422,8 @@
         },
         "Monolog\\Handler\\AbstractProcessingHandler::handle": {
             "ct": 1,
-            "wt": 639,
-            "cpu": 639,
+            "wt": 466,
+            "cpu": 467,
             "mu": 38664,
             "pmu": 0,
             "parents": [
@@ -3443,8 +3432,8 @@
         },
         "Monolog\\Logger::addRecord": {
             "ct": 1,
-            "wt": 725,
-            "cpu": 726,
+            "wt": 636,
+            "cpu": 636,
             "mu": 51000,
             "pmu": 0,
             "parents": [
@@ -3453,8 +3442,8 @@
         },
         "Monolog\\Logger::info": {
             "ct": 1,
-            "wt": 730,
-            "cpu": 730,
+            "wt": 642,
+            "cpu": 643,
             "mu": 50928,
             "pmu": 0,
             "parents": [
@@ -3463,8 +3452,8 @@
         },
         "App\\Controller\\HomeController::index": {
             "ct": 1,
-            "wt": 781,
-            "cpu": 782,
+            "wt": 719,
+            "cpu": 719,
             "mu": 57616,
             "pmu": 0,
             "parents": [
@@ -3473,98 +3462,98 @@
         },
         "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}": {
             "ct": 1,
-            "wt": 6230,
-            "cpu": 6230,
+            "wt": 14228,
+            "cpu": 14272,
             "mu": 221080,
-            "pmu": 145808,
+            "pmu": 141712,
             "parents": [
                 "Spiral\\Core\\AbstractCore::callAction"
             ]
         },
         "Spiral\\Core\\AbstractCore::callAction": {
             "ct": 1,
-            "wt": 55757,
-            "cpu": 55758,
-            "mu": 592416,
-            "pmu": 704112,
+            "wt": 115694,
+            "cpu": 115737,
+            "mu": 526880,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Core\\InterceptorPipeline::callAction@1"
             ]
         },
         "Spiral\\Core\\InterceptorPipeline::callAction@1": {
             "ct": 1,
-            "wt": 55761,
-            "cpu": 55761,
+            "wt": 115701,
+            "cpu": 115743,
             "mu": 588840,
-            "pmu": 704112,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Filters\\Interceptor\\FilterInterceptor::process"
             ]
         },
         "Spiral\\Filters\\Interceptor\\FilterInterceptor::process": {
             "ct": 1,
-            "wt": 55788,
-            "cpu": 55788,
+            "wt": 115760,
+            "cpu": 115803,
             "mu": 596920,
-            "pmu": 704112,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Core\\InterceptorPipeline::callAction"
             ]
         },
         "Spiral\\Core\\InterceptorPipeline::callAction": {
             "ct": 1,
-            "wt": 55791,
-            "cpu": 55792,
+            "wt": 115765,
+            "cpu": 115809,
             "mu": 597568,
-            "pmu": 704112,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Core\\InterceptableCore::callAction"
             ]
         },
         "Spiral\\Core\\InterceptableCore::callAction": {
             "ct": 1,
-            "wt": 55796,
-            "cpu": 55796,
+            "wt": 115775,
+            "cpu": 115819,
             "mu": 598504,
-            "pmu": 704112,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}@1"
             ]
         },
         "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}@1": {
             "ct": 1,
-            "wt": 55799,
-            "cpu": 55800,
+            "wt": 115783,
+            "cpu": 115826,
             "mu": 599152,
-            "pmu": 704112,
+            "pmu": 703480,
             "parents": [
                 "ReflectionFunction::invokeArgs@1"
             ]
         },
         "ReflectionFunction::invokeArgs@1": {
             "ct": 1,
-            "wt": 55803,
-            "cpu": 55803,
+            "wt": 115787,
+            "cpu": 115830,
             "mu": 599800,
-            "pmu": 704112,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}"
             ]
         },
         "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}": {
             "ct": 1,
-            "wt": 55831,
-            "cpu": 55831,
+            "wt": 115845,
+            "cpu": 115888,
             "mu": 602648,
-            "pmu": 704112,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Router\\CoreHandler::handle"
             ]
         },
         "ob_get_clean": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 3,
             "mu": -15928,
             "pmu": 0,
             "parents": [
@@ -3573,8 +3562,8 @@
         },
         "load::src\/Stream.php": {
             "ct": 1,
-            "wt": 269,
-            "cpu": 270,
+            "wt": 363,
+            "cpu": 366,
             "mu": 43088,
             "pmu": 0,
             "parents": [
@@ -3583,9 +3572,9 @@
         },
         "load::src\/StreamInterface.php": {
             "ct": 1,
-            "wt": 41,
-            "cpu": 42,
-            "mu": 18136,
+            "wt": 100,
+            "cpu": 102,
+            "mu": 83672,
             "pmu": 0,
             "parents": [
                 "Nyholm\\Psr7\\Response::getBody"
@@ -3594,7 +3583,7 @@
         "Nyholm\\Psr7\\Stream::__construct": {
             "ct": 1,
             "wt": 1,
-            "cpu": 1,
+            "cpu": 2,
             "mu": 568,
             "pmu": 0,
             "parents": [
@@ -3603,8 +3592,8 @@
         },
         "stream_get_meta_data": {
             "ct": 1,
-            "wt": 1,
-            "cpu": 1,
+            "wt": 2,
+            "cpu": 2,
             "mu": 1288,
             "pmu": 0,
             "parents": [
@@ -3623,8 +3612,8 @@
         },
         "Nyholm\\Psr7\\Stream::create": {
             "ct": 1,
-            "wt": 20,
-            "cpu": 20,
+            "wt": 26,
+            "cpu": 27,
             "mu": 5112,
             "pmu": 0,
             "parents": [
@@ -3633,9 +3622,9 @@
         },
         "Nyholm\\Psr7\\Response::getBody": {
             "ct": 2,
-            "wt": 403,
-            "cpu": 404,
-            "mu": 49656,
+            "wt": 603,
+            "cpu": 604,
+            "mu": 115192,
             "pmu": 0,
             "parents": [
                 "Spiral\\Router\\CoreHandler::wrapResponse"
@@ -3643,8 +3632,8 @@
         },
         "Nyholm\\Psr7\\Stream::write": {
             "ct": 2,
-            "wt": 7,
-            "cpu": 8,
+            "wt": 8,
+            "cpu": 9,
             "mu": 1488,
             "pmu": 0,
             "parents": [
@@ -3653,9 +3642,9 @@
         },
         "Spiral\\Router\\CoreHandler::wrapResponse": {
             "ct": 1,
-            "wt": 420,
-            "cpu": 420,
-            "mu": 51856,
+            "wt": 623,
+            "cpu": 624,
+            "mu": 117392,
             "pmu": 0,
             "parents": [
                 "Spiral\\Router\\CoreHandler::handle"
@@ -3663,160 +3652,130 @@
         },
         "Spiral\\Router\\CoreHandler::handle": {
             "ct": 1,
-            "wt": 56445,
-            "cpu": 56445,
-            "mu": 689896,
-            "pmu": 704112,
+            "wt": 116875,
+            "cpu": 116919,
+            "mu": 755432,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}@1"
             ]
         },
         "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}@1": {
             "ct": 1,
-            "wt": 56449,
-            "cpu": 56449,
-            "mu": 690224,
-            "pmu": 704112,
+            "wt": 116881,
+            "cpu": 116924,
+            "mu": 755760,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Http\\Pipeline::process"
             ]
         },
         "Spiral\\Http\\Pipeline::process": {
             "ct": 1,
-            "wt": 56464,
-            "cpu": 56465,
-            "mu": 690856,
-            "pmu": 704112,
+            "wt": 116906,
+            "cpu": 116948,
+            "mu": 756392,
+            "pmu": 703480,
             "parents": [
                 "Spiral\\Router\\Route::handle"
             ]
         },
         "Spiral\\Router\\Route::handle": {
             "ct": 1,
-            "wt": 58358,
-            "cpu": 58358,
-            "mu": 825912,
-            "pmu": 834608,
+            "wt": 121185,
+            "cpu": 121227,
+            "mu": 890816,
+            "pmu": 836240,
             "parents": [
                 "Spiral\\Router\\Router::Spiral\\Router\\{closure}"
             ]
         },
         "Spiral\\Router\\Router::Spiral\\Router\\{closure}": {
             "ct": 1,
-            "wt": 58623,
-            "cpu": 58624,
-            "mu": 853784,
-            "pmu": 834608,
+            "wt": 121777,
+            "cpu": 121820,
+            "mu": 918024,
+            "pmu": 836240,
             "parents": [
                 "ReflectionFunction::invokeArgs"
             ]
         },
         "ReflectionFunction::invokeArgs": {
             "ct": 1,
-            "wt": 58627,
-            "cpu": 58626,
-            "mu": 853056,
-            "pmu": 834608,
+            "wt": 121782,
+            "cpu": 121825,
+            "mu": 917296,
+            "pmu": 836240,
             "parents": [
                 "Spiral\\Router\\Router::handle"
             ]
         },
         "Spiral\\Router\\Router::handle": {
             "ct": 1,
-            "wt": 58679,
-            "cpu": 58679,
-            "mu": 860480,
-            "pmu": 834608,
+            "wt": 121899,
+            "cpu": 121943,
+            "mu": 924720,
+            "pmu": 836240,
             "parents": [
                 "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}"
             ]
         },
         "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}": {
             "ct": 1,
-            "wt": 58683,
-            "cpu": 58683,
-            "mu": 861096,
-            "pmu": 834608,
-            "parents": [
-                "main()"
-            ]
-        },
-        "xhprof_disable": {
-            "ct": 1,
-            "wt": 0,
-            "cpu": 1,
-            "mu": 568,
-            "pmu": 0,
-            "parents": [
-                "SpiralPackages\\Profiler\\Driver\\XhprofDriver::end"
-            ]
-        },
-        "SpiralPackages\\Profiler\\Driver\\XhprofDriver::end": {
-            "ct": 1,
-            "wt": 2,
-            "cpu": 4,
-            "mu": 1232,
-            "pmu": 0,
-            "parents": [
-                "SpiralPackages\\Profiler\\Profiler::end"
-            ]
-        },
-        "SpiralPackages\\Profiler\\Profiler::end": {
-            "ct": 1,
-            "wt": 5,
-            "cpu": 6,
-            "mu": 1848,
-            "pmu": 0,
+            "wt": 121910,
+            "cpu": 121953,
+            "mu": 925336,
+            "pmu": 836240,
             "parents": [
                 "main()"
             ]
         },
         "main()": {
             "ct": 1,
-            "wt": 58705,
-            "cpu": 58703,
-            "mu": 862760,
-            "pmu": 834608,
+            "wt": 121942,
+            "cpu": 121982,
+            "mu": 925088,
+            "pmu": 836240,
             "parents": [
                 null
             ]
         },
         "Monolog\\Formatter\\NormalizerFormatter::normalize@3": {
-            "ct": 713,
-            "wt": 6870,
-            "cpu": 6983,
-            "mu": 268976,
-            "pmu": 101968,
+            "ct": 708,
+            "wt": 34109,
+            "cpu": 34402,
+            "mu": 267096,
+            "pmu": 147872,
             "parents": [
                 "Monolog\\Formatter\\NormalizerFormatter::normalize@2"
             ]
         },
         "Monolog\\Formatter\\NormalizerFormatter::normalize@4": {
-            "ct": 3565,
-            "wt": 2884,
-            "cpu": 3597,
+            "ct": 3540,
+            "wt": 7459,
+            "cpu": 9085,
             "mu": 600,
-            "pmu": 8768,
+            "pmu": 12672,
             "parents": [
                 "Monolog\\Formatter\\NormalizerFormatter::normalize@3"
             ]
         }
     },
-    "indexed": {
+    {
         "Spiral\\Router\\Router::handle": {
             "ReflectionFunction::invokeArgs": {
                 "ct": 1,
-                "wt": 58627,
-                "cpu": 58626,
-                "mu": 853056,
-                "pmu": 834608
+                "wt": 121782,
+                "cpu": 121825,
+                "mu": 917296,
+                "pmu": 836240
             }
         },
         "Spiral\\Router\\AbstractRoute::match": {
             "Spiral\\Router\\UriHandler::match": {
                 "ct": 4,
-                "wt": 201,
-                "cpu": 202,
+                "wt": 465,
+                "cpu": 468,
                 "mu": 18408,
                 "pmu": 0
             }
@@ -3824,8 +3783,8 @@
         "Spiral\\Router\\UriHandler::match": {
             "array_merge": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 1,
+                "wt": 2,
+                "cpu": 3,
                 "mu": 928,
                 "pmu": 0
             }
@@ -3833,8 +3792,8 @@
         "Spiral\\Router\\UriHandler::compile": {
             "sprintf": {
                 "ct": 6,
-                "wt": 2,
-                "cpu": 2,
+                "wt": 6,
+                "cpu": 7,
                 "mu": 2472,
                 "pmu": 0
             }
@@ -3842,8 +3801,8 @@
         "Spiral\\Router\\UriHandler::fetchTarget": {
             "trim": {
                 "ct": 4,
-                "wt": 1,
-                "cpu": 2,
+                "wt": 2,
+                "cpu": 4,
                 "mu": 552,
                 "pmu": 0
             }
@@ -3851,8 +3810,8 @@
         "Spiral\\Router\\Router::matchRoute": {
             "Spiral\\Router\\AbstractRoute::match": {
                 "ct": 4,
-                "wt": 233,
-                "cpu": 233,
+                "wt": 529,
+                "cpu": 532,
                 "mu": 22768,
                 "pmu": 0
             }
@@ -3860,8 +3819,8 @@
         "array_filter": {
             "Spiral\\Router\\UriHandler::Spiral\\Router\\{closure}": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 2,
+                "wt": 3,
+                "cpu": 4,
                 "mu": 568,
                 "pmu": 0
             }
@@ -3869,26 +3828,26 @@
         "Spiral\\Router\\Router::Spiral\\Router\\{closure}": {
             "Spiral\\Router\\Route::handle": {
                 "ct": 1,
-                "wt": 58358,
-                "cpu": 58358,
-                "mu": 825912,
-                "pmu": 834608
+                "wt": 121185,
+                "cpu": 121227,
+                "mu": 890816,
+                "pmu": 836240
             }
         },
         "Spiral\\Router\\Target\\AbstractTarget::coreHandler": {
             "Spiral\\Router\\CoreHandler::__construct": {
                 "ct": 1,
-                "wt": 2,
-                "cpu": 3,
-                "mu": 4696,
+                "wt": 3,
+                "cpu": 4,
+                "mu": 600,
                 "pmu": 0
             }
         },
         "class_exists": {
             "load::Failed\/FailedJobHandlerInterface.php": {
                 "ct": 1,
-                "wt": 11,
-                "cpu": 12,
+                "wt": 32,
+                "cpu": 33,
                 "mu": 2976,
                 "pmu": 0
             }
@@ -3896,8 +3855,8 @@
         "Spiral\\Core\\AbstractCore::__construct": {
             "array_pop": {
                 "ct": 4,
-                "wt": 0,
-                "cpu": 2,
+                "wt": 3,
+                "cpu": 5,
                 "mu": 520,
                 "pmu": 0
             }
@@ -3905,8 +3864,8 @@
         "Spiral\\Bootloader\\DomainBootloader::domainCore": {
             "Spiral\\Core\\InterceptableCore::addInterceptor": {
                 "ct": 1,
-                "wt": 2,
-                "cpu": 3,
+                "wt": 6,
+                "cpu": 6,
                 "mu": 1640,
                 "pmu": 0
             }
@@ -3914,8 +3873,8 @@
         "Spiral\\Core\\InterceptableCore::__construct": {
             "Spiral\\Core\\InterceptorPipeline::__construct": {
                 "ct": 4,
-                "wt": 3,
-                "cpu": 5,
+                "wt": 8,
+                "cpu": 10,
                 "mu": 600,
                 "pmu": 0
             }
@@ -3923,8 +3882,8 @@
         "Spiral\\Core\\InterceptableCore::addInterceptor": {
             "Spiral\\Core\\InterceptorPipeline::addInterceptor": {
                 "ct": 4,
-                "wt": 4,
-                "cpu": 3,
+                "wt": 7,
+                "cpu": 8,
                 "mu": 1728,
                 "pmu": 0
             }
@@ -3932,8 +3891,8 @@
         "ReflectionMethod::invokeArgs": {
             "App\\Controller\\HomeController::index": {
                 "ct": 1,
-                "wt": 781,
-                "cpu": 782,
+                "wt": 719,
+                "cpu": 719,
                 "mu": 57616,
                 "pmu": 0
             }
@@ -3941,8 +3900,8 @@
         "Spiral\\Router\\Target\\AbstractTarget::getHandler": {
             "Spiral\\Router\\CoreHandler::withVerbActions": {
                 "ct": 1,
-                "wt": 0,
-                "cpu": 1,
+                "wt": 2,
+                "cpu": 2,
                 "mu": 792,
                 "pmu": 0
             }
@@ -3951,7 +3910,7 @@
             "sprintf": {
                 "ct": 1,
                 "wt": 1,
-                "cpu": 1,
+                "cpu": 2,
                 "mu": 888,
                 "pmu": 0
             }
@@ -3959,7 +3918,7 @@
         "Doctrine\\Inflector\\Inflector::classify": {
             "str_replace": {
                 "ct": 1,
-                "wt": 2,
+                "wt": 1,
                 "cpu": 2,
                 "mu": 552,
                 "pmu": 0
@@ -3968,35 +3927,35 @@
         "Spiral\\Router\\Route::requestHandler": {
             "Spiral\\Router\\Target\\AbstractTarget::getHandler": {
                 "ct": 1,
-                "wt": 1880,
-                "cpu": 1880,
+                "wt": 4256,
+                "cpu": 4257,
                 "mu": 131752,
-                "pmu": 130496
+                "pmu": 132760
             }
         },
         "Spiral\\Router\\Route::handle": {
             "Spiral\\Http\\Pipeline::process": {
                 "ct": 1,
-                "wt": 56464,
-                "cpu": 56465,
-                "mu": 690856,
-                "pmu": 704112
+                "wt": 116906,
+                "cpu": 116948,
+                "mu": 756392,
+                "pmu": 703480
             }
         },
         "Spiral\\Router\\CoreHandler::handle": {
             "Spiral\\Router\\CoreHandler::wrapResponse": {
                 "ct": 1,
-                "wt": 420,
-                "cpu": 420,
-                "mu": 51856,
+                "wt": 623,
+                "cpu": 624,
+                "mu": 117392,
                 "pmu": 0
             }
         },
         "Nyholm\\Psr7\\Factory\\Psr17Factory::createResponse": {
             "Nyholm\\Psr7\\Response::__construct": {
                 "ct": 1,
-                "wt": 4,
-                "cpu": 3,
+                "wt": 8,
+                "cpu": 8,
                 "mu": 1216,
                 "pmu": 0
             }
@@ -4004,8 +3963,8 @@
         "Nyholm\\Psr7\\Response::__construct": {
             "Nyholm\\Psr7\\Response::setHeaders": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 1,
+                "wt": 2,
+                "cpu": 3,
                 "mu": 568,
                 "pmu": 0
             }
@@ -4013,8 +3972,8 @@
         "Spiral\\Nyholm\\ResponseFactory::createResponse": {
             "Nyholm\\Psr7\\Response::withAddedHeader": {
                 "ct": 1,
-                "wt": 15,
-                "cpu": 15,
+                "wt": 33,
+                "cpu": 33,
                 "mu": 5704,
                 "pmu": 0
             }
@@ -4022,8 +3981,8 @@
         "Nyholm\\Psr7\\Response::validateAndTrimHeader": {
             "trim": {
                 "ct": 1,
-                "wt": 0,
-                "cpu": 1,
+                "wt": 1,
+                "cpu": 2,
                 "mu": 552,
                 "pmu": 0
             }
@@ -4032,7 +3991,7 @@
             "strtr": {
                 "ct": 1,
                 "wt": 1,
-                "cpu": 1,
+                "cpu": 2,
                 "mu": 592,
                 "pmu": 0
             }
@@ -4040,8 +3999,8 @@
         "Nyholm\\Psr7\\Response::withAddedHeader": {
             "Nyholm\\Psr7\\Response::setHeaders": {
                 "ct": 1,
-                "wt": 11,
-                "cpu": 12,
+                "wt": 27,
+                "cpu": 27,
                 "mu": 4896,
                 "pmu": 0
             }
@@ -4049,26 +4008,26 @@
         "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}": {
             "ReflectionFunction::invokeArgs@1": {
                 "ct": 1,
-                "wt": 55803,
-                "cpu": 55803,
+                "wt": 115787,
+                "cpu": 115830,
                 "mu": 599800,
-                "pmu": 704112
+                "pmu": 703480
             }
         },
         "Spiral\\Core\\InterceptableCore::callAction": {
             "Spiral\\Core\\InterceptorPipeline::callAction": {
                 "ct": 1,
-                "wt": 55791,
-                "cpu": 55792,
+                "wt": 115765,
+                "cpu": 115809,
                 "mu": 597568,
-                "pmu": 704112
+                "pmu": 703480
             }
         },
         "Spiral\\Filters\\Interceptor\\FilterInterceptor::getDeclaredFilters": {
             "ReflectionClass::implementsInterface": {
                 "ct": 2,
-                "wt": 1,
-                "cpu": 2,
+                "wt": 2,
+                "cpu": 3,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4076,8 +4035,8 @@
         "Spiral\\Filters\\Interceptor\\FilterInterceptor::getParameterClass": {
             "ReflectionClass::__construct": {
                 "ct": 2,
-                "wt": 0,
-                "cpu": 1,
+                "wt": 2,
+                "cpu": 2,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4085,26 +4044,26 @@
         "Spiral\\Filters\\Interceptor\\FilterInterceptor::process": {
             "Spiral\\Core\\InterceptorPipeline::callAction@1": {
                 "ct": 1,
-                "wt": 55761,
-                "cpu": 55761,
+                "wt": 115701,
+                "cpu": 115743,
                 "mu": 588840,
-                "pmu": 704112
+                "pmu": 703480
             }
         },
         "Spiral\\Core\\AbstractCore::callAction": {
             "Spiral\\Core\\AbstractCore::Spiral\\Core\\{closure}": {
                 "ct": 1,
-                "wt": 6230,
-                "cpu": 6230,
+                "wt": 14228,
+                "cpu": 14272,
                 "mu": 221080,
-                "pmu": 145808
+                "pmu": 141712
             }
         },
         "Spiral\\Bootloader\\Security\\FiltersBootloader::createInjection": {
             "Spiral\\Models\\AbstractEntity::__destruct": {
                 "ct": 2,
-                "wt": 8,
-                "cpu": 8,
+                "wt": 10,
+                "cpu": 10,
                 "mu": 1280,
                 "pmu": 0
             }
@@ -4112,8 +4071,8 @@
         "Spiral\\Bootloader\\Security\\FiltersBootloader::initFilterProvider": {
             "Spiral\\Filters\\Model\\FilterProvider::__construct": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 2,
+                "wt": 2,
+                "cpu": 3,
                 "mu": 632,
                 "pmu": 0
             }
@@ -4121,7 +4080,7 @@
         "Spiral\\Http\\Request\\InputManager::__construct": {
             "array_merge": {
                 "ct": 1,
-                "wt": 0,
+                "wt": 1,
                 "cpu": 1,
                 "mu": 568,
                 "pmu": 0
@@ -4130,8 +4089,8 @@
         "Spiral\\Filters\\Model\\FilterProvider::createFilter": {
             "Spiral\\Core\\InterceptableCore::callAction@1": {
                 "ct": 2,
-                "wt": 72,
-                "cpu": 75,
+                "wt": 95,
+                "cpu": 97,
                 "mu": 7400,
                 "pmu": 0
             }
@@ -4139,7 +4098,7 @@
         "Spiral\\Filters\\Model\\FilterProvider::createFilterInstance": {
             "ReflectionClass::newInstanceArgs": {
                 "ct": 2,
-                "wt": 1,
+                "wt": 2,
                 "cpu": 2,
                 "mu": 1240,
                 "pmu": 0
@@ -4148,8 +4107,8 @@
         "Spiral\\Filters\\Model\\Schema\\AttributeMapper::map": {
             "Spiral\\Filters\\Attribute\\Input\\Server::getSchema": {
                 "ct": 1,
-                "wt": 2,
-                "cpu": 3,
+                "wt": 5,
+                "cpu": 5,
                 "mu": 1304,
                 "pmu": 0
             }
@@ -4157,8 +4116,8 @@
         "Spiral\\Attributes\\Composite\\Composite::Spiral\\Attributes\\Composite\\{closure}": {
             "Spiral\\Attributes\\Internal\\Decorator::getPropertyMetadata": {
                 "ct": 96,
-                "wt": 871,
-                "cpu": 898,
+                "wt": 2410,
+                "cpu": 2455,
                 "mu": 67920,
                 "pmu": 0
             }
@@ -4166,8 +4125,8 @@
         "Spiral\\Attributes\\Composite\\Composite::getPropertyMetadata": {
             "iterator_to_array": {
                 "ct": 96,
-                "wt": 2438,
-                "cpu": 2453,
+                "wt": 5286,
+                "cpu": 5341,
                 "mu": 33208,
                 "pmu": 0
             }
@@ -4175,8 +4134,8 @@
         "Spiral\\Attributes\\Internal\\NativeAttributeReader::getPropertyAttributes": {
             "ReflectionProperty::getAttributes": {
                 "ct": 64,
-                "wt": 86,
-                "cpu": 99,
+                "wt": 181,
+                "cpu": 204,
                 "mu": 24048,
                 "pmu": 0
             }
@@ -4184,8 +4143,8 @@
         "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata": {
             "ReflectionClass::newInstanceArgs": {
                 "ct": 32,
-                "wt": 67,
-                "cpu": 71,
+                "wt": 128,
+                "cpu": 160,
                 "mu": 5648,
                 "pmu": 0
             }
@@ -4193,8 +4152,8 @@
         "ReflectionClass::newInstanceArgs": {
             "Spiral\\Filters\\Attribute\\Input\\Server::__construct": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 1,
+                "wt": 2,
+                "cpu": 3,
                 "mu": 584,
                 "pmu": 0
             }
@@ -4202,8 +4161,8 @@
         "iterator_to_array": {
             "Spiral\\Attributes\\Internal\\AttributeReader::getPropertyMetadata": {
                 "ct": 96,
-                "wt": 2297,
-                "cpu": 2321,
+                "wt": 4960,
+                "cpu": 4995,
                 "mu": 80176,
                 "pmu": 0
             }
@@ -4211,17 +4170,17 @@
         "Spiral\\Filters\\Attribute\\Input\\Query::getValue": {
             "Spiral\\Filter\\InputScope::getValue": {
                 "ct": 28,
-                "wt": 17359,
-                "cpu": 17364,
+                "wt": 35098,
+                "cpu": 35106,
                 "mu": 45136,
-                "pmu": 250432
+                "pmu": 188992
             }
         },
         "Spiral\\Http\\Request\\InputManager::hasBag": {
             "Spiral\\Http\\Request\\InputManager::findBagDefinition": {
                 "ct": 4,
-                "wt": 9,
-                "cpu": 11,
+                "wt": 12,
+                "cpu": 16,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4229,17 +4188,17 @@
         "Spiral\\Filter\\InputScope::getValue": {
             "Spiral\\Http\\Request\\InputManager::__call": {
                 "ct": 64,
-                "wt": 40945,
-                "cpu": 40964,
+                "wt": 83668,
+                "cpu": 83697,
                 "mu": 58952,
-                "pmu": 337304
+                "pmu": 275864
             }
         },
         "Spiral\\Http\\Request\\InputManager::request": {
             "array_pop": {
                 "ct": 136,
-                "wt": 34,
-                "cpu": 56,
+                "wt": 77,
+                "cpu": 108,
                 "mu": 552,
                 "pmu": 0
             }
@@ -4247,8 +4206,8 @@
         "Spiral\\Http\\Request\\InputManager::bag": {
             "load::Request\/ServerBag.php": {
                 "ct": 1,
-                "wt": 51,
-                "cpu": 52,
+                "wt": 95,
+                "cpu": 96,
                 "mu": 8760,
                 "pmu": 0
             }
@@ -4256,8 +4215,8 @@
         "Spiral\\Http\\Request\\InputManager::__call": {
             "Spiral\\Http\\Request\\ServerBag::get": {
                 "ct": 2,
-                "wt": 1369,
-                "cpu": 1369,
+                "wt": 2553,
+                "cpu": 2554,
                 "mu": 3504,
                 "pmu": 18496
             }
@@ -4265,26 +4224,26 @@
         "Spiral\\Http\\Request\\InputBag::dotGet": {
             "Exception::__construct": {
                 "ct": 64,
-                "wt": 29,
-                "cpu": 39,
+                "wt": 50,
+                "cpu": 68,
                 "mu": 568,
-                "pmu": 568
+                "pmu": 0
             }
         },
         "Spiral\\Http\\Request\\InputBag::get": {
             "Spiral\\Http\\Request\\InputBag::dotGet": {
                 "ct": 64,
-                "wt": 39269,
-                "cpu": 39327,
-                "mu": 16480600,
-                "pmu": 337240
+                "wt": 80462,
+                "cpu": 80577,
+                "mu": 16349528,
+                "pmu": 275800
             }
         },
         "ReflectionProperty::getAttributes": {
             "load::Attribute\/Setter.php": {
                 "ct": 1,
-                "wt": 25,
-                "cpu": 25,
+                "wt": 47,
+                "cpu": 48,
                 "mu": 5152,
                 "pmu": 0
             }
@@ -4292,8 +4251,8 @@
         "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations": {
             "strpos": {
                 "ct": 32,
-                "wt": 5,
-                "cpu": 11,
+                "wt": 33,
+                "cpu": 40,
                 "mu": 584,
                 "pmu": 0
             }
@@ -4301,8 +4260,8 @@
         "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyImports": {
             "array_merge": {
                 "ct": 32,
-                "wt": 9,
-                "cpu": 20,
+                "wt": 19,
+                "cpu": 35,
                 "mu": 584,
                 "pmu": 0
             }
@@ -4310,8 +4269,8 @@
         "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::Spiral\\Attributes\\Internal\\{closure}": {
             "Doctrine\\Common\\Annotations\\AnnotationReader::getPropertyAnnotations": {
                 "ct": 32,
-                "wt": 599,
-                "cpu": 604,
+                "wt": 1844,
+                "cpu": 1864,
                 "mu": 12520,
                 "pmu": 0
             }
@@ -4319,8 +4278,8 @@
         "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::getPropertyMetadata": {
             "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::Spiral\\Attributes\\Internal\\{closure}": {
                 "ct": 32,
-                "wt": 662,
-                "cpu": 673,
+                "wt": 2010,
+                "cpu": 2025,
                 "mu": 8128,
                 "pmu": 0
             }
@@ -4328,8 +4287,8 @@
         "Spiral\\Attributes\\Internal\\Decorator::getPropertyMetadata": {
             "Spiral\\Attributes\\Internal\\DoctrineAnnotationReader::getPropertyMetadata": {
                 "ct": 32,
-                "wt": 750,
-                "cpu": 752,
+                "wt": 2179,
+                "cpu": 2196,
                 "mu": 26232,
                 "pmu": 0
             }
@@ -4337,8 +4296,8 @@
         "Spiral\\Attributes\\Reader::firstPropertyMetadata": {
             "Spiral\\Attributes\\Composite\\Composite::getPropertyMetadata": {
                 "ct": 32,
-                "wt": 1429,
-                "cpu": 1439,
+                "wt": 3713,
+                "cpu": 3733,
                 "mu": 15272,
                 "pmu": 0
             }
@@ -4346,8 +4305,8 @@
         "Spiral\\Filters\\Model\\Schema\\AttributeMapper::setValue": {
             "Spiral\\Attributes\\Reader::firstPropertyMetadata": {
                 "ct": 32,
-                "wt": 1482,
-                "cpu": 1487,
+                "wt": 3813,
+                "cpu": 3827,
                 "mu": 15936,
                 "pmu": 0
             }
@@ -4355,8 +4314,8 @@
         "Spiral\\Filters\\Attribute\\Input\\Query::getSchema": {
             "Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
                 "ct": 28,
-                "wt": 12,
-                "cpu": 18,
+                "wt": 21,
+                "cpu": 36,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4364,8 +4323,8 @@
         "Spiral\\Filters\\Model\\Schema\\Builder::makeSchema": {
             "Spiral\\Filters\\Model\\Schema\\Builder::parseDefinition": {
                 "ct": 32,
-                "wt": 63,
-                "cpu": 67,
+                "wt": 127,
+                "cpu": 138,
                 "mu": 14976,
                 "pmu": 0
             }
@@ -4373,8 +4332,8 @@
         "Spiral\\Filters\\Model\\Schema\\Builder::parseDefinition": {
             "explode": {
                 "ct": 32,
-                "wt": 11,
-                "cpu": 14,
+                "wt": 14,
+                "cpu": 25,
                 "mu": 13680,
                 "pmu": 0
             }
@@ -4382,17 +4341,17 @@
         "Spiral\\Filters\\Model\\Schema\\InputMapper::map": {
             "Spiral\\Filter\\InputScope::getValue": {
                 "ct": 32,
-                "wt": 20565,
-                "cpu": 20573,
+                "wt": 43722,
+                "cpu": 43733,
                 "mu": 584,
-                "pmu": 28664
+                "pmu": 24568
             }
         },
         "Spiral\\Models\\SchematicEntity::__construct": {
             "Spiral\\Models\\AbstractEntity::__construct": {
                 "ct": 2,
-                "wt": 2,
-                "cpu": 3,
+                "wt": 3,
+                "cpu": 4,
                 "mu": 584,
                 "pmu": 0
             }
@@ -4400,8 +4359,8 @@
         "Spiral\\Core\\InterceptableCore::callAction@1": {
             "Spiral\\Core\\InterceptorPipeline::callAction@2": {
                 "ct": 2,
-                "wt": 58,
-                "cpu": 60,
+                "wt": 77,
+                "cpu": 78,
                 "mu": 6088,
                 "pmu": 0
             }
@@ -4409,7 +4368,7 @@
         "Spiral\\Models\\AbstractEntity::toArray": {
             "Spiral\\Models\\AbstractEntity::getValue": {
                 "ct": 2,
-                "wt": 3,
+                "wt": 4,
                 "cpu": 5,
                 "mu": 584,
                 "pmu": 0
@@ -4418,8 +4377,8 @@
         "Spiral\\Filters\\Model\\Interceptor\\PopulateDataFromEntityInterceptor::process": {
             "Spiral\\Core\\InterceptorPipeline::callAction@3": {
                 "ct": 2,
-                "wt": 22,
-                "cpu": 22,
+                "wt": 30,
+                "cpu": 31,
                 "mu": 2688,
                 "pmu": 0
             }
@@ -4428,7 +4387,7 @@
             "Spiral\\Filters\\Model\\Interceptor\\Core::callAction": {
                 "ct": 2,
                 "wt": 3,
-                "cpu": 4,
+                "cpu": 5,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4436,8 +4395,8 @@
         "Spiral\\Filters\\Model\\Interceptor\\ValidateFilterInterceptor::process": {
             "Spiral\\Core\\InterceptorPipeline::callAction@4": {
                 "ct": 2,
-                "wt": 9,
-                "cpu": 10,
+                "wt": 11,
+                "cpu": 11,
                 "mu": 1296,
                 "pmu": 0
             }
@@ -4445,8 +4404,8 @@
         "Spiral\\Core\\InterceptorPipeline::callAction@3": {
             "Spiral\\Filters\\Model\\Interceptor\\ValidateFilterInterceptor::process": {
                 "ct": 2,
-                "wt": 15,
-                "cpu": 16,
+                "wt": 20,
+                "cpu": 23,
                 "mu": 1992,
                 "pmu": 0
             }
@@ -4454,8 +4413,8 @@
         "Spiral\\Core\\InterceptorPipeline::callAction@2": {
             "Spiral\\Filters\\Model\\Interceptor\\PopulateDataFromEntityInterceptor::process": {
                 "ct": 2,
-                "wt": 50,
-                "cpu": 51,
+                "wt": 65,
+                "cpu": 66,
                 "mu": 5424,
                 "pmu": 0
             }
@@ -4463,7 +4422,7 @@
         "Spiral\\Models\\AbstractEntity::__destruct": {
             "Spiral\\Models\\AbstractEntity::flushFields": {
                 "ct": 2,
-                "wt": 2,
+                "wt": 4,
                 "cpu": 4,
                 "mu": 584,
                 "pmu": 0
@@ -4472,17 +4431,17 @@
         "Spiral\\Filters\\Attribute\\Input\\Post::getValue": {
             "Spiral\\Filter\\InputScope::getValue": {
                 "ct": 1,
-                "wt": 803,
-                "cpu": 804,
+                "wt": 1075,
+                "cpu": 1075,
                 "mu": 3832,
-                "pmu": 23928
+                "pmu": 28024
             }
         },
         "Spiral\\Filters\\Attribute\\Input\\Post::getSchema": {
             "Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
                 "ct": 1,
                 "wt": 1,
-                "cpu": 1,
+                "cpu": 2,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4490,8 +4449,8 @@
         "Spiral\\Filters\\Attribute\\Input\\Attribute::getValue": {
             "Spiral\\Filter\\InputScope::getValue": {
                 "ct": 1,
-                "wt": 805,
-                "cpu": 807,
+                "wt": 1483,
+                "cpu": 1484,
                 "mu": 1688,
                 "pmu": 6704
             }
@@ -4500,7 +4459,7 @@
             "Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
                 "ct": 1,
                 "wt": 1,
-                "cpu": 1,
+                "cpu": 2,
                 "mu": 632,
                 "pmu": 0
             }
@@ -4508,8 +4467,8 @@
         "Spiral\\Filters\\Attribute\\Input\\Route::getValue": {
             "Spiral\\Filter\\InputScope::getValue": {
                 "ct": 1,
-                "wt": 831,
-                "cpu": 831,
+                "wt": 1447,
+                "cpu": 1448,
                 "mu": 960,
                 "pmu": 9080
             }
@@ -4517,8 +4476,8 @@
         "Spiral\\Filters\\Attribute\\Input\\Route::getSchema": {
             "Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
                 "ct": 1,
-                "wt": 0,
-                "cpu": 1,
+                "wt": 1,
+                "cpu": 2,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4526,8 +4485,8 @@
         "Spiral\\Filters\\Attribute\\Input\\Server::getValue": {
             "Spiral\\Filter\\InputScope::getValue": {
                 "ct": 1,
-                "wt": 878,
-                "cpu": 879,
+                "wt": 1537,
+                "cpu": 1537,
                 "mu": 11632,
                 "pmu": 18496
             }
@@ -4535,8 +4494,8 @@
         "Spiral\\Http\\Request\\ServerBag::normalize": {
             "preg_replace": {
                 "ct": 2,
-                "wt": 32,
-                "cpu": 32,
+                "wt": 49,
+                "cpu": 50,
                 "mu": 584,
                 "pmu": 0
             }
@@ -4544,8 +4503,8 @@
         "Spiral\\Http\\Request\\ServerBag::get": {
             "Spiral\\Http\\Request\\InputBag::get": {
                 "ct": 2,
-                "wt": 1320,
-                "cpu": 1322,
+                "wt": 2473,
+                "cpu": 2475,
                 "mu": 944,
                 "pmu": 18496
             }
@@ -4554,7 +4513,7 @@
             "Spiral\\Filters\\Attribute\\Input\\AbstractInput::getKey": {
                 "ct": 1,
                 "wt": 1,
-                "cpu": 1,
+                "cpu": 2,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4563,7 +4522,7 @@
             "App\\Controller\\HomeController::__construct": {
                 "ct": 1,
                 "wt": 1,
-                "cpu": 1,
+                "cpu": 2,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4571,8 +4530,8 @@
         "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueueManager": {
             "Spiral\\Queue\\QueueManager::__construct": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 1,
+                "wt": 3,
+                "cpu": 4,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4581,7 +4540,7 @@
             "Spiral\\Queue\\Config\\QueueConfig::getDefaultDriver": {
                 "ct": 1,
                 "wt": 2,
-                "cpu": 2,
+                "cpu": 3,
                 "mu": 600,
                 "pmu": 0
             }
@@ -4589,8 +4548,8 @@
         "Spiral\\Queue\\QueueManager::getConnection": {
             "Spiral\\Queue\\QueueManager::resolveConnection": {
                 "ct": 1,
-                "wt": 3646,
-                "cpu": 3647,
+                "wt": 9141,
+                "cpu": 9184,
                 "mu": 112272,
                 "pmu": 70504
             }
@@ -4598,7 +4557,7 @@
         "Spiral\\Queue\\Config\\QueueConfig::getConnection": {
             "Spiral\\Queue\\Config\\QueueConfig::getConnections": {
                 "ct": 1,
-                "wt": 2,
+                "wt": 1,
                 "cpu": 2,
                 "mu": 600,
                 "pmu": 0
@@ -4607,8 +4566,8 @@
         "Spiral\\Queue\\QueueManager::resolveConnection": {
             "Spiral\\Queue\\Queue::__construct": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 1,
+                "wt": 2,
+                "cpu": 3,
                 "mu": 584,
                 "pmu": 0
             }
@@ -4616,8 +4575,8 @@
         "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler": {
             "Spiral\\Queue\\Interceptor\\Consume\\Handler::__construct": {
                 "ct": 1,
-                "wt": 2,
-                "cpu": 2,
+                "wt": 3,
+                "cpu": 4,
                 "mu": 632,
                 "pmu": 0
             }
@@ -4625,8 +4584,8 @@
         "ReflectionMethod::invokeArgs@1": {
             "Spiral\\Queue\\Bootloader\\QueueBootloader::initHandler": {
                 "ct": 1,
-                "wt": 524,
-                "cpu": 524,
+                "wt": 1221,
+                "cpu": 1265,
                 "mu": 33768,
                 "pmu": 0
             }
@@ -4634,8 +4593,8 @@
         "Spiral\\Queue\\Bootloader\\QueueBootloader::initQueue": {
             "Spiral\\Queue\\QueueManager::getConnection": {
                 "ct": 1,
-                "wt": 3656,
-                "cpu": 3656,
+                "wt": 9160,
+                "cpu": 9203,
                 "mu": 114896,
                 "pmu": 70504
             }
@@ -4644,7 +4603,7 @@
             "Spiral\\Prototype\\ClassNode\\Type::name": {
                 "ct": 1,
                 "wt": 0,
-                "cpu": 1,
+                "cpu": 2,
                 "mu": 584,
                 "pmu": 0
             }
@@ -4652,8 +4611,8 @@
         "Spiral\\Prototype\\PrototypeRegistry::resolveProperty": {
             "array_pop": {
                 "ct": 2,
-                "wt": 1,
-                "cpu": 0,
+                "wt": 2,
+                "cpu": 2,
                 "mu": 568,
                 "pmu": 0
             }
@@ -4670,8 +4629,8 @@
         "Monolog\\Logger::addRecord": {
             "Monolog\\Handler\\AbstractProcessingHandler::handle": {
                 "ct": 1,
-                "wt": 639,
-                "cpu": 639,
+                "wt": 466,
+                "cpu": 467,
                 "mu": 38664,
                 "pmu": 0
             }
@@ -4679,8 +4638,8 @@
         "Monolog\\DateTimeImmutable::__construct": {
             "DateTimeImmutable::__construct": {
                 "ct": 1,
-                "wt": 4,
-                "cpu": 5,
+                "wt": 6,
+                "cpu": 6,
                 "mu": 832,
                 "pmu": 0
             }
@@ -4688,8 +4647,8 @@
         "Monolog\\Processor\\PsrLogMessageProcessor::__invoke": {
             "strpos": {
                 "ct": 1,
-                "wt": 0,
-                "cpu": 0,
+                "wt": 1,
+                "cpu": 2,
                 "mu": 568,
                 "pmu": 0
             }
@@ -4697,8 +4656,8 @@
         "Monolog\\Handler\\AbstractProcessingHandler::handle": {
             "Monolog\\Handler\\RotatingFileHandler::write": {
                 "ct": 1,
-                "wt": 506,
-                "cpu": 506,
+                "wt": 228,
+                "cpu": 229,
                 "mu": 14800,
                 "pmu": 0
             }
@@ -4706,8 +4665,8 @@
         "Monolog\\Formatter\\NormalizerFormatter::normalize": {
             "Monolog\\Formatter\\NormalizerFormatter::normalize@1": {
                 "ct": 8,
-                "wt": 56,
-                "cpu": 58,
+                "wt": 109,
+                "cpu": 114,
                 "mu": 14304,
                 "pmu": 0
             }
@@ -4715,26 +4674,26 @@
         "Monolog\\Formatter\\NormalizerFormatter::normalize@1": {
             "Monolog\\Formatter\\NormalizerFormatter::formatDate": {
                 "ct": 1,
-                "wt": 8,
-                "cpu": 8,
+                "wt": 14,
+                "cpu": 15,
                 "mu": 2800,
                 "pmu": 0
             }
         },
         "Monolog\\Formatter\\NormalizerFormatter::normalize@2": {
             "Monolog\\Formatter\\NormalizerFormatter::normalize@3": {
-                "ct": 713,
-                "wt": 6870,
-                "cpu": 6983,
-                "mu": 268976,
-                "pmu": 101968
+                "ct": 708,
+                "wt": 34109,
+                "cpu": 34402,
+                "mu": 267096,
+                "pmu": 147872
             }
         },
         "Monolog\\Utils::jsonEncode": {
             "json_encode": {
                 "ct": 2,
-                "wt": 4,
-                "cpu": 4,
+                "wt": 5,
+                "cpu": 6,
                 "mu": 1048,
                 "pmu": 0
             }
@@ -4742,8 +4701,8 @@
         "Monolog\\Formatter\\NormalizerFormatter::toJson": {
             "Monolog\\Utils::jsonEncode": {
                 "ct": 2,
-                "wt": 8,
-                "cpu": 9,
+                "wt": 15,
+                "cpu": 17,
                 "mu": 1696,
                 "pmu": 0
             }
@@ -4751,7 +4710,7 @@
         "Monolog\\Utils::getClass": {
             "strpos": {
                 "ct": 1,
-                "wt": 0,
+                "wt": 1,
                 "cpu": 1,
                 "mu": 536,
                 "pmu": 0
@@ -4761,7 +4720,7 @@
             "DateTimeImmutable::format": {
                 "ct": 1,
                 "wt": 3,
-                "cpu": 3,
+                "cpu": 5,
                 "mu": 824,
                 "pmu": 0
             }
@@ -4769,8 +4728,8 @@
         "Monolog\\DateTimeImmutable::__toString": {
             "Monolog\\DateTimeImmutable::jsonSerialize": {
                 "ct": 1,
-                "wt": 4,
-                "cpu": 5,
+                "wt": 8,
+                "cpu": 8,
                 "mu": 1472,
                 "pmu": 0
             }
@@ -4778,8 +4737,8 @@
         "Monolog\\Formatter\\NormalizerFormatter::formatDate": {
             "Monolog\\DateTimeImmutable::__toString": {
                 "ct": 1,
-                "wt": 5,
-                "cpu": 6,
+                "wt": 10,
+                "cpu": 10,
                 "mu": 2136,
                 "pmu": 0
             }
@@ -4787,8 +4746,8 @@
         "Monolog\\Formatter\\NormalizerFormatter::format": {
             "Monolog\\Formatter\\NormalizerFormatter::normalize": {
                 "ct": 1,
-                "wt": 66,
-                "cpu": 68,
+                "wt": 132,
+                "cpu": 133,
                 "mu": 16608,
                 "pmu": 0
             }
@@ -4796,8 +4755,8 @@
         "Monolog\\Formatter\\LineFormatter::format": {
             "str_replace": {
                 "ct": 4,
-                "wt": 1,
-                "cpu": 3,
+                "wt": 3,
+                "cpu": 4,
                 "mu": 1464,
                 "pmu": 0
             }
@@ -4805,8 +4764,8 @@
         "Monolog\\Formatter\\LineFormatter::convertToString": {
             "Monolog\\Formatter\\NormalizerFormatter::toJson": {
                 "ct": 1,
-                "wt": 3,
-                "cpu": 3,
+                "wt": 7,
+                "cpu": 7,
                 "mu": 856,
                 "pmu": 0
             }
@@ -4814,8 +4773,8 @@
         "Monolog\\Formatter\\LineFormatter::stringify": {
             "Monolog\\Formatter\\LineFormatter::replaceNewlines": {
                 "ct": 4,
-                "wt": 7,
-                "cpu": 8,
+                "wt": 11,
+                "cpu": 11,
                 "mu": 1232,
                 "pmu": 0
             }
@@ -4823,8 +4782,8 @@
         "Monolog\\Formatter\\LineFormatter::replaceNewlines": {
             "str_replace": {
                 "ct": 4,
-                "wt": 0,
-                "cpu": 2,
+                "wt": 3,
+                "cpu": 5,
                 "mu": 568,
                 "pmu": 0
             }
@@ -4832,17 +4791,17 @@
         "Monolog\\Handler\\RotatingFileHandler::write": {
             "Monolog\\Handler\\StreamHandler::write": {
                 "ct": 1,
-                "wt": 495,
-                "cpu": 495,
-                "mu": 9408,
+                "wt": 213,
+                "cpu": 214,
+                "mu": 13504,
                 "pmu": 0
             }
         },
         "Monolog\\Handler\\StreamHandler::write": {
             "Monolog\\Handler\\StreamHandler::streamWrite": {
                 "ct": 1,
-                "wt": 53,
-                "cpu": 54,
+                "wt": 71,
+                "cpu": 71,
                 "mu": 1200,
                 "pmu": 0
             }
@@ -4850,8 +4809,8 @@
         "Monolog\\Handler\\StreamHandler::getDirFromStream": {
             "dirname": {
                 "ct": 1,
-                "wt": 1,
-                "cpu": 1,
+                "wt": 0,
+                "cpu": 2,
                 "mu": 664,
                 "pmu": 0
             }
@@ -4859,8 +4818,8 @@
         "Monolog\\Handler\\StreamHandler::createDir": {
             "is_dir": {
                 "ct": 1,
-                "wt": 2,
-                "cpu": 2,
+                "wt": 3,
+                "cpu": 4,
                 "mu": 552,
                 "pmu": 0
             }
@@ -4868,8 +4827,8 @@
         "Monolog\\Handler\\StreamHandler::streamWrite": {
             "fwrite": {
                 "ct": 1,
-                "wt": 45,
-                "cpu": 47,
+                "wt": 63,
+                "cpu": 65,
                 "mu": 552,
                 "pmu": 0
             }
@@ -4877,8 +4836,8 @@
         "Monolog\\Logger::info": {
             "Monolog\\Logger::addRecord": {
                 "ct": 1,
-                "wt": 725,
-                "cpu": 726,
+                "wt": 636,
+                "cpu": 636,
                 "mu": 51000,
                 "pmu": 0
             }
@@ -4886,44 +4845,44 @@
         "Spiral\\Core\\InterceptorPipeline::callAction@1": {
             "Spiral\\Core\\AbstractCore::callAction": {
                 "ct": 1,
-                "wt": 55757,
-                "cpu": 55758,
-                "mu": 592416,
-                "pmu": 704112
+                "wt": 115694,
+                "cpu": 115737,
+                "mu": 526880,
+                "pmu": 703480
             }
         },
         "Spiral\\Core\\InterceptorPipeline::callAction": {
             "Spiral\\Filters\\Interceptor\\FilterInterceptor::process": {
                 "ct": 1,
-                "wt": 55788,
-                "cpu": 55788,
+                "wt": 115760,
+                "cpu": 115803,
                 "mu": 596920,
-                "pmu": 704112
+                "pmu": 703480
             }
         },
         "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}@1": {
             "Spiral\\Core\\InterceptableCore::callAction": {
                 "ct": 1,
-                "wt": 55796,
-                "cpu": 55796,
+                "wt": 115775,
+                "cpu": 115819,
                 "mu": 598504,
-                "pmu": 704112
+                "pmu": 703480
             }
         },
         "ReflectionFunction::invokeArgs@1": {
             "Spiral\\Router\\CoreHandler::Spiral\\Router\\{closure}@1": {
                 "ct": 1,
-                "wt": 55799,
-                "cpu": 55800,
+                "wt": 115783,
+                "cpu": 115826,
                 "mu": 599152,
-                "pmu": 704112
+                "pmu": 703480
             }
         },
         "Nyholm\\Psr7\\Response::getBody": {
             "Nyholm\\Psr7\\Stream::create": {
                 "ct": 1,
-                "wt": 20,
-                "cpu": 20,
+                "wt": 26,
+                "cpu": 27,
                 "mu": 5112,
                 "pmu": 0
             }
@@ -4940,8 +4899,8 @@
         "Spiral\\Router\\CoreHandler::wrapResponse": {
             "Nyholm\\Psr7\\Stream::write": {
                 "ct": 2,
-                "wt": 7,
-                "cpu": 8,
+                "wt": 8,
+                "cpu": 9,
                 "mu": 1488,
                 "pmu": 0
             }
@@ -4958,83 +4917,65 @@
         "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}@1": {
             "Spiral\\Router\\CoreHandler::handle": {
                 "ct": 1,
-                "wt": 56445,
-                "cpu": 56445,
-                "mu": 689896,
-                "pmu": 704112
+                "wt": 116875,
+                "cpu": 116919,
+                "mu": 755432,
+                "pmu": 703480
             }
         },
         "Spiral\\Http\\Pipeline::process": {
             "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}@1": {
                 "ct": 1,
-                "wt": 56449,
-                "cpu": 56449,
-                "mu": 690224,
-                "pmu": 704112
+                "wt": 116881,
+                "cpu": 116924,
+                "mu": 755760,
+                "pmu": 703480
             }
         },
         "ReflectionFunction::invokeArgs": {
             "Spiral\\Router\\Router::Spiral\\Router\\{closure}": {
                 "ct": 1,
-                "wt": 58623,
-                "cpu": 58624,
-                "mu": 853784,
-                "pmu": 834608
+                "wt": 121777,
+                "cpu": 121820,
+                "mu": 918024,
+                "pmu": 836240
             }
         },
         "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}": {
             "Spiral\\Router\\Router::handle": {
                 "ct": 1,
-                "wt": 58679,
-                "cpu": 58679,
-                "mu": 860480,
-                "pmu": 834608
+                "wt": 121899,
+                "cpu": 121943,
+                "mu": 924720,
+                "pmu": 836240
             }
         },
         "main()": {
-            "SpiralPackages\\Profiler\\Profiler::end": {
+            "Spiral\\Http\\Pipeline::Spiral\\Http\\{closure}": {
                 "ct": 1,
-                "wt": 5,
-                "cpu": 6,
-                "mu": 1848,
-                "pmu": 0
-            }
-        },
-        "SpiralPackages\\Profiler\\Driver\\XhprofDriver::end": {
-            "xhprof_disable": {
-                "ct": 1,
-                "wt": 0,
-                "cpu": 1,
-                "mu": 568,
-                "pmu": 0
-            }
-        },
-        "SpiralPackages\\Profiler\\Profiler::end": {
-            "SpiralPackages\\Profiler\\Driver\\XhprofDriver::end": {
-                "ct": 1,
-                "wt": 2,
-                "cpu": 4,
-                "mu": 1232,
-                "pmu": 0
+                "wt": 121910,
+                "cpu": 121953,
+                "mu": 925336,
+                "pmu": 836240
             }
         },
         "__top__": {
             "main()": {
                 "ct": 1,
-                "wt": 58705,
-                "cpu": 58703,
-                "mu": 862760,
-                "pmu": 834608
+                "wt": 121942,
+                "cpu": 121982,
+                "mu": 925088,
+                "pmu": 836240
             }
         },
         "Monolog\\Formatter\\NormalizerFormatter::normalize@3": {
             "Monolog\\Formatter\\NormalizerFormatter::normalize@4": {
-                "ct": 3565,
-                "wt": 2884,
-                "cpu": 3597,
+                "ct": 3540,
+                "wt": 7459,
+                "cpu": 9085,
                 "mu": 600,
-                "pmu": 8768
+                "pmu": 12672
             }
         }
     }
-}
+]
