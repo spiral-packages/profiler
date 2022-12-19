@@ -21,12 +21,11 @@ final class WebStorage implements StorageInterface
 
     public function store(string $appName, array $tags, \DateTimeInterface $date, array $data): void
     {
-        $tags['hostname'] = \gethostname();
-
         $this->options['json'] = [
             'profile' => $this->converter->convert($data),
             'tags' => $tags,
             'app_name' => $appName,
+            'hostname' => \gethostname(),
             'date' => $date->getTimestamp(),
         ];
 
