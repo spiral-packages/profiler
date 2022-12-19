@@ -6,6 +6,12 @@ use SpiralPackages\Profiler\Driver\DriverInterface;
 use SpiralPackages\Profiler\Storage\StorageInterface;
 
 /**
+ * ct: number of calls to bar() from foo()
+ * wt: time in bar() when called from foo()
+ * cpu: cpu time in bar() when called from foo()
+ * mu: change in PHP memory usage in bar() when called from foo()
+ * pmu: change in PHP peak memory usage in bar() when called from foo()
+ *
  * @psalm-type TTrace = array<non-empty-string, array{
  *     ct: int,
  *     wt: int,
@@ -52,12 +58,12 @@ final class Profiler
      *
      * @return TTrace
      */
-    public function end(): array
+    public function end(array $tags = []): array
     {
         $result = $this->driver->end();
         $this->storage->store(
             appName: $this->appName,
-            tags: $this->tags,
+            tags: \array_merge($this->tags, $tags),
             date: new \DateTimeImmutable(),
             data: $result
         );

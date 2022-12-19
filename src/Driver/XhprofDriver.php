@@ -9,7 +9,7 @@ use SpiralPackages\Profiler\Profiler;
 final class XhprofDriver implements DriverInterface
 {
     /** @psalm-suppress UndefinedConstant */
-    private const DEFAULT_FLAGS = XHPROF_FLAGS_MEMORY | XHPROF_FLAGS_CPU;
+    private const DEFAULT_FLAGS = XHPROF_FLAGS_MEMORY | XHPROF_FLAGS_CPU | XHPROF_FLAGS_NO_BUILTINS;
 
     public function start(array $context = [], int $flags = self::DEFAULT_FLAGS): void
     {
