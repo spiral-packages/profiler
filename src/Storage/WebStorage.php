@@ -23,12 +23,12 @@ final class WebStorage implements StorageInterface
     {
         $tags['hostname'] = \gethostname();
 
-        $this->options['body'] = \json_encode([
+        $this->options['json'] = [
             'profile' => $this->converter->convert($data),
             'tags' => $tags,
             'app_name' => $appName,
             'date' => $date->getTimestamp(),
-        ]);
+        ];
 
         $this->httpClient->request($this->method, $this->endpoint, $this->options);
     }
