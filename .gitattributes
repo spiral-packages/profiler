@@ -8,3 +8,4 @@
 /psalm.xml          export-ignore
 /psalm.xml.dist     export-ignore
 /UPGRADING.md       export-ignore
+/flamechart.json    export-ignore
