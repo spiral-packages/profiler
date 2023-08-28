@@ -8,11 +8,18 @@ use SpiralPackages\Profiler\Profiler;
 
 final class XhprofDriver implements DriverInterface
 {
+    /** @var int Preventing multiple nested calls. */
+    private static int $nestedCalls = 0;
+
     /** @psalm-suppress UndefinedConstant */
     private const DEFAULT_FLAGS = XHPROF_FLAGS_MEMORY | XHPROF_FLAGS_CPU | XHPROF_FLAGS_NO_BUILTINS;
 
     public function start(array $context = [], int $flags = self::DEFAULT_FLAGS): void
     {
+        if (self::$nestedCalls++ > 0) {
+            return;
+        }
+
         $options = [
             'ignored_functions' => ['xhprof_disable', 'SpiralPackages\Profiler\Driver\XhprofDriver::end'],
         ];
@@ -30,7 +37,11 @@ final class XhprofDriver implements DriverInterface
 
     public function end(): array
     {
+        if (--self::$nestedCalls > 0) {
+            return [];
+        }
+
         /** @psalm-suppress UndefinedFunction */
-        return \xhprof_disable();
+        return \xhprof_disable() ?? [];
     }
 }
