@@ -42,6 +42,6 @@ final class XhprofDriver implements DriverInterface
         }
 
         /** @psalm-suppress UndefinedFunction */
-        return \xhprof_disable();
+        return \xhprof_disable() ?? [];
     }
 }
