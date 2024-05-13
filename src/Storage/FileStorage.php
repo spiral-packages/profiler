@@ -28,7 +28,7 @@ final class FileStorage implements StorageInterface
                 throw new \RuntimeException(\sprintf('Fail to create folder `%s`', $this->dir));
             }
         }
-        $filepath = \sprintf("%s/%s.%s.%s", $this->dir, $appName, $date->getTimestamp(), $this->extension);
+        $filepath = \sprintf("%s/%s.%s.%s", $this->dir, $date->getTimestamp(), $appName, $this->extension);
         file_put_contents($filepath, $this->serializer->serialize($data));
     }
 }
