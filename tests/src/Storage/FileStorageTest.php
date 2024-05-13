@@ -25,7 +25,7 @@ final class FileStorageTest extends TestCase
             new \DateTimeImmutable('2024-05-13T00:00:00+00:00'),
             ['foo' => 'bar']
         );
-        self::assertFileExists('/tmp/1715558400.myapp.xhprof');
+        self::assertFileExists('/tmp/myapp.1715558400.xhprof');
     }
 
     /**
@@ -44,6 +44,6 @@ final class FileStorageTest extends TestCase
             new \DateTimeImmutable('2024-05-13T00:00:00+00:00'),
             ['foo' => 'bar']
         );
-        self::assertFileExists('/tmp/1715558400.myapp.dump');
+        self::assertFileExists('/tmp/myapp.1715558400.dump');
     }
 }
