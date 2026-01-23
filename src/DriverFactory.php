@@ -16,7 +16,7 @@ final class DriverFactory
     public static function detect(): DriverInterface
     {
         if (\function_exists('xhprof_enable')) {
-            return self::createXhrofDriver();
+            return self::createXhprofDriver();
         }
 
         if (\function_exists('tideways_xhprof_enable')) {
@@ -30,7 +30,7 @@ final class DriverFactory
         throw new ProfilerNotFoundException();
     }
 
-    public static function createXhrofDriver(): XhprofDriver
+    public static function createXhprofDriver(): XhprofDriver
     {
         return new XhprofDriver();
     }
