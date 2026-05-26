@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace SpiralPackages\Profiler\Storage;
 
+use stdClass;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use SpiralPackages\Profiler\Converter\ConverterInterface;
 use SpiralPackages\Profiler\Converter\NullConverter;
@@ -23,7 +24,7 @@ final class WebStorage implements StorageInterface
     {
         $this->options['json'] = [
             'profile' => $this->converter->convert($data),
-            'tags' => $tags,
+            'tags' => $tags ?: new stdClass(),
             'app_name' => $appName,
             'hostname' => \gethostname(),
             'date' => $date->getTimestamp(),
